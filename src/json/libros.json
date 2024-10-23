@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "slug": "don-quijote-de-la-mancha",
+        "nombre": "Don Quijote de la Mancha",
+        "autor": "Miguel de Cervantes",
+        "sinopsis": "La historia sigue a Alonso Quijano...",
+        "editorial": "Francisco de Robles",
+        "genero": {
+            "categoria": "Ficción",
+            "subgenero": "Novela caballeresca"
+        },
+        "encuadernacion": "Tapa dura",
+        "precio": 25.99,
+        "codigo_isbn": "978-8491050291",
+        "idioma": "Español",
+        "numero_paginas": 1345,
+        "fecha_lanzamiento": "1605-01-16"
+    },
+    {
+        "id": 2,
+        "slug": "cien-anos-de-soledad",
+        "nombre": "Cien años de soledad",
+        "autor": "Gabriel García Márquez",
+        "sinopsis": "Una obra maestra de la literatura latinoamericana...",
+        "editorial": "Editorial Sudamericana",
+        "genero": {
+            "categoria": "Ficción",
+            "subgenero": "Realismo mágico"
+        },
+        "encuadernacion": "Tapa blanda",
+        "precio": 19.99,
+        "codigo_isbn": "978-8497599998",
+        "idioma": "Español",
+        "numero_paginas": 400,
+        "fecha_lanzamiento": "1967-06-05"
+    }
+]
