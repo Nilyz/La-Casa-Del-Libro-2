@@ -3,19 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --color-green: #37643b; 
+    --color-yellow: #dea02e; 
+    --color-beige: #f4efd9; 
+    --color-brown: #4f1b0d; 
+    --color-white: #fdfcf7; 
+}
 
 header{
-    background-color: #37643b;
+    background-color: var(--color-green);
     
 }
 .navbar-brand img{
     height: 50px;
 }
 .navbar-brand {
-    color: #f4efd9;
+    color: var(--color-white);
 }
 .nav-link{
-    color: #f4efd9;
+    color: #000000;
 }
 .navbar__icon--search,.navbar__icon--bag,.navbar__icon--user,.navbar__toggle--img{
     height: 35px;
@@ -37,7 +44,9 @@ header{
     width: 100%; 
     z-index: 1000; 
 }
-
+.navbar-collapse{
+    background-color: var(--color-beige);
+}
 
 
 /* TABLET */
@@ -53,5 +62,11 @@ header{
     }
     .navbar-collapse {
         position: static; 
+    }
+    .nav-link{
+        color: var(--color-white);
+    }
+    .navbar-collapse{
+        background-color: var(--color-green);
     }
 }
