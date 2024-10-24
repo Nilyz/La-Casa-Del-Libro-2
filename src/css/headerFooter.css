@@ -1,72 +1,102 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 :root {
-    --color-green: #37643b; 
-    --color-yellow: #dea02e; 
-    --color-beige: #f4efd9; 
-    --color-brown: #4f1b0d; 
-    --color-white: #fdfcf7; 
+    --color-green: #37643b;
+    --color-yellow: #dea02e;
+    --color-beige: #f4efd9;
+    --color-brown: #4f1b0d;
+    --color-white: #fdfcf7;
 }
 
-header{
+header {
     background-color: var(--color-green);
-    
 }
-.navbar-brand img{
+.navbar-brand img {
     height: 50px;
 }
 .navbar-brand {
     color: var(--color-white);
 }
-.nav-link{
+.nav-link {
     color: #000000;
 }
-.navbar__icon--search,.navbar__icon--bag,.navbar__icon--user,.navbar__toggle--img{
+.navbar__icon--bag,
+.navbar__icon--user,
+.navbar__toggle--img {
     height: 35px;
-    width: 35px; 
+    width: 35px;
+}
+.navbar__icon--search {
+    height: 30px;
+    width: 30px;
 }
 .navbar-toggler {
     border: none;
-    outline: none; 
+    outline: none;
 }
 
 .navbar-toggler:focus {
-    box-shadow: none; 
+    box-shadow: none;
 }
 
 .navbar-collapse {
-    position: absolute; 
-    top: 100%; 
-    left: 0; 
-    width: 100%; 
-    z-index: 1000; 
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
-.navbar-collapse{
+.navbar-collapse {
     background-color: var(--color-beige);
 }
 
-
 /* TABLET */
 @media (min-width: 768px) and (max-width: 991.98px) {
-
 }
 
 /* ESCRITORIO */
 @media (min-width: 992px) {
-    .navbar__icon--search,.navbar__icon--bag,.navbar__icon--user {
+    header {
+        padding: 0 2% 0 2%;
+    }
+    nav{
+        height: 80px;
+    }
+    .navbar-brand img {
+        height: 80px;
+    }
+    .navbar-brand {
+        font-size: 25px;
+    }
+    .nav-link {
+        font-size: 20px;
+    }
+
+    .navbar__icon--bag,
+    .navbar__icon--user {
         height: 45px;
-        width: 45px; 
+        width: 45px;
+    }
+    .navbar__icon--search {
+        height: 40px;
+        width: 40px;
     }
     .navbar-collapse {
-        position: static; 
+        position: static;
     }
-    .nav-link{
+    .nav-link {
         color: var(--color-white);
     }
-    .navbar-collapse{
+    .navbar-collapse {
         background-color: var(--color-green);
+    }
+
+    .navbar-nav li {
+        text-align: center;
+        width: 100px;
+        margin: 0 15px 0 15px;
     }
 }
