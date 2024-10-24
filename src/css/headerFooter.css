@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #37643b;
+    
+}
+.navbar-brand img{
+    height: 50px;
+}
+.navbar-brand {
+    color: #f4efd9;
+}
+.nav-link{
+    color: #f4efd9;
+}
+.navbar__icon--search,.navbar__icon--bag,.navbar__icon--user,.navbar__toggle--img{
+    height: 35px;
+    width: 35px; 
+}
+.navbar-toggler {
+    border: none;
+    outline: none; 
+}
+
+.navbar-toggler:focus {
+    box-shadow: none; 
+}
+
+.navbar-collapse {
+    position: absolute; 
+    top: 100%; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* ESCRITORIO */
+@media (min-width: 992px) {
+    .navbar__icon--search,.navbar__icon--bag,.navbar__icon--user {
+        height: 45px;
+        width: 45px; 
+    }
+    .navbar-collapse {
+        position: static; 
+    }
+}
