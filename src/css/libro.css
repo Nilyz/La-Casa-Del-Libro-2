@@ -1,0 +1,317 @@
+:root {
+    --verde: #37643b;
+    --naranja: #dea02e;
+    --beige: #f4efd9;
+    --beigeClaro: #fdfcf7;
+    --background-color: #ffffff;
+}
+
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: #f4efd9;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.book-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header-container {
+    width: 100%;
+    height: 400px;
+    background-color: var(--verde);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header-button {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.icono {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.header-title {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-title h1 {
+    color: white;
+    font-family: "Exo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 50;
+    /* Replace <weight> with a valid value */
+    font-style: normal;
+}
+
+
+.header-autor {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-autor h2 {
+    color: white;
+    font-size: 1.5em;
+}
+
+.book-image {
+    width: 70%;
+    max-width: 500px;
+    /* Limitar el tamaño máximo si es necesario */
+    position: absolute;
+    top: 32%;
+}
+
+.book-image img {
+    width: 100%;
+    height: auto;
+    /* Mantiene la relación de aspecto */
+    object-fit: cover;
+    /* Asegura que la imagen llene el contenedor sin estirarse */
+}
+
+.book-basket {
+    width: 100%;
+    height: 300px;
+    margin-top: 420px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.book-price-container {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-price {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    gap: 10px;
+}
+
+.book-text {
+    width: 50%;
+    height: 80%;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-basket-add {
+    width: 80%;
+    height: 20%;
+    background-color: var(--naranja);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-basket-add-icon {
+    width: 20%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-basket-add-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.book-basket-add-text {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.book-genres {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.book-genres-genre {
+    width: 45%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--verde);
+    color: white;
+}
+
+.book-data {
+    width: 90%;
+    height: auto;
+    background-color: var(--beigeClaro);
+    margin-top: 20px;
+    margin-bottom: 400px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-block: 20px;
+}
+
+.book-data-sinopsis {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.book-data-sinopsis-title {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.book-data-sinopsis-text {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    position: relative;
+    /* Añadir posición relativa para contener el botón */
+}
+
+.book-data-sinopsis-text p {
+    min-height: 60px;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    /* Número de líneas visibles en el estado contraído */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: max-height 8s ease;
+    text-align: justify;
+    font-family: work-sans;
+    line-height: 1.6;
+}
+
+.book-data-sinopsis-ampliar {
+    color: #d9017a;
+    /* Color del texto */
+    cursor: pointer;
+    /* Cambia el cursor al pasar sobre el botón */
+    margin-top: 10px;
+    /* Añade un margen para separación */
+    align-self: flex-start;
+    /* Alinea el botón al inicio */
+    font-weight: bold;
+    /* Añade un poco de peso al texto */
+    transition: color 8s ease;
+    /* Transición suave para el color */
+}
+
+.book-data-sinopsis-ampliar:hover {
+    text-decoration: underline;
+    /* Subraya el texto al pasar el ratón */
+}
+
+
+.book-data-sinopsis-text p.expanded {
+    display: block;
+    /* Muestra todo el texto */
+    -webkit-line-clamp: unset;
+    /* Quita la limitación de líneas */
+}
+
+.book-data-info {
+    width: 90%;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-content {
+    width: 100%;
+    height: 20%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content-title {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.content-data{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
