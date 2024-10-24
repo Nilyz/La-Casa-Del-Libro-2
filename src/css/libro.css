@@ -112,7 +112,6 @@
 .book-basket {
     width: 100%;
     height: 300px;
-    background-color: white;
     margin-top: 420px;
     display: flex;
     justify-content: center;
@@ -126,7 +125,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
 }
 
 .book-price {
@@ -177,14 +175,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
     font-size: 24px;
 }
 
 .book-genres {
     width: 100%;
     height: 30%;
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -207,7 +203,7 @@
     height: auto;
     background-color: var(--beigeClaro);
     margin-top: 20px;
-    margin-bottom: 200px;
+    margin-bottom: 400px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -218,17 +214,15 @@
 .book-data-sinopsis {
     width: 90%;
     height: auto;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 5px;
 }
 
 .book-data-sinopsis-title {
     width: 100%;
-    height: 20%;
-    background-color: aqua;
+    height: 60px;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -240,23 +234,84 @@
     display: flex;
     justify-content: left;
     flex-direction: column;
-    gap: 10px;
+    position: relative;
+    /* Añadir posición relativa para contener el botón */
 }
 
 .book-data-sinopsis-text p {
-    font-family: 16px;
+    min-height: 60px;
+    font-size: 16px;
     display: -webkit-box;
     -webkit-line-clamp: 8;
     /* Número de líneas visibles en el estado contraído */
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    transition: max-height 0.5s ease;
+    transition: max-height 8s ease;
     text-align: justify;
     font-family: work-sans;
     line-height: 1.6;
 }
 
-.book-data-sinopsis-ampliar{
+.book-data-sinopsis-ampliar {
     color: #d9017a;
+    /* Color del texto */
+    cursor: pointer;
+    /* Cambia el cursor al pasar sobre el botón */
+    margin-top: 10px;
+    /* Añade un margen para separación */
+    align-self: flex-start;
+    /* Alinea el botón al inicio */
+    font-weight: bold;
+    /* Añade un poco de peso al texto */
+    transition: color 8s ease;
+    /* Transición suave para el color */
+}
+
+.book-data-sinopsis-ampliar:hover {
+    text-decoration: underline;
+    /* Subraya el texto al pasar el ratón */
+}
+
+
+.book-data-sinopsis-text p.expanded {
+    display: block;
+    /* Muestra todo el texto */
+    -webkit-line-clamp: unset;
+    /* Quita la limitación de líneas */
+}
+
+.book-data-info {
+    width: 90%;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-content {
+    width: 100%;
+    height: 20%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content-title {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.content-data{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
