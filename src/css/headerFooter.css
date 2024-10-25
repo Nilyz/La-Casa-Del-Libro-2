@@ -16,9 +16,13 @@ body{
 }
 main{
     min-height: 100vh;
+    width: 100%;
 }
 /*------------ HEADER ------------*/
 header {
+    background-color: var(--color-green);
+}
+nav{
     background-color: var(--color-green);
 }
 .navbar-brand img {
@@ -50,14 +54,13 @@ header {
 }
 
 .navbar-collapse {
+    background-color: var(--color-beige);
+    /* Posicionamiento absoluto solo para pantallas pequeñas */
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
     z-index: 1000;
-}
-.navbar-collapse {
-    background-color: var(--color-beige);
 }
 
 
@@ -67,53 +70,43 @@ footer{
     height: auto;
     width: 100%;
     background-color: var(--color-green);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     color: var(--color-white);
     padding: 30px 0 30px 0;
 }
+.container{
+    max-width: 90%;
+}
 .footerMain{
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
     border: 2px solid black;
 }
+
 .footerLogo{
-    width: 100%;
-    height: 20%;
-    padding: 0 3% 0 3%;
     border: 2px solid black;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
+
 .footerLogo__img{
     height: 80px;
 }
 .footerLogo__name{
     font-size: 22px;
 }
+
 .footerLink{
-    height: 50%;
-    width: 100%;
     border: 2px solid black;
 }
 
 .footerSocial{
-    height: 30%;
     background-color: rgb(232, 143, 143);
-    width: 100%;
 }
 
 .footerPolicy{
     width: 100%;
     height: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     gap: 10px;
 }
@@ -124,22 +117,24 @@ footer{
 }
 .footerPolicy hr{
     width: 2px;
-    height: 50%;
+    height: 20px;
     margin: 0;
     border: 1px solid var(--color-yellow);
     opacity: 1;
 }
+
 .footerCopy{
     width: 100%;
     height: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
 }
 .footerCopy p{
     margin-bottom: 0;
     font-size: 12px;
 }
+    
 
 /* TABLET */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -161,6 +156,11 @@ footer{
     .navbar-brand {
         font-size: 25px;
     }
+    .collapse{
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
     .nav-link {
         font-size: 20px;
     }
@@ -176,6 +176,7 @@ footer{
     }
     .navbar-collapse {
         position: static;
+        background-color: transparent;
     }
     .nav-link {
         color: var(--color-white);
