@@ -12,13 +12,23 @@
     box-sizing: border-box;
 }
 body {
-    min-height: 100vh;
+    min-height: 150vh;
 }
 main {
-    min-height: 100vh;
+    min-height: 150vh;
     width: 100%;
 }
-
+ul {
+    list-style: none;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+}
+p{
+    margin: 0;
+}
 /*------------ HEADER ------------*/
 header {
     background-color: var(--color-green);
@@ -32,15 +42,23 @@ nav {
 .navbar-brand {
     color: var(--color-white);
 }
+.nav-item {
+    text-align: center;
+    width: 100%;
+}
+
+.navbar__icon {
+    margin-right: 10px;
+}
 .navbar__icon--bag,
 .navbar__icon--user,
 .navbar__toggle--img {
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
 }
 .navbar__icon--search {
-    height: 30px;
-    width: 30px;
+    height: 32px;
+    width: 32px;
 }
 .navbar-toggler {
     border: none;
@@ -57,6 +75,40 @@ nav {
     left: 0;
     width: 100%;
     z-index: 1000;
+}
+
+.nav-link:hover {
+    color: var(--color-yellow);
+}
+.catalogueLink p{
+    font-size: 24px;
+}
+.catalogueMenu {
+    background-color: var(--color-white);
+    width: 100%;
+    height: auto;
+}
+.catalogueMenu li {
+    list-style: none;
+    text-align: left;
+    padding: 10px 0 10px 0;
+}
+
+.dropdown-menu {
+    background-color: var(--color-white);
+    border-radius: 0;
+    border: none;
+    padding: 0;
+}
+.categories_list {
+    font-weight: bold;
+    text-align: left;
+    background-color: #37643b92;
+    margin: auto;
+    border-bottom: 2px solid var(--color-green);
+}
+.subcategory {
+    font-size: 14px;
 }
 
 /*------------ FOOTER ------------*/
@@ -86,7 +138,6 @@ footer {
     padding: 30px 0 10px 0;
 }
 .footerLink ul {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -150,10 +201,8 @@ footer {
 /* ESCRITORIO */
 @media (min-width: 992px) {
     /*------------ HEADER ------------*/
-    header {
-        padding: 0 2% 0 2%;
-    }
     nav {
+        margin: 0 2% 0 2%;
         height: 80px;
     }
     .navbar-brand img {
@@ -166,16 +215,19 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-right: 100px;
     }
     .nav-link {
         font-size: 20px;
     }
+    .navbar__icon {
+        margin-right: 0px;
+        margin-left: 20px;
+    }
 
     .navbar__icon--bag,
     .navbar__icon--user {
-        height: 45px;
-        width: 45px;
+        height: 50px;
+        width: 50px;
     }
     .navbar__icon--search {
         height: 40px;
@@ -191,15 +243,55 @@ footer {
     .navbar-collapse {
         background-color: var(--color-green);
     }
-
     .navbar-nav li {
         text-align: center;
-        width: 100px;
-        margin: 0 15px 0 15px;
+        width: auto;
+        margin: 0 20px 0 20px;
+    }
+    .dropdown-menu {
+        background-color: var(--color-beige);
+        min-width: none;
+        width: 800px;
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        top: 61px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 30px 0 30px 0;
+    }
+    .dropdown-item {
+        text-align: center;
     }
 
+    .catalogueMenu {
+        background-color: var(--color-beige);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .catalogueMenu li {
+        padding: 5px 0 5px 0;
+    }
+    .categories {
+        width: 30%;
+    }
+    .dropdown-item {
+        display: flex;
+    }
+    .categories_list {
+        width: 100%;
+    }
+    .categories_list p {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
     /*------------ FOOTER ------------*/
-    footer{
+    footer {
         padding: 20px 0 10px 0;
     }
     .footerLogo {
@@ -211,7 +303,7 @@ footer {
     .footerLogo__name {
         font-size: 26px;
     }
-    .footerLink{
+    .footerLink {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -227,9 +319,8 @@ footer {
         width: auto;
         text-align: left;
         padding: 5px 0 10px 0;
-
     }
-    .footerSocial__img{
+    .footerSocial__img {
         height: 45px;
         width: 45px;
     }

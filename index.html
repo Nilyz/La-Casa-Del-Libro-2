@@ -13,10 +13,11 @@
 
         <link rel="stylesheet" href="src/css/headerFooter.css" />
         <link rel="stylesheet" href="src/css/index.css" />
+        <script src="src/js/nav.js" defer></script>
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg ">
+            <nav class="navbar navbar-expand-lg">
                 <div
                     class="container-fluid d-flex justify-content-between align-items-center"
                 >
@@ -35,42 +36,183 @@
                         >
                     </a>
                     <div
-                        class="collapse navbar-collapse "
+                        class="collapse navbar-collapse"
                         id="navbarSupportedContent"
                     >
-                        <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-center align-items-center">
-                            <li class="nav-item">
+                        <ul
+                            class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-space align-items-center"
+                        >
+                            <li class="nav-item ">
                                 <a class="nav-link" aria-current="page" href="#"
                                     >Inicio</a
                                 >
                             </li>
                             <li class="nav-item dropdown">
                                 <a
-                                    class="nav-link "
-                                    href="#"
+                                    class="nav-link"
+                                    href="index.html"
+                                    id="menuToggle"
                                     role="button"
                                     data-bs-toggle="dropdown"
                                     aria-expanded="false"
                                 >
                                     Catálogo
                                 </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a class="dropdown-item" href="#"
-                                            >Action</a
-                                        >
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#"
-                                            >Librerías</a
-                                        >
-                                    </li>
-                                    <li><hr class="dropdown-divider" /></li>
-                                    <li>
-                                        <a class="dropdown-item" href="#"
-                                            >Something else here</a
-                                        >
-                                    </li>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="menuToggle"
+                                >
+                                    <a href="src/paginas/catalogo.html" class="catalogueLink"
+                                        ><p>Catálogo</p></a
+                                    >
+                                    <div class="catalogueMenu">
+                                        <ul class="categories">
+                                            <li>
+                                                <a
+                                                    class="dropdown-item categories_list"
+                                                    href=""
+                                                    ><p>Ficción</p></a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=""
+                                                    >Contemporánea</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=""
+                                                    >Clásicos</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=""
+                                                    >Novela de terror</a
+                                                >
+                                            </li>
+                                        </ul>
+                                        <ul class="categories">
+                                            <li>
+                                                <a
+                                                    class="dropdown-item categories_list"
+                                                    href=""
+                                                    ><p>No ficción</p></a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=""
+                                                    >Ciencias</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=""
+                                                    >Biografías</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=""
+                                                    >Criminología</a
+                                                >
+                                            </li>
+                                        </ul>
+                                        <ul class="categories">
+                                            <li>
+                                                <a
+                                                    class="dropdown-item categories_list"
+                                                    href=""
+                                                    ><p>Infantil</p></a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=""
+                                                    >Comic infantil</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=""
+                                                    >Manga infantil</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=""
+                                                    >Libros infantiles en
+                                                    inglés</a
+                                                >
+                                            </li>
+                                        </ul>
+                                        <ul class="categories">
+                                            <li>
+                                                <a
+                                                    class="dropdown-item categories_list"
+                                                    href=""
+                                                    ><p>Juveniles</p></a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=""
+                                                    >Narrativa fantástica</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=""
+                                                    >Manga Shonen</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=""
+                                                    >Manga Shojo</a
+                                                >
+                                            </li>
+                                        </ul>
+
+                                        <ul class="categories">
+                                            <li>
+                                                <a
+                                                    class="dropdown-item categories_list"
+                                                    href=""
+                                                    ><p>Libros de texto</p></a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=""
+                                                    >Educación infantil</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=""
+                                                    >Educación primaria</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=""
+                                                    >Educación secundaria</a
+                                                >
+                                            </li>
+                                        </ul>
+                                        <ul class="categories">
+                                            <li>
+                                                <a
+                                                    class="dropdown-item categories_list"
+                                                    href=""
+                                                    ><p>Libros en gallego</p></a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=""
+                                                    >Narrativa</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=""
+                                                    >Poesía</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=""
+                                                    >Teatro</a
+                                                >
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -81,7 +223,9 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="d-flex align-items-center justify-content-center navbar__links">
+                    <div
+                        class="d-flex align-items-center justify-content-center navbar__links"
+                    >
                         <button
                             class="navbar-toggler navbar__toggle"
                             type="button"
@@ -97,21 +241,21 @@
                                 class="navbar__toggle--img"
                             />
                         </button>
-                        <a href="#" class="ms-4 nav-link navbar__icon">
+                        <a href="#" class="nav-link navbar__icon">
                             <img
                                 src="src/imagenes/iconos/lens-svgrepo-com.svg"
                                 alt="lens"
                                 class="navbar__icon--search"
                             />
                         </a>
-                        <a href="#" class="ms-4 nav-link navbar__icon">
+                        <a href="#" class="nav-link navbar__icon">
                             <img
                                 src="src/imagenes/iconos/user-svgrepo-com.svg"
                                 alt="user"
                                 class="navbar__icon--user"
                             />
                         </a>
-                        <a href="#" class="ms-4 nav-link navbar__icon">
+                        <a href="#" class="nav-link navbar__icon">
                             <img
                                 src="src/imagenes/iconos/bag-shopping-svgrepo-com.svg"
                                 alt="bag"
@@ -127,8 +271,10 @@
 
         <footer>
             <div class="container">
-                <div class=" row d-flex justify-content-between align-items-center footerMain">
-                    <div class="col-lg-4 text-center  footerLogo">
+                <div
+                    class="row d-flex justify-content-between align-items-center footerMain"
+                >
+                    <div class="col-lg-4 text-center footerLogo">
                         <img
                             src="src/imagenes/iconos/Logo_Casa_del_libro.png"
                             alt="logo"
@@ -138,36 +284,58 @@
                     </div>
                     <div class="col-lg-3 footerLink">
                         <ul class="list-unstyled">
-                            <li><a href="#">Catálogo</a></li>
-                            <li><a href="#">Blog</a></li>
+                            <li><a class="nav-link" href="#">Catálogo</a></li>
+                            <li><a class="nav-link" href="#">Blog</a></li>
                         </ul>
                         <ul class="list-unstyled">
-                            <li><a href="#">Contáctanos</a></li>
-                            <li><a href="#">Soporte</a></li>
+                            <li>
+                                <a class="nav-link" href="#">Contáctanos</a>
+                            </li>
+                            <li><a class="nav-link" href="#">Soporte</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-3 d-flex justify-content-around align-items-center footerSocial">
-                        <img src="src/imagenes/iconos/instagram-svgrepo-com.svg" alt="instagram" class="footerSocial__img">
-                        <img src="src/imagenes/iconos/facebook-svgrepo-com.svg" alt="facebook" class="footerSocial__img">
-                        <img src="src/imagenes/iconos/prime--twitter.svg" alt="X" class="footerSocial__img">
-                        <img src="src/imagenes/iconos/ic--baseline-tiktok.svg" alt="tik tok" class="footerSocial__img">
+                    <div
+                        class="col-lg-3 d-flex justify-content-around align-items-center footerSocial"
+                    >
+                        <img
+                            src="src/imagenes/iconos/instagram-svgrepo-com.svg"
+                            alt="instagram"
+                            class="footerSocial__img"
+                        />
+                        <img
+                            src="src/imagenes/iconos/facebook-svgrepo-com.svg"
+                            alt="facebook"
+                            class="footerSocial__img"
+                        />
+                        <img
+                            src="src/imagenes/iconos/prime--twitter.svg"
+                            alt="X"
+                            class="footerSocial__img"
+                        />
+                        <img
+                            src="src/imagenes/iconos/ic--baseline-tiktok.svg"
+                            alt="tik tok"
+                            class="footerSocial__img"
+                        />
                     </div>
                 </div>
-                <div class=" footerPolicy">
-                    <a href="#">Política de privacidad</a>
-                    <hr>
-                    <a href="#">Términos y condiciones</a>
+                <div class="footerPolicy">
+                    <a class="nav-link" href="#">Política de privacidad</a>
+                    <hr />
+                    <a class="nav-link" href="#">Términos y condiciones</a>
                 </div>
                 <div class="footerCopy">
-                    <p>© 2024 La Casa Del Libro 2.0. Todos los derechos reservados.</p>
+                    <p>
+                        © 2024 La Casa Del Libro 2.0. Todos los derechos
+                        reservados.
+                    </p>
                 </div>
             </div>
-            
         </footer>
         <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"
-    ></script>
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
     </body>
 </html>
