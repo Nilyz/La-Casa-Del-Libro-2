@@ -11,18 +11,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body {
     min-height: 100vh;
 }
-main{
+main {
     min-height: 100vh;
     width: 100%;
 }
+
 /*------------ HEADER ------------*/
 header {
     background-color: var(--color-green);
 }
-nav{
+nav {
     background-color: var(--color-green);
 }
 .navbar-brand img {
@@ -30,9 +31,6 @@ nav{
 }
 .navbar-brand {
     color: var(--color-white);
-}
-.nav-link {
-    color: #000000;
 }
 .navbar__icon--bag,
 .navbar__icon--user,
@@ -48,11 +46,9 @@ nav{
     border: none;
     outline: none;
 }
-
 .navbar-toggler:focus {
     box-shadow: none;
 }
-
 .navbar-collapse {
     background-color: var(--color-beige);
     /* Posicionamiento absoluto solo para pantallas pequeñas */
@@ -63,78 +59,89 @@ nav{
     z-index: 1000;
 }
 
-
 /*------------ FOOTER ------------*/
-
-footer{
+footer {
     height: auto;
     width: 100%;
     background-color: var(--color-green);
     color: var(--color-white);
-    padding: 30px 0 30px 0;
+    padding: 30px 0 20px 0;
 }
-.container{
-    max-width: 90%;
-}
-.footerMain{
-    border: 2px solid black;
+.container {
+    max-width: 95%;
 }
 
-.footerLogo{
-    border: 2px solid black;
+.footerLogo {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 }
-
-.footerLogo__img{
-    height: 80px;
+.footerLogo__img {
+    height: 100px;
 }
-.footerLogo__name{
-    font-size: 22px;
+.footerLogo__name {
+    font-size: 24px;
 }
-
-.footerLink{
-    border: 2px solid black;
+.footerLink {
+    padding: 30px 0 10px 0;
 }
+.footerLink ul {
 
-.footerSocial{
-    background-color: rgb(232, 143, 143);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
 }
-
-.footerPolicy{
+.footerLink ul li {
+    padding: 15px;
+    border-bottom: 3px solid var(--color-yellow);
+    width: 70%;
+    text-align: center;
+}
+.footerLink ul li a {
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 20px;
+}
+.footerSocial {
+    padding: 25px 0 25px 0;
+}
+.footerSocial__img {
+    height: 45px;
+    width: 45px;
+}
+.footerPolicy {
     width: 100%;
     height: 50px;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     gap: 10px;
 }
-.footerPolicy a{
+.footerPolicy a {
     color: var(--color-white);
     text-decoration: none;
     font-size: 12px;
 }
-.footerPolicy hr{
+.footerPolicy hr {
     width: 2px;
     height: 20px;
     margin: 0;
     border: 1px solid var(--color-yellow);
     opacity: 1;
 }
-
-.footerCopy{
+.footerCopy {
     width: 100%;
     height: 50px;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
 }
-.footerCopy p{
+.footerCopy p {
     margin-bottom: 0;
     font-size: 12px;
 }
-    
 
 /* TABLET */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -142,12 +149,11 @@ footer{
 
 /* ESCRITORIO */
 @media (min-width: 992px) {
-
     /*------------ HEADER ------------*/
     header {
         padding: 0 2% 0 2%;
     }
-    nav{
+    nav {
         height: 80px;
     }
     .navbar-brand img {
@@ -156,10 +162,11 @@ footer{
     .navbar-brand {
         font-size: 25px;
     }
-    .collapse{
+    .collapse {
         display: flex;
         justify-content: center;
-        align-items: center;    
+        align-items: center;
+        padding-right: 100px;
     }
     .nav-link {
         font-size: 20px;
@@ -189,5 +196,46 @@ footer{
         text-align: center;
         width: 100px;
         margin: 0 15px 0 15px;
+    }
+
+    /*------------ FOOTER ------------*/
+    footer{
+        padding: 20px 0 10px 0;
+    }
+    .footerLogo {
+        justify-content: left;
+    }
+    .footerLogo__img {
+        height: 100px;
+    }
+    .footerLogo__name {
+        font-size: 26px;
+    }
+    .footerLink{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+    }
+    .footerLink ul {
+        width: 50%;
+        align-items: start;
+        margin-bottom: 0;
+    }
+    .footerLink ul li {
+        border: none;
+        width: auto;
+        text-align: left;
+        padding: 5px 0 10px 0;
+
+    }
+    .footerSocial__img{
+        height: 45px;
+        width: 45px;
+    }
+    .footerPolicy,
+    .footerCopy {
+        justify-content: right;
+        height: 30px;
     }
 }
