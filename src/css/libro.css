@@ -122,6 +122,7 @@
 }
 
 .sinopsis-text p {
+    
     font-size: 16px;
     display: -webkit-box;
     -webkit-line-clamp: 8;
