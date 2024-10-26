@@ -39,7 +39,10 @@ hr{
     opacity: 1;
     border-radius: 10px;
 }
+.row{
+     --bs-gutter-x: 0; 
 
+}
 
 /*------------ HEADER ------------*/
 header {

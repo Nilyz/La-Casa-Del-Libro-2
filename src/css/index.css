@@ -18,7 +18,7 @@
 .titleLine {
     margin: 5px 0 5px 0;
     border: 2px solid var(--color-green);
-        width: 80%;
+    width: 80%;
     margin: auto;
 }
 .trendingBooks {
@@ -118,82 +118,89 @@
 }
 
 /*RESEÑAS*/
-.reviewSection{
+.reviewSection {
     padding: 4%;
-    height: 250px;
-    width: 100%;
-    border: 2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    height: 340px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../imagenes/otros/persona-leyendo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-.reviewUser{
-    height: 30%;
+.reviewCont {
+    height: 100%;
     width: 100%;
-    background-color: rgb(84, 84, 96);
+    background-color: rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    border-radius: 10px;
+}
+.reviewUser {
+    height: 25%;
     display: flex;
     justify-content: left;
     align-items: center;
     gap: 10px;
-    padding: 10px 10px 0 10px;
 }
-.reviewUser__img{
+.reviewUser__img {
     height: 100%;
     border-radius: 100%;
-    background-color: var(--color-green);
     aspect-ratio: 1/1;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(5px);
 }
-.reviewUser__name{
+.reviewUser__img img {
+    height: 100%;
+}
+.reviewUser__name {
     font-size: 16px;
     font-weight: bold;
     color: var(--color-white);
 }
-.review{
-    padding: 10px;
-    width: 100%;
+.review {
     height: 75%;
-    background-color: rgb(121, 121, 225);
 }
-.review__starDate{
+.review__starDate {
     width: 100%;
     height: 20%;
-    background-color: sandybrown;
     display: flex;
     align-items: center;
 }
-.review__stars{
+.review__stars {
     width: 30%;
     height: 100%;
     background-color: rgb(166, 166, 110);
 }
-.review__date{
+.review__date {
     font-size: 12px;
 }
-.review__text{
+.review__text {
     width: 100%;
     height: 80%;
     font-size: 16px;
-    background-color: rgb(208, 208, 163);
+    padding: 20px;
+    backdrop-filter: blur(2px);
+    border-radius: 5px;
 }
 /*UBICACIÓN*/
-.ubication{
+.ubication {
     height: 500px;
     background-color: rgb(116, 162, 147);
     width: 100%;
 }
-.ubication__title{
+.ubication__title {
     width: 100%;
     background-color: rgb(166, 166, 110);
     font-size: 16px;
     height: 10%;
 }
-.ubication__map{
+.ubication__map {
     width: 100%;
     height: 60%;
     border: 2px solid black;
 }
-.ubication__form{
+.ubication__form {
     width: 100%;
     height: 30%;
     display: flex;
@@ -201,7 +208,6 @@
     align-items: center;
     background-color: rgb(166, 166, 110);
 }
-
 
 /*SUSCRIPCIÓN*/
 .subscribe {
@@ -212,17 +218,17 @@
     justify-content: center;
     align-items: center;
 }
-.subscribe__info{
+.subscribe__info {
     width: 100%;
     text-align: center;
-    }
+}
 .subscribe__title {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 10px;
     text-align: center;
 }
-.subscribe__button{
+.subscribe__button {
     margin-top: 30px;
 }
 .subscribe__button button {
@@ -233,90 +239,116 @@
     padding: 10px 20px;
     font-weight: bold;
 }
-.subscribe__info hr{
+.subscribe__info hr {
     display: none;
 }
-.subscribe__img{
+.subscribe__img {
     display: none;
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .categories{
+    .categories {
         overflow: hidden;
     }
 }
 
 @media (min-width: 992px) {
-
-    .popularCategories h3{
+    .popularCategories h3 {
         font-size: 24px;
         margin-left: 0;
     }
-    .popularCategories hr{
+    .popularCategories hr {
         width: 20%;
         margin-left: 0;
         border: 3px solid var(--color-yellow);
         margin-bottom: 50px;
     }
-    .categories{
+    .categories {
         width: 90%;
         height: 250px;
         justify-content: space-around;
     }
-    .category{
+    .category {
         width: 170px;
     }
-    .category__img{
+    .category__img {
         margin: auto;
     }
-    .category__name{
+    .category__name {
         font-size: 20px;
     }
-    .subscribe{
+
+    .reviewSection {
+        height: 400px;
+    }
+    .reviewCont {
+        background-color: transparent;
+        backdrop-filter: none;
+    }
+    .reviewUser {
+        width: 30%;
+        height: 75%;
+        flex-direction: column;
+    }
+    .reviewUser__name{
+        font-size: 20px;
+    }
+    .review {
+        height: 100%;
+        width: 60%;
+        background-color: rgba(255, 255, 255, 0.26);
+        backdrop-filter: blur(5px);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .review__date{
+        font-size: 16px;
+    }
+    .subscribe {
         height: 550px;
     }
-    .subscribe__img{
+    .subscribe__img {
         display: block;
         width: 50%;
         height: 100%;
         overflow: hidden;
     }
-    .subscribe__img img{
+    .subscribe__img img {
         height: 100%;
         width: 100%;
     }
-    .subscribe__info{
+    .subscribe__info {
         width: 50%;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: start;
         flex-direction: column;
-        padding: 100px;
+        padding: 50px;
     }
-    .subscribe__title{
+    .subscribe__title {
         font-size: 40px;
         font-weight: bold;
         text-align: left;
     }
-    .subscribe__info p{
+    .subscribe__info p {
         font-size: 24px;
     }
-    .subscribe__button{
+    .subscribe__button {
         width: 100%;
         display: flex;
         justify-content: end;
         align-items: center;
     }
-    .subscribe__button{
+    .subscribe__button {
         margin-top: 80px;
     }
-    .subscribe__button button{
+    .subscribe__button button {
         font-size: 20px;
         padding: 15px 30px;
         color: var(--color-white);
     }
-    .subscribe__info hr{
+    .subscribe__info hr {
         display: block;
         width: 30%;
         border: 3px solid var(--color-yellow);
