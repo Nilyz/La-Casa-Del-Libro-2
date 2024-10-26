@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/libro.css">
     <script src="../js/plantilla/vistaMovil.js" defer></script>
     <script src="../js/plantilla/sinopsis.js" defer></script>
+    <script src="../js/plantilla/rellenarDatosLibro.js" defer></script>
     <title>Libro</title>
 </head>
 
@@ -33,7 +34,7 @@
             </div>
 
             <div class="book-image">
-                <img src="../imagenes/libros/la-isla-de-la-mujer-dormida.webp" alt="La isla de la mujer dormida">
+                <img id="imagen" src="../imagenes/libros/la-isla-de-la-mujer-dormida.webp" alt="La isla de la mujer dormida">
             </div>
 
             <div id="book-basket-info-container" class="book-basket-info-container">
@@ -153,7 +154,7 @@
                                 <p>Número de páginas:</p>
                             </div>
                             <div class="content-data">
-                                <p id="numero_paginas">433</p>
+                                <p id="numero_paginas"></p>
                             </div>
                         </div>
                         <div class="info-content">
