@@ -167,6 +167,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .genres-genre {
@@ -423,6 +425,20 @@
 
     .book-info{
         gap: 0;
+    }
+
+
+}
+/* Estilos para pantallas entre 535px y 640px */
+@media screen and (min-width: 319px) and (max-width: 640px) {
+
+    .book-container{
+        gap: 30px;
+    }
+
+    .book-image{
+        margin-top: 20px;
+        width: 40%;
     }
 
 }
