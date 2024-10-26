@@ -1,23 +1,23 @@
 [
-    {
+  {
       "id": 1,
       "slug": "don-quijote-de-la-mancha",
       "nombre": "Don Quijote de la Mancha",
       "autor": "Miguel de Cervantes",
-      "sinopsis": "La historia sigue a Alonso Quijano...",
+      "sinopsis": "Una novela de mar, amor y aventuras en el Egeo durante los años de la Guerra Civil española. Abril de 1937. Mientras en España transcurre la guerra civil, el marino mercante Miguel Jordán Kyriazis es enviado por el bando sublevado para atacar de modo clandestino el tráfico naval que desde la Unión Soviética transporta ayuda militar para la República. En la base de operaciones, una pequeña isla del mar Egeo, la vida del corsario español se cruzará en turbio triángulo con la de los propietarios, el barón Katelios y su esposa: una seductora mujer madura que busca, con fría desesperación, el modo de escapar a su destino.",
       "editorial": "Francisco de Robles",
       "genero": {
-        "categoria": "Ficción",
-        "subgenero": "Novela caballeresca"
+          "categoria": "Ficción",
+          "subgenero": "Novela caballeresca"
       },
       "encuadernacion": "Tapa dura",
       "precio": 25.99,
-      "codigo_isbn": "978-8491050291",
+      "codigo_isbn": 9788491050291,
       "idioma": "Español",
       "numero_paginas": 1345,
       "fecha_lanzamiento": "1605-01-16"
-    },
-    {
+  },
+  {
       "id": 2,
       "slug": "cien-anos-de-soledad",
       "nombre": "Cien años de soledad",
@@ -25,15 +25,1679 @@
       "sinopsis": "Una obra maestra de la literatura latinoamericana...",
       "editorial": "Editorial Sudamericana",
       "genero": {
-        "categoria": "Ficción",
-        "subgenero": "Realismo mágico"
+          "categoria": "Ficción",
+          "subgenero": "Realismo mágico"
       },
       "encuadernacion": "Tapa blanda",
       "precio": 19.99,
-      "codigo_isbn": "978-8497599998",
+      "codigo_isbn": 9788497599998,
       "idioma": "Español",
       "numero_paginas": 400,
       "fecha_lanzamiento": "1967-06-05"
-    }
-  ]
-  
+  },
+  {
+      "id": 3,
+      "slug": "el-mejor-libro-del-mundo",
+      "nombre": "EL MEJOR LIBRO DEL MUNDO",
+      "autor": "MANUEL VILAS",
+      "sinopsis": "Su nueva novela, de clara inspiración autobiográfica, narra la historia vital de un escritor que se levanta todas las mañanas, desayuna y se va a trabajar a su oficina particular para crear el que espera que sea el mejor libro del mundo. En esta divertida, irreverente y locuaz historia, Vilas rompe el famoso techo de cristal para contar a todo el mundo quién y qué es un escritor desde un lugar distinto, en el que nunca ha sido expuesto, desde su fragilidad: el síndrome del impostor, la constante -y cómica- comparación con los demás, las decepciones, la incertidumbre, convivir con la alegría y el fracaso y así hasta sus últimos días. Una mirada única, ocurrente y muy real sobre cómo un escritor lucha día tras día por ser apreciado, sentirse querido y pasar a la posteridad. Pero siempre desde la comedia.",
+      "editorial": "Ediciones Destino",
+      "genero": {
+          "categoria": "Ficción",
+          "subgenero": "Contemporánea"
+      },
+      "encuadernacion": "Tapa blanda",
+      "precio": 21.75,
+      "codigo_isbn": 9788423365623,
+      "idioma": "Castellano",
+      "numero_paginas": 592,
+      "fecha_lanzamiento": "2024-09-25"
+  },
+  {
+      "id": 4,
+       "slug": "el-hijo-del-reich",
+       "nombre": "EL HIJO DEL REICH ",
+       "autor": "RAFAEL TARRADAS BULTO ",
+       "sinopsis": "Londres, 1939. Cuando el agente del servicio secreto John Osbourne descubre que dos de los espías nazis más buscados están tras la pista de una tal Daisy García, tiene la certeza de que aquella desconocida guarda un importante secreto y que debe encontrarla. No se equivoca. La española, empleada por una aristócrata inglesa como señorita de compañía, quedó embarazada de un alto mando nazi durante una estancia en Munich. Desde entonces, y especialmente tras la declaración de guerra, huye del enemigo que quiere arrebatarle a su hijo, considerado un príncipe del Reich. En su huida da con la mansión de los Epson, Glenmore Hall, donde se ha acogido a un colegio. Allí, disimulado entre los niños y con la ayuda de la baronesa y de la baronesa viuda, decide esconder a su pequeño Pat.",
+       "editorial": "Espasa ",
+       "genero": {
+           "categoria": "Ficción",
+           "subgenero": "Contemporánea"
+       },
+       "encuadernacion": "Tapa dura",
+       "precio": 21.75,
+       "codigo_isbn": 9788467074444,
+       "idioma": "Castellano",
+       "numero_paginas": 632,
+       "fecha_lanzamiento": " 28/08/2024"
+   },
+
+
+  {
+      "id": 5,
+       "slug": "la-cartera",
+       "nombre": "LA CARTERA",
+       "autor": "Francesca Gianone",
+       "sinopsis": "Una saga familiar con una protagonista inolvidable: una mujer fuerte e independiente que se enfrenta a una realidad hostil. Una apasionante historia de coraje y emancipación femeninaEn Lizzanello, un pueblecito de unos pocos miles de almas, un autobús de línea se detiene en la plaza mayor y baja una pareja: él, Carlo, es hijo del sur y está contento de regresar a casa; ella, Anna, su esposa, nacida en el norte, está triste y preocupada: ¿qué vida le espera en esta tierra desconocida?Incluso treinta años después de ese día, para la gente del pueblo Anna seguirá siendo «la forastera», la diferente, la que no va a la iglesia, la que no se pasea por el pueblo, la que no se interesa por los chismes. Y Anna, orgullosa y esquiva, no se doblegará nunca a las leyes no escritas que oprimen a las mujeres del sur. Lo conseguirá gracias al amor que siente por su marido, un amor cuya fuerza advierte con claridad el hermano mayor de Carlo, Antonio, que se enamora de Anna en el mismo instante en que la ve. Más tarde, hará algo realmente revolucionario: se presentará al concurso para ocupar un puesto en correos. «La cartera», como Anna quiere que la llamen, se convertirá en el hilo invisible que une a los habitantes del pueblo y sus historias. Primero a pie y después en bicicleta, orgullosa con su uniforme y la gorra, cambiará la vida en Lizzanello.",
+       "editorial": "Duomo ediciones",
+       "genero": {
+           "categoria": "Ficción",
+           "subgenero": "Contemporánea"
+       },
+       "encuadernacion": "Tapa blanda",
+       "precio": 19.90,
+       "codigo_isbn": 9788419834225,
+       "idioma": "Castellano",
+       "numero_paginas": 464,
+       "fecha_lanzamiento": " 26/08/2024"
+   }
+
+]
+
+[
+  {
+      "id": 6,
+      "slug": "las-mil-noches-y-una-noche",
+      "nombre": "LAS MIL NOCHES Y UNA NOCHE",
+      "autor": "RICHARD FRANCIS BURTON y ARTURO GARRIDO",
+      "sinopsis": "Cinco años antes de morir, cuando la vejez le obligó a hacerse sedentario, Sir Richard Burton publicó en 1895 su traducción de Las mil noches y una noche. Le salieron diecisiete volúmenes repletos de fuerza y erotismo que se negó a censurar. No resultó difícil para alguien que había recorrido medio mundo, descubierto el lago Tanganica, escrito un detallado tratado sobre pederastia y acumulado apuntes sobre el tamaño de los genitales masculinos de distintos pueblos. Jorge Luis Borges, a quien entusiasmaba la versión de Burton, escribió que «los árabes afirman que la empresa de leer este libro entero llevaría a la muerte». Para evitar ese riesgo, Diego Garrido ha seleccionado y traducido algunas de sus mejores páginas, que su hermano Arturo se ha encargado de ilustrar. Son relatos que rebosan crueldad y sensualidad con la inocencia de las formas inconclusas de un espejo.",
+      "editorial": "REINO DE CORDELIA S.L.",
+      "genero": {
+          "categoria": "Ficción",
+          "subgenero": "Clásicos"
+      },
+      "encuadernacion": "Tapa dura",
+      "precio": 33.20,
+      "codigo_isbn": 9788419124951,
+      "idioma": "Castellano",
+      "numero_paginas": 522,
+      "fecha_lanzamiento": "16/09/2024"
+  },
+  {
+      "id": 7,
+      "slug": "trista-e-isea",
+      "nombre": "TRISTAN E ISEO",
+      "autor": "ALICIA YLLERA",
+      "sinopsis": "Paradigma de la historia de una pasión amorosa enfrentada a un destino trágico, Tristán e Iseo gozó desde sus primeras versiones medievales de una gran celebridad. A partir del siglo xii fueron numerosas las variantes de esta leyenda, vinculada más tarde a las hazañas de los caballeros de la corte artúrica y cuyos ecos llegaron hasta el siglo xix, sirviendo de motivo inspirador de la poesía de Arnold y Tennyson y de una ópera de Wagner. Para la presente edición, Alicia Yllera ha reconstruido el texto a partir de los fragmentos conservados de los poemas franceses del siglo xii de Thomas y Béroul, apoyándose en las versiones de Eilhart y de Gottfried y en las adaptaciones al francés moderno elaboradas por A. Mary y J. Bédier.",
+      "editorial": "Sin editorial especificada",
+      "genero": {
+          "categoria": "Ficción",
+          "subgenero": "Clásicos"
+      },
+      "encuadernacion": "Tapa blanda",
+      "precio": 12.30,
+      "codigo_isbn": 9788420674308,
+      "idioma": "Castellano",
+      "numero_paginas": 240,
+      "fecha_lanzamiento": "17/01/2011"
+  },
+  {
+      "id": 8,
+      "slug": "divina-comedia-liberada-infierno",
+      "nombre": "DIVINA COMEDIA LIBERADA. INFIERNO",
+      "autor": "DANTE ALIGHIERI",
+      "sinopsis": "Una de las mayores obras de la literatura universal, presentada ahora en una nueva y cuidada edición. Destrucción, horror y redención: el clásico que ilumina sobre los terrores de la vida moderna. Crisis climática, body horror, guerras, espiritualidad: el Infierno de Dante nunca ha sido más actual. Con diseño del ilustrador Pedro Oyarbide y texto bilingüe en verso y prosa. Textos de Las Hijas de Felipe, Alessandro Maccarrone, Galileo, Diderot y muchos más. Acceso a la película de Francesco Bertolini (1911). Recitado por el actor italiano Vittorio Gassman. Más de 100 ilustraciones a todo color. «Reinventar y reventar los clásicos: un proyecto innovador y precioso.» IRENE VALLEJO «Una colección fantástica, que mantiene la llama de la esperanza y la belleza.» ROSA MONTERO",
+      "editorial": "Blackie Books",
+      "genero": {
+          "categoria": "Ficción",
+          "subgenero": "Clásicos"
+      },
+      "encuadernacion": "Tapa dura",
+      "precio": 31.25,
+      "codigo_isbn": 9788410025769,
+      "idioma": "Castellano",
+      "numero_paginas": 640,
+      "fecha_lanzamiento": "25/09/2024"
+  },
+  {
+      "id": 9,
+      "slug": "la-odisea-de-homero",
+      "nombre": "ODISEA",
+      "autor": "HOMERO",
+      "sinopsis": "He aquí uno de los más grandes poemas épicos de todos los tiempos: Odisea. En él se narra el regreso del héroe, Odiseo, a su patria, Ítaca, después de la conquista de Troya. Compuesta como la Ilíada en hexámetros, recoge numerosos cuentos populares y leyendas que, adaptadas, se integran en la epopeya. De este modo, mientras que en la Ilíada el tema central, la cólera de Aquiles, va avanzando inexorablemente, verso a verso, desde su planteamiento hasta su desenlace, en Odisea el regreso del héroe es narrado, con arte magistral, sin recelar de las vueltas atrás o de las digresiones, porque el objetivo supremo es lograr mayor gozo en la narración de bellas historias. Todo ello se logra, además, sin que merme en absoluto la cohesión que mantiene unidos sus episodios.",
+      "editorial": "Austral",
+      "genero": {
+          "categoria": "Ficción",
+          "subgenero": "Clásicos"
+      },
+      "encuadernacion": "Tapa dura bolsillo",
+      "precio": 12.30,
+      "codigo_isbn": 9788467050059,
+      "idioma": "Castellano",
+      "numero_paginas": 448,
+      "fecha_lanzamiento": "04/05/2017"
+  },
+  {
+      "id": 10,
+      "slug": "cien-poetas-cien-poemas",
+      "nombre": "CIEN POETAS, CIEN POEMAS",
+      "autor": "FUJIWARA NO TEIKA",
+      "sinopsis": "El Hyakunin Isshu es una de las antologías más emblemáticas de la poesía clásica japonesa. Esta recopilación elaborada por el insigne poeta y erudito Fujiwara no Teika reúne cien poemas de cien poetas creados entre los siglos vii y xii, entre los que se encuentran los de autores fundamentales de la literatura japonesa como Murasaki Shikibu, Ariwara no Narihira o Sei Shonagon, así como de emperadores, emperatrices, príncipes y princesas. Los poemas del Hyakunin Isshu se han leído, estudiado y versionado desde su creación hasta la actualidad y son una fuente inestimable para conocer la refinada vida aristocrática o, lo que es lo mismo, poética de la época de máximo esplendor cultural de Japón. Sus versos evocan refinados sentimientos con sutileza y elegancia que tratan temas como el amor, la muerte o la soledad bajo el código estético y sofisticado de la poesía clásica.",
+      "editorial": "Satori",
+      "genero": {
+          "categoria": "Ficción",
+          "subgenero": "Clásicos"
+      },
+      "encuadernacion": "Símil tela",
+      "precio": 23.75,
+      "codigo_isbn": 9788419035974,
+      "idioma": "Castellano",
+      "numero_paginas": 256,
+      "fecha_lanzamiento": "30/09/2024"
+  }
+]
+[
+  {
+   "id": 11,
+    "slug": "presencias",
+    "nombre": "PRESENCIAS ",
+    "autor": "VERNON LEE ",
+    "sinopsis": "Los cuentos góticos más escalofriantes, seleccionados por los críticos de la British Library.El miedo despierta al atardecer. El miedo se alimenta de las más sombrías tinieblas. El miedo es un animal nocturno.Una mujer convencida de ser la reencarnación de un antepasado muerto, una dama renacentista y asesina de sus cinco maridos que vuelve a la vida, salida de los apuntes de un estudiante Personajes obsesionados por el pasado, los deseos y los miedos dan voz a un mundo de fantasmas interiores.Presencias es un viaje terrorífico por los recovecos de la psique, donde la obsesión por el pasado se transforma en una angustia sin fin. Han dicho:«Vernon Lee es una escritora inquietante, misteriosa e inteligente.» Henry James«Una escritora extraordinariamente dotada.» Paris Review«Vernon Lee: como si Henry James se fuera de cena con Jane Austen.» El Mundo ",
+    "editorial": "Duomo Ediciones ",
+    "genero": {
+        "categoria": "Ficción",
+        "subgenero": "Novela de terror"
+    },
+    "encuadernacion": "Tapa blanda ",
+    "precio":12.15,
+    "codigo_isbn": " ",
+    "idioma": "Castellano",
+    "numero_paginas":224 ,
+    "fecha_lanzamiento": "13/11/2023"
+},
+{
+   "id": 12,
+    "slug": "carrie",
+    "nombre": "CARRIE",
+    "autor": "STEPHEN KING",
+    "sinopsis": "Una preciosa edición en tapa dura de Carrie, la primera novela publicada de Stephen King, en el 50.º aniversario de su lanzamiento. Incluye un prólogo inedito de la autora Margaret Atwood. Puede que Carrie White no sea la chica más popular del instituto, pero tiene un poder único: es capaz de mover cosas con la mente. Las puertas se cierran. Las velas caen. Es su poder y su tragedia. Entonces, un acto de bondad, tan espontáneo como las constantes burlas de sus compañeros de clase, le ofrece a la joven la oportunidad de convertirse en alguien normal. Sin embargo, una inesperada crueldad transforma su don en un arma capaz de causaron un horror y una destrucción que nadie podrá olvidar jamás.",
+    "editorial": "Plaza&janes",
+    "genero": {
+        "categoria": "Ficción",
+        "subgenero": "Novela de Terror"
+    },
+    "encuadernacion": "Tapa dura",
+    "precio":21.75,
+    "codigo_isbn": "9788401035777",
+    "idioma": "Castellano",
+    "numero_paginas": 288,
+    "fecha_lanzamiento": "17/10/2024"
+},
+{
+   "id": 13,
+    "slug": "la-oscuridad-sobre-arkham",
+    "nombre": "LA OSCURIDAD SOBRE ARKHAM",
+    "autor": "JONATHAN GREEN",
+    "sinopsis": "Contempla Arkham desde otra perspectiva a medida que tus decisiones cambien el curso de la historia en los nuevos Libro juegos de InvestigadoresCuando un famoso profesor aparece muerto y su cadáver, derretido, les toca a los Investigadores de Arkham descubrir qué horrores ocultos han sido los responsables de su destino. Elige tu camino, tu Investigador, y reúne aliados sobre la marcha para dar caza a su asesino antes de que vuelva a actuar.Sin embargo, Arkham está llena de misterios y muchos desean que la verdad siga sepultada, ansiosos por dar comienzo a una nueva era llena de muerte y oscuridad que devorará el mundo tal y como lo conoces. ¿Podrás detenerla antes de que sea demasiado tarde?",
+    "editorial": "Minotauro",
+    "genero": {
+        "categoria": "Ficción",
+        "subgenero": "Novela de terror"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio": 17.95,
+    "codigo_isbn": "9788445018156",
+    "idioma": "Castellano",
+    "numero_paginas": 308,
+    "fecha_lanzamiento": "18/09/2024"
+},
+{
+   "id": 14,
+    "slug": "figuras-ocultas",
+    "nombre": "FIGURAS OCULTAS",
+    "autor": "JASON REKULAK",
+    "sinopsis": "Recién salida de rehabilitación por su pasada adicción a las drogas, Mallory Quinn acepta un trabajo como niñera para Ted y Caroline Maxwell. A Mallory de inmediato le encanta su trabajo, le da justo la estabilidad que buscaba. Y adora a Teddy, un niño tímido que va a todas partes con su cuaderno de bocetos y su lápiz. Sus dibujos muestran cosas normales: árboles, conejos, globos... Bueno, y a veces también a una mujer de aspecto extraño, su amiga imaginaria. Pero un día en el cuaderno aparece algo diferente: un hombre que va arrastrando un cuerpo en medio de un bosque. Poco a poco, los dibujos de Teddy se vuelven cada vez más siniestros y sus figuras de palo se convierten en ilustraciones realistas, cuya destreza supera la de cualquier niño de cinco años. Es entonces cuando Mallory empieza a preguntarse no solo por el contenido de las ilustraciones, sino también por el autor. Porque ¿y si realmente no es Teddy quien las está haciendo? ¿Y si se trata de... alguien más?",
+    "editorial": "Nocturna Ediciones",
+    "genero": {
+        "categoria": "Ficción",
+        "subgenero": "Novela de terror"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio": 20.85,
+    "codigo_isbn": "9788418440618",
+    "idioma": "Castellano",
+    "numero_paginas": 432 ,
+    "fecha_lanzamiento": "17/10/2022"
+},
+{
+   "id": 15,
+    "slug": "el-llamado-de-cthulhu",
+    "nombre": "EL LLAMADO DE CTHULHU",
+    "autor": "H.P. LOVECRAFT",
+    "sinopsis": "El hombre no es nada. “Nuestra raza humana es solo un accidente trivial en la historia de la creación”, escribió H. P. Lovecraft (Providence, Rhode Island, 1890- 1937), el autor ya de culto en cuyas obras el universo cobija la presencia abominable y repulsiva de criaturas omnipotentes y sin edad. Este volumen enfatiza a esos míticos seres cósmicos que han sellado el destino de la humanidad, mientras Cthulhu sueña y espera en la casa de R’lyeh. La obra de Lovecraft es una literatura ritual que produce una devastadora ansiedad y que hace de la repetición un mecanismo implacable. Se trata de una literatura cuyas huellas son imposibles de borrar.",
+    "editorial": "Orbiliro",
+    "genero": {
+        "categoria": "Ficción",
+        "subgenero": "Novela de terror"
+    },
+    "encuadernacion": "Tapa dura",
+    "precio":23.75,
+    "codigo_isbn": 9788410353046,
+    "idioma": "Castellano",
+    "numero_paginas":384 ,
+    "fecha_lanzamiento": "15/10/2024"
+}
+]
+[
+  {
+     "id": 16,
+      "slug": "las-ideas-fundamentales-del-universo-II",
+      "nombre": "LAS IDEAS FUNDAMENTALES DEL UNIVERSO II",
+      "autor": "SEAN CARROLL",
+      "sinopsis": "El segundo volumen de la trilogía de gran éxito internacional Las ideas fundamentales del Universo, una aventura que nos transporta a la materia desnuda de la realidad. Sean Carroll ha creado un enfoque nuevo y revolucionario para compartir la física con un público amplio, que va más allá de las analogías para mostrar cómo piensan realmente los físicos. Llega al núcleo matemático de las teorías más profundas, explicando cada paso de una forma clara, accesible e incluso divertida. La teoría cuántica de campos es la forma en que la física moderna describe la naturaleza en su nivel más profundo. Empezando por los fundamentos de la propia mecánica cuántica, Carroll explica la medición y el entrelazamiento antes de ilustrar cómo el mundo está realmente hecho de campos. ¿Por qué la materia es sólida? ¿Por qué existe la antimateria? ¿De dónde viene el tamaño de los átomos? ¿Y por qué las predicciones de la teoría cuántica de campos tienen un éxito tan espectacular? Ideas fundamentales como el espín, la simetría, los diagramas de Feynman y el mecanismo de Higgs, como nunca antes se habían enseñado.",
+      "editorial": "Arpa Editores",
+      "genero": {
+          "categoria": "No ficción",
+          "subgenero": "Ciencias"
+      },
+      "encuadernacion": "Tapa Blanda",
+      "precio":20.80,
+      "codigo_isbn": "9788410313163",
+      "idioma": "Castellano",
+      "numero_paginas": 336,
+      "fecha_lanzamiento": "16/10/2024"
+  },
+{
+     "id": 17,
+      "slug": "decidido",
+      "nombre": "DECIDIDO ",
+      "autor": "ROBERT SAPOLSKY ",
+      "sinopsis": "Uno de los grandes científicos del comportamiento sondea las profundidades de la ciencia y la filosofía de la toma de decisiones para presentar un argumento devastador contra el libre albedrío. En Compórtate, su ya clásico ensayo sobre por qué los seres humanos hacen el bien y el mal, apuntaba a una conclusión inquietante: puede que no comprendamos la combinación precisa de naturaleza y educación que crea la física y la química en la base del comportamiento humano, pero eso no significa que no exista. Ahora, en Decidido, Sapolsky lleva su argumento hasta el final, montando un brillante asalto frontal a la agradable fantasía de que existe un yo separado que dice a nuestra biología lo que tiene que hacer. El libro ofrece una síntesis maravillosa de lo que sabemos sobre el funcionamiento de la conciencia: el tupido tejido entre razón y emoción y entre estímulo y respuesta en el momento y a lo largo de la vida. Sapolsky nos muestra que la historia de la medicina es en gran parte la historia de aprender que cada vez menos cosas son «culpa» de alguien. Sin embargo, es muy difícil, a veces imposible, desligarnos de nuestro afán por juzgar a los demás y juzgarnos a nosotros mismos. Sapolsky aplica la nueva comprensión de la vida más allá del libre albedrío a algunas de las cuestiones más esenciales en torno al castigo, la moralidad y la convivencia.",
+      "editorial": "Capitán Swing Libros",
+      "genero": {
+          "categoria": "No ficción",
+          "subgenero": "Ciencias"
+      },
+      "encuadernacion": "tapa blanda ",
+      "precio":26.60,
+      "codigo_isbn": 9788412779837,
+      "idioma": "Castellano",
+      "numero_paginas":560 ,
+      "fecha_lanzamiento": "25/03/2024 "
+  },
+{
+     "id": 18,
+      "slug": "como-hablar-con-tu-gato",
+      "nombre": "CÓMO HABLAR CON TU GATO",
+      "autor": "CLAIRE BESSANT",
+      "sinopsis": "Cómo hablar con tu gato es un libro que te enseña cómo fortalecer el vínculo con tu mascota favorita. Desde que los gatos se convirtieron en mascotas domésticas hace miles de años, se ha desarrollado una comprensión increíble entre ellos y sus dueños humanos. Sin embargo, hay muchas cosas simples que puedes hacer para mejorar aún más esta conexión. Este libro te brinda una educación sólida sobre cómo funcionan los gatos, lo que aman y odian, y cómo se comportan. Con este conocimiento, podrás responder directamente a las necesidades de tu gato y solucionar fácilmente los problemas que surjan. Cuanto más sepas sobre tu gato, más te apreciará y las recompensas de este amor los acercarán en una relación mutuamente gratificante y de por vida.",
+      "editorial": "Diana Editorial",
+      "genero": {
+          "categoria": "No ficción",
+          "subgenero": "Ciencias"
+      },
+      "encuadernacion": "Tapa Blanda",
+      "precio":18.95,
+      "codigo_isbn": 9788411191807,
+      "idioma": "Castellano",
+      "numero_paginas": 288,
+      "fecha_lanzamiento": "16/10/2024"
+  },
+{
+     "id": 19,
+      "slug": "ser-humano",
+      "nombre": "SER HUMANO",
+      "autor": "LEWIS DARTNELL",
+      "sinopsis": "Para entender el curso que ha tomado la humanidad desde la prehistoria hasta la Edad Moderna, debemos comprender quiénes somos. Desde la epidemia que trajo la libertad a los campesinos europeos hasta la deficiencia sanitaria que dio origen a la mayor organización criminal del mundo, pasando por los sesgos psicológicos que condujeron a las catástrofes militares de Crimea e Irak, este libro revela cómo nuestra naturaleza única dio forma a los sistemas políticos, económicos y sociales y, lo que es más importante, hasta qué punto sigue influyendo en el progreso humano actual. ",
+      "editorial": "Debate ",
+      "genero": {
+          "categoria": "No ficción",
+          "subgenero": "Ciencias"
+      },
+      "encuadernacion": "Tapa blanda ",
+      "precio":22.70,
+      "codigo_isbn": 9788419399120,
+      "idioma": "Castellano",
+      "numero_paginas":392 ,
+      "fecha_lanzamiento": "03/10/2024 "
+  },
+{
+     "id": 20,
+      "slug": "el-mundo-y-sus-demonios",
+      "nombre": "EL MUNDO Y SUS DEMONIOS",
+      "autor": "CARL SAGAN",
+      "sinopsis": "El método del pensamiento racional puede superar prejuicios y supersticiones para dejar al descubierto la verdad ¿Estamos al borde de una nueva edad oscura de irracionalismo y superstición? En este libro conmovedor, el incomparable Carl Sagan demuestra con brillantez que el pensamiento científico es necesario para salvaguardar nuestras instituciones democráticas y nuestra civilización técnica.El mundo y sus demonios es el libro más personal de Sagan, y está lleno de historias humanas entrañables y reveladoras. El autor, con las experiencias de su propia infancia y la apasionante historia de los descubrimientos de la ciencia, muestra cómo el método del pensamiento racional puede superar prejuicios y supersticiones para dejar al descubierto la verdad, que, con frecuencia, resulta sorprendente.",
+      "editorial": "Editorial Crítica",
+      "genero": {
+          "categoria": "No ficción",
+          "subgenero": "Ciencias"
+      },
+      "encuadernacion": "Tapa blanda",
+      "precio": 22.90,
+      "codigo_isbn": "9788416771486",
+      "idioma": "Castellano",
+      "numero_paginas": 496 ,
+      "fecha_lanzamiento": "10/01/2017"
+  }
+]
+[
+  {
+   "id": 21,
+    "slug": "heridas-en-el-alma",
+    "nombre": "HERIDAS EN EL ALMA",
+    "autor": "LOLA TORRES",
+    "sinopsis": "Después de muchos años intentando convencerla para que lo escribiera al fin ve la luz com0 el apoyo incondicional de unos y el rechazo de otros. La historia de una mujer fuerte, inteligente y luchadora. Javier J. Solera",
+    "editorial": "Editorial Autografía",
+    "genero": {
+        "categoria": "No ficción",
+        "subgenero": "Biografías"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio": 14.50,
+    "codigo_isbn": 9788417654085,
+    "idioma": "Castellano",
+    "numero_paginas": 182 ,
+    "fecha_lanzamiento": "05/07/2019"
+},
+{
+   "id": 22,
+    "slug": "hay-algo-que-no-es-como-me-dicen",
+    "nombre": "HAY ALGO QUE NO ES COMO ME DICEN",
+    "autor": "JUAN JOSÉ MILLAS",
+    "sinopsis": "Hace casi veinticinco años, Nevenka Fernández, concejal de Hacienda de Ponferrada, dimitió y acusó al alcalde, Ismael Çlvarez, de acoso sexual. Sin embargo, el valor para contar públicamente lo que estaba sufriendo en silencio no tuvo un efecto lógico: la justicia falló a su favor y el acusado se vio obligado a renunciar su cargo, sí, pero ella fue sometida a un juicio público y mediático paralelo que acabó forzándola a abandonar el país.A partir de entrevistas con la protagonista y del seguimiento del proceso judicial, Juan Jose Millás narra en Hay algo que no es como me dicen la crónica de este caso real —hoy todavía vigente— de lucha contra el machismo, e investiga los mecanismos por los que alguien se convierte en víctima y sin embargo logra hacerse con los recursos internos para salir de esa situación.",
+    "editorial": "ALFAGUARA",
+    "genero": {
+        "categoria": "No ficción",
+        "subgenero": "Biografías"
+    },
+    "encuadernacion": "Tapa Blanda",
+    "precio": 18.90,
+    "codigo_isbn": 9788410299160,
+    "idioma": "Castellano",
+    "numero_paginas": 192 ,
+    "fecha_lanzamiento": "19/09/2024"
+},
+{
+   "id": 23,
+    "slug": "justiniano",
+    "nombre": "JUSTINIANO",
+    "autor": "Peter Sarris",
+    "sinopsis": "Esta extraordinaria biografía nos ofrece una visión profunda de la Antigüedad tardía y de Justiniano, un hombre que, desde los comienzos más humildes, llegó a gobernar gran parte del mundo conocido y alcanzó una consideración casi divina. Un emperador que infundía un significado espiritual incluso a las tareas más mundanas. Un administrador excelente y obsesionado con los detalles. Un hombre, ya en la mediana edad, capaz de cambiar la ley para poder casarse con una bailarina de la que se enamoró, y que gobernó acompañado de la emperatriz Teodora durante más de veinte años. Un brillante estratega militar que nunca estuvo en primera línea.",
+    "editorial": "TAURUS",
+    "genero": {
+        "categoria": "No ficción",
+        "subgenero": "Biografías"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio": 24.60,
+    "codigo_isbn": 9788430626700,
+    "idioma": "Castellano",
+    "numero_paginas": 480 ,
+    "fecha_lanzamiento": "26/09/2024"
+},
+{
+   "id": 24,
+    "slug": "reinas-de-leyenda",
+    "nombre": "REINAS DE LEYENDA",
+    "autor": "CRISTINA MORATO",
+    "sinopsis": "Algunas de ellas se encontraban lejos del trono al nacer, pero consiguieron ceñir la corona por derecho propio y no por matrimonio. Isabel I de Inglaterra, hija de Ana Bolena, pasó de ser una princesa bastarda a dar nombre al glorioso siglo en que reinó; Catalina la Grande no dudó en ponerse al frente de un ejercito para derrocar a su esposo y dirigir con mano firme el imperio ruso, mientras que la emperatriz Cixí entró en la Ciudad Prohibida como concubina y gobernó China oculta tras una cortina de seda. Hubo tambien reinas marcadas por la fatalidad que sobrevivieron en un mundo de intrigas: Catalina de Aragón, hija de los Reyes Católicos y primera esposa de Enrique VIII, fue una de las soberanas más amadas de Inglaterra.",
+    "editorial": "DEBOLSILLO",
+    "genero": {
+        "categoria": "No ficción",
+        "subgenero": "Biografías"
+    },
+    "encuadernacion": " ",
+    "precio":14.20,
+    "codigo_isbn": 9788466378734,
+    "idioma": "Castellano",
+    "numero_paginas":600 ,
+    "fecha_lanzamiento": "03/10/2024"
+},
+{
+   "id": 25,
+    "slug": "franco",
+    "nombre": "FRANCO",
+    "autor": "PAUL PRESTON",
+    "sinopsis": "Franco muestra al militar ambicioso e implacable; al admirador de Hitler y de Mussolini; al dirigente político cada vez más pagado de su propio papel pero incapaz de comprender la complejidad del Estado y la economía modernos. Queda el hombre visceralmente conservador, tan cauto como insaciable, hábil en el manejo de las personas y de los contrapesos del poder.",
+    "editorial": "DEBATE",
+    "genero": {
+        "categoria": "No ficción",
+        "subgenero": "Biografías"
+    },
+    "encuadernacion": "Tapa dura",
+    "precio": 217.5,
+    "codigo_isbn": 9788419399069,
+    "idioma": "Castellano",
+    "numero_paginas": 192,
+    "fecha_lanzamiento": "14/11/2024"
+}
+]
+[
+  {
+   "id": 26,
+    "slug": "anatomia-del-mal",
+    "nombre": "ANATOMIA DEL MAL",
+    "autor": "JORDI WILD",
+    "sinopsis": "En estas páginas nos embarcaremos en un viaje inquietante a traves de ocho crímenes, cada cual más terrible, con los que os mostrare y reflexionare sobre la maldad y cómo puede infiltrarse en los sitios menos esperados.Indagare dentro de las mentes enfermas de asesinos, psicópatas, ególatras y monstruos, revelando, desde una perspectiva psicológica y científica, cuáles fueron sus motivaciones y más oscuros secretos que los llevaron a cometer estos crímenes imperdonables.",
+    "editorial": "B",
+    "genero": {
+        "categoria": "No ficción",
+        "subgenero": "Criminología"
+    },
+    "encuadernacion": "Tapa dura",
+    "precio": 20.90,
+    "codigo_isbn": 9788466671637,
+    "idioma": "Castellano",
+    "numero_paginas": 304,
+    "fecha_lanzamiento": "14/03/2024"
+},
+
+  {
+   "id": 27,
+    "slug": "vivir-en-el-asombro",
+    "nombre": "VIVIR EN EL ASOMBRO",
+    "autor": "JUAN ENRIQUE SOTO CASTRO",
+    "sinopsis": "Juan Enrique Soto es Inspector Jefe de Policía Nacional en Segunda Actividad. Antes de hacerse policía ya era psicólogo y durante su carrera profesional ha intentado unir la Psicología y el trabajo policial, sobre todo, la investigación de delitos graves. Tuvo el privilegio de crear la Sección de Análisis de Conducta y el Método VERA de perfilación psicológica de agresores desconocidos. A lo largo de estas páginas, Juan Enrique nos cuenta su recorrido como analista de conducta criminal. Pero, como dice Manuel de Juan Espinosa en el prólogo, ésta no es una biografía al uso. El lector se encontrará que ese trayecto para cumplir un sueño se ve jalonado con la narrativa de casos en los que, poco a poco, podrá observar cómo van cuajando tanto el analista de la conducta como los procedimientos y técnicas que aplica para resolverlos. La sensación al leer el libro es que uno no está leyendo simplemente una biografía, sino algo más. Como si se oyera una música de fondo, emerge la sensación de que se lee una novela.",
+    "editorial": "Tecnos",
+    "genero": {
+        "categoria": "No ficción",
+        "subgenero": "Criminología"
+    },
+    "encuadernacion": "Tapa Blanda",
+    "precio":14.72,
+    "codigo_isbn": 9788430991662,
+    "idioma": "Castellano",
+    "numero_paginas": 176,
+    "fecha_lanzamiento": "10/10/2024"
+},
+  {
+  "id": 28,
+    "slug": "los-galindos",
+    "nombre": "LOS GALINDOS",
+    "autor": "Francisco Gil Chaparro",
+    "sinopsis": "El crimen del cortijo Los Galindos sigue siendo un misterio cincuenta años después de los macabros sucesos ocurridos allí. Este libro es fruto de «una pasión que nunca se perdió», del afán de muchos años de un profesional del periodismo por un caso que siempre llamó su curiosidad. Por ello, no intenta dar soluciones o lanzar teorías, más bien al contrario, ejerce la necesaria contención de atenerse a lo que se sabe de forma prácticamente incuestionable –si es que hay algo así en este asunto– y señalar y analizar los misteriosos cabos sueltos que dejaron los silencios testimoniales, una investigación primeriza y una instrucción judicial llena de accidentes. Todo ello plagó el caso de hechos inexplicables que hicieron casi imposible su resolución. Gil Chaparro ha tenido acceso a informaciones y documentos de primera mano e incluso inéditos –como algunas de la imágenes que aquí se recogen, publicadas por primera vez, o amplios testimonios de algunos de los protagonistas de la instrucción judicial–.",
+    "editorial": "El Paseo Editorial",
+    "genero": {
+        "categoria": "No ficción",
+        "subgenero": "Criminología"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio": 20.95,
+    "codigo_isbn": 9788419188472,
+    "idioma": "Castellano",
+    "numero_paginas": 148 ,
+    "fecha_lanzamiento": "26/08/2024"
+},
+
+  {
+   "id": 29,
+    "slug": "la-mente-criminal",
+    "nombre": "LA MENTE CRIMINAL",
+    "autor": "Booket",
+    "sinopsis": "¿Cómo actúan los asesinos en serie? ¿Para que sirve el análisis del perfil genetico (ADN)? ¿Que es el modus operandi y la firma de un asesino? ¿Cuáles son los metodos de investigación de la Policía?áLos interesados en las ciencias sociales y criminológicas y los estudiantes y profesionales de las diferentes policías encontrarán en La mente criminal nociones esenciales de criminología forense aplicadas a casos criminales que conmovieron a una sociedad entera e incluso al mundo. Al analizar la forma de actuar y de pensar de los asesinos seriales su autor, Vicente Garrido, proporciona al lector unos conocimientos sobre cómo estos crean su propia realidad y las formas peculiares en que llevan a la práctica sus terribles fantasías.",
+    "editorial": "Booket",
+    "genero": {
+        "categoria": "No ficción",
+        "subgenero": "Criminología"
+    },
+    "encuadernacion": "Bolsillo",
+    "precio": 10.95,
+    "codigo_isbn": 9788499982915,
+    "idioma": "Castellano",
+    "numero_paginas":  320,
+    "fecha_lanzamiento": "02/07/2013"
+},
+
+  {
+   "id": 30,
+    "slug": "raiz-cubica-del-crimen-incestos",
+    "nombre": "RAÍZ CÚBICA DEL CRIMEN. INCESTOS",
+    "autor": "GERARD POMMIER",
+    "sinopsis": "El crimen solo atañe al ser humano, que lleva en sí una culpabilidad y el sentido moral de lo que es o no es necesario, incluso antes de haber cometido la menor falta. El crimen crece con él, hasta adoptar proporciones espantosas. ¿Cuál es la causa de esta suerte de maldición? El psicoanálisis pone en primer plano del deseo inconsciente el parricidio y el incesto, otorgando el primer lugar en el orden de causalidad a la angustia del incesto, al parricidio y a la criminalidad que son sus consecuencias. La raíz infantil del crimen permanece inconsciente y reprimida. No se quiere saber nada con el deseo incestuoso. Este libro trata acerca de la angustia del incesto maternal, el trauma sexual del incesto paternal y por último del incesto con la hermana, el más desconocido, que será objeto de una atención particular. Examina, finalmente, las consecuencias criminales que no son más que una lente de aumento de una culpabilidad siempre en obra.",
+    "editorial": "GRANICA",
+    "genero": {
+        "categoria": "No ficción",
+        "subgenero": "Criminología"
+    },
+    "encuadernacion": "Tapa Blanda",
+    "precio":19.00,
+    "codigo_isbn": 9789878956282,
+    "idioma": "Castellano",
+    "numero_paginas":252,
+    "fecha_lanzamiento": "24/09/2024"
+}
+
+]
+[
+  {
+   "id": 31,
+    "slug": "mundial-de-baloncesto-2023",
+    "nombre": "MUNDIAL DE BALONCESTO 2023 (OLE! MORTADELO 221)",
+    "autor": "FRANCISCO IBAÑEZ",
+    "sinopsis": "En esta aventura de Mortadelo y Filemón, el Súper les encarga una misión en el campeonato del mundo de baloncesto 2023. Deben descubrir y detener a quien se dedica a encoger a los jugadores de todos los equipos, para que ganen los suyos.A pesar de poner toda su voluntad, desgraciadamente la aportación de los dos agentes de la T.I.A. solamente servirá para complicar mucho más las cosas de lo que hubiese sido sin ellos.",
+    "editorial": "Bruguera",
+    "genero": {
+        "categoria": "Infantil",
+        "subgenero": "Cómic infantil"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":7.55,
+    "codigo_isbn": 9788402429773,
+    "idioma": "Castellano",
+    "numero_paginas": 48,
+    "fecha_lanzamiento": "19/09/2024"
+},
+  {
+   "id": 32,
+    "slug": "polican-1",
+    "nombre": "POLICAN 1",
+    "autor": "DAV PILKEY",
+    "sinopsis": "Con el nuevo héroe de Jorge y Berto, se acabaron los ladrones... ¡Han llegado los ladridos!Un nuevo cómic de Jorge y Berto, ¡protagonizado por un héroe muy perruno! Gracias a su olfato humano y a su inteligencia perruna... o al revés... En fin, que Policán es un hacha combatiendo el crimen y tal. ¡Cuatro historietas tronchantes para pasar un rato ladrando de risa!",
+    "editorial": "EDICIONES SM",
+    "genero": {
+        "categoria": "Infantil",
+        "subgenero": "Cómic infantil"
+    },
+    "encuadernacion": "Tapa dura",
+    "precio": 12.50,
+    "codigo_isbn": 9788467594454,
+    "idioma": "Castellano",
+    "numero_paginas":  232,
+    "fecha_lanzamiento": "10/10/2017"
+},
+  {
+   "id": 33,
+    "slug": "lightfall-la-ultima-llamada",
+    "nombre": "LIGHTFALL. LA ÚLTIMA LLAMA LIBRO UNO",
+    "autor": "TIM PROBERT",
+    "sinopsis": "En los bosques del planeta Irpa se alza la tienda de pociones y elixires, hogar del Cerdo Mago y de Bea, su nieta adoptiva. Como guardianes de la Llama Eterna, llevan una vida tranquila y elaborando medicinas y pociones para los habitantes de un mundo que hace mucho tiempo fue próspero. Todo cambia el día en que Bea conoce a Cad, un miembro de los galdurianos, una antigua raza que se creía extinta. Cad está convencido de que el Cerdo Mago podrá ayudarlo a encontrar a su pueblo desaparecido. Pero cuando los dos llegan a su casa, el Cerdo Mago se ha esfumado y lo único que queda de el es el Tarro de la Llama Eterna y una nota misteriosa. Bea teme por la vida de su abuelo y, en compañía de Cad, se dispone a cruzar Irpa para encontrarlo, mientras el peligro se abre paso entre las sombras para salir a la luz. ¿Caerá Irpa en la oscuridad eterna?",
+    "editorial": "HarperKids",
+    "genero": {
+        "categoria": "Infantil",
+        "subgenero": "Cómic infantil"
+    },
+    "encuadernacion": "Tapa Blanda",
+    "precio":17.00,
+    "codigo_isbn": 9788418279997,
+    "idioma": "Castellano",
+    "numero_paginas": 256,
+    "fecha_lanzamiento": "06/04/2022"
+},
+  {
+   "id": 34,
+    "slug": "inazuma-eleven-1",
+    "nombre": "INAZUMA ELEVEN Nº 1 ¡LA VICTORIA ES TUYA!",
+    "autor": "TETSUHIRO KOSHITA",
+    "sinopsis": "Inazuma Eleven ¡La victoria es tuya! recopila una historia corta protagonizada por nuestros futbolistas favoritos del Instituto Raimon. Mark Evans y sus compañeros del equipo de fútbol escolar están dispuestos, una vez más, a demostrarnos que son los mejores.Los creadores de la versión para Wii de Inazuma Eleven son los autores del manga, ya que se basa en el videojuego para esta consola. Un manga kodomo deportivo.",
+    "editorial": "Planeta Cómic",
+    "genero": {
+        "categoria": "Infantil",
+        "subgenero": "Cómic infantil"
+    },
+    "encuadernacion": "Tapa dura",
+    "precio": 8.07,
+    "codigo_isbn": 9788415866893,
+    "idioma": "Castellano",
+    "numero_paginas": 176 ,
+    "fecha_lanzamiento": "22/10/2013"
+},
+  {
+   "id": 35,
+    "slug": "lobos",
+    "nombre": "LOBOS ",
+    "autor": "ALEKSANDRA MIZIELINSKA",
+    "sinopsis": "Cuando piensas en un lobo, te lo imaginas aullando a la luna, comiéndose a Caperucita Roja o corriendo por el bosque en grandes manadas buscando a una presa fácil. Pero los lobos no son así, son animales maravillosos y fascinantes. Descubre cómo es la estructura de los grupos de lobos o por qué realizan migraciones de larga distancia. Explora mitos comunes sobre estos animales y ve cómo se los rastrea, qué se puede deducir del estudio de sus cacas y los restos de su comida o cómo funciona una cámara trampa. Todo ello acompañando a las historias de lobos reales.",
+    "editorial": "Maeva Ediciones",
+    "genero": {
+        "categoria": "Infantil",
+        "subgenero": "Cómic Infantil"
+    },
+    "encuadernacion": "Tapa dura",
+    "precio":33.15,
+    "codigo_isbn": "9788419638991",
+    "idioma": "Castellano",
+    "numero_paginas":268,
+    "fecha_lanzamiento": "16/10/2024"
+}
+]
+
+[
+  {
+   "id": 36,
+    "slug": "splatoon-16",
+    "nombre": "SPLATOON 16",
+    "autor": "SANKICHI HINODEYA",
+    "sinopsis": "¡NUEVOS DESAFÍOS PARA NUESTROS PROTAGONISTAS! ¡Nuestros protagonistas tendrán que conseguir unos sellos participando en combates territoriales, competitivos y en Salmon Run! ¿Lo conseguirán?",
+    "editorial": "NORMA EDITORIAL, S.A.",
+    "genero": {
+        "categoria": "Infantil",
+        "subgenero": "Manga infantil"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":8.55,
+    "codigo_isbn": 9788467966220,
+    "idioma": "Castellano",
+    "numero_paginas":160,
+    "fecha_lanzamiento": "05/04/2024"
+},
+  {
+   "id": 37,
+    "slug": "sonic-the-hedhegog-5",
+    "nombre": "SONIC: THE HEDHEGOG Nº 5",
+    "autor": "IAN FLYNN",
+    "sinopsis": "¡El destino del Dr. Eggman! Después de su última batalla contra Sonic, Eggman desapareció. La fuerzas Badnik siguen causando estragos, pero su líder ya no está con ellos. ¿Dónde se ha metido el villano? ¿Qué pasará con Sonic cuando lo descubra?",
+    "editorial": "ECC Ediciones",
+    "genero": {
+        "categoria": "Infantil",
+        "subgenero": "Manga infantil"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio": 2.14,
+    "codigo_isbn": 9788418026140,
+    "idioma": "Castellano",
+    "numero_paginas": 24 ,
+    "fecha_lanzamiento": "01/10/2019"
+},
+  {
+   "id": 38,
+    "slug": "doraemon-colar-05-06",
+    "nombre": "DORAEMON COLOR Nº 05/06",
+    "autor": "FUJIO F. FUJIKO",
+    "sinopsis": "Este tomo incluye:¡Doraemon llega desde el futuro!,Fantasmas blandengues, Un baño algo extraño, La pulga cuchi-cuchi, La sal moldeadora, La bolsa del resfriado, El coche robot, La semilla del árbol de Navidad, El espejo de la atracción, Una medicina curiosa, La pintura de la invisibilidad, El ultra anillo, La arcilla de nubes, El colirio de la telequinesis,  El casco de la autoestima, El lápiz de la realidad, Acampada, La máquina del tiempo,El martillo productor de estrellas fugaces, Año 1970: ¡NaceDoraemon!",
+    "editorial": "Planeta Cómic",
+    "genero": {
+        "categoria": "Infantil",
+        "subgenero": "Manga infantil"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":9.97,
+    "codigo_isbn": 9788416244058,
+    "idioma": "Castellano",
+    "numero_paginas":160,
+    "fecha_lanzamiento": "24/01/2017"
+},
+  {
+   "id": 39,
+    "slug": "inazuma-eleven-5",
+    "nombre": "INAZUMA ELEVEN Nº 5",
+    "autor": "TENYA YABUNO",
+    "sinopsis": "¡Comienza el Fútbol Frontier, el torneo donde se juegan los encuentros más intensos y emocionantes! ¡En este tomo se incluye una historia especial centrada en Shawn Frost!¡Esto es fútbol al rojo vivo!Un manga kodomo deportivo.",
+    "editorial": "Planeta Cómic",
+    "genero": {
+        "categoria": "Infantil",
+        "subgenero": "Manga infantil"
+    },
+    "encuadernacion": "Bolsillo",
+    "precio": 807,
+    "codigo_isbn": 9788468476247,
+    "idioma": "Castellano",
+    "numero_paginas": 192 ,
+    "fecha_lanzamiento": "06/03/2012"
+},
+  {
+   "id": 40,
+    "slug": "pokemon-3-amarillo-1",
+    "nombre": "POKEMON 3: AMARILLO 1",
+    "autor": "HIDENORI KUSAKA",
+    "sinopsis": "Dos años después de que Rojo y sus amigos derrotaran al Team Rocket, Rojo recibe una carta de desafío de Bruno, del Alto Mando. Tras aceptar el reto, desaparece misteriosamente y solo Pika, malherido, logra regresar. ¡¡Amarillo sale en busca de Rojo con Pika, dispuesto a enfrentarse al Alto Mando...!!",
+    "editorial": "NORMA EDITORIAL, S.A.",
+    "genero": {
+        "categoria": "Infantil",
+        "subgenero": "Manga infantil"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":11.40,
+    "codigo_isbn": 9788467922028,
+    "idioma": "Castellano",
+    "numero_paginas":408,
+    "fecha_lanzamiento": "07/02/2016"
+}
+]
+
+[
+  {
+   "id": 41,
+    "slug": "handa-s-surprise",
+    "nombre": "HANDA S SURPRISE",
+    "autor": "EILEEN BROWNE",
+    "sinopsis": "Handa puts seven delicious fruits in a basket to take to her friend, Akeyo. But as she walks, carrying the basket on her head, various creatures steal her fruits. A monkey takes the banana, an ostrich the guava, a zebra the orange, an elephant the mango, a giraffe the pineapple, an antelope the avocado and a parrot the passion fruit. Handa walks on, wondering which of the fruits her friend will like best, oblivious to the fact that her basket is now empty. But then, behind her, a goat charges into a tangerine tree and fills Handa's basket with the fruit. Hello, Akeyo,she greets her friend. I've brought you a surprise. But when she lifts off her basket, it's Handa who gets the biggest surprise. Akeyo, meanwhile, is delighted, because tangerines are her favourite fruit!",
+    "editorial": "WALKER BOOKS",
+    "genero": {
+        "categoria": "Infantil",
+        "subgenero": "Libros infantiles en inglés"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":5.50,
+    "codigo_isbn": 9780744536348,
+    "idioma": "Inglés",
+    "numero_paginas":32,
+    "fecha_lanzamiento": "01/01/1995"
+},
+  {
+   "id": 42,
+    "slug": "a-taste-of-the-moon",
+    "nombre": "A TASTE OF THE MOON",
+    "autor": "MICHAEL GREJNIEC",
+    "sinopsis": "The animals that live in the jungle show us how the things we share always taste much better.",
+    "editorial": "Kalandraka Editora",
+    "genero": {
+        "categoria": "Infantil",
+        "subgenero": "Libros infantiles en inglés"
+    },
+    "encuadernacion": "Tapa dura",
+    "precio":15.20,
+    "codigo_isbn": 9788484647461,
+    "idioma": "Inglés",
+    "numero_paginas":36,
+    "fecha_lanzamiento": "30/09/2010"
+},
+  {
+   "id": 43,
+    "slug": "don-quijote-de-la-mancha",
+    "nombre": "MY MOUTH IS A VOLCANO",
+    "autor": "JULIA COOK",
+    "sinopsis": "My Mouth Is A Volcano takes an empathetic approach to the habit of interrupting and teaches children a witty technique to capture their rambunctious thoughts and words for expression at an appropriate time. Told from Louis’ perspective, this story provides parents, teachers, and counselors with an entertaining way to teach children the value of respecting others by listening and waiting for their turn to speak.",
+    "editorial": "National Center For Youth Issues",
+    "genero": {
+        "categoria": "Infantil",
+        "subgenero": "Libros infantiles en inglés"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":15.01,
+    "codigo_isbn": 9781931636858,
+    "idioma": "Inglés",
+    "numero_paginas": 32,
+    "fecha_lanzamiento": "01/01/2005"
+},
+  {
+   "id": 44,
+    "slug": "onyeka-and-the-academy-of-the-sun",
+    "nombre": "ONYEKA AND THE ACADEMY OF THE SUN",
+    "autor": "TOLA OKOGWU",
+    "sinopsis": "Black Panther meets Percy Jackson in this action-packed superhero series about a British-Nigerian girl who learns that her Afro hair has psychokinetic powers. Soon to be a feature film with a major streamer! Don't miss the second book in the series, Onyeka and the Rise of the Rebels. 'Onyeka is the superhero you've been waiting for.' Kiran Millwood Hargrave, author of The Girl of Ink and Stars Onyeka has a lot of hair - the kind that makes strangers stop in the street. When she makes the important discovery that she can control her hair with her mind, she's whisked off to the Academy of the Sun, a school in Nigeria where Solari - children with superpowers - are trained But Onyeka and her new friends at the Academy soon have to put their powers to the test as they find themselves caught up in an epic battle . . .",
+    "editorial": "SIMON & SCHUSTER",
+    "genero": {
+        "categoria": "Infantil",
+        "subgenero": "Libros infantiles en inglés"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":11.01,
+    "codigo_isbn": 9781398505087,
+    "idioma": "Inglés",
+    "numero_paginas": 320,
+    "fecha_lanzamiento": "13/03/2023"
+},
+  {
+   "id": 45,
+    "slug": "sherlock-holmes-the-hound-of-the-baskervilles",
+    "nombre": "SHERLOCK HOLMES: THE HOUND OF THE BASKERVILLES",
+    "autor": "ARTHUR CONAN, SIR DOYLE",
+    "sinopsis": "Now the classic novel by Sir Arthur Conan Doyle is an illustrated storybook perfect for kids! Kid Classics Sherlock Holmes: The Hound of the Baskervilles is an irresistible mystery--just the right amount of thrilling! Sir Arthur Conan Doyle wrote this classic tale about Sherlock Holmes and his sidekick Watson more than one hundred years ago. Now, here is the fun new just-for-kids version of Sir Arthur Conan Doyle's classic mystery The Hound of the Baskervilles, abridged and retold for a young modern audience while remaining true to Doyle's original text. It's a story that you can't put down: When the Baskervilles are haunted by a giant, ghostly hound that glows eerily and howls outside their estate at night, no one can crack the case but Sherlock Holmes! Holmes and Watson track the fearsome hound through the Grimpen Mire and solve the mystery, along the way learning lessons about greed, truth, and illusion. With page after page of captivating illustrations, this magical hardcover will be the fought over favorite in your home and schoolroom!",
+    "editorial": "WHALEN",
+    "genero": {
+        "categoria": "Infantil",
+        "subgenero": "Libros infantiles en inglés"
+    },
+    "encuadernacion": "Tapa dura",
+    "precio":20.91,
+    "codigo_isbn": 9781951511296,
+    "idioma": "Inglés",
+    "numero_paginas":240,
+    "fecha_lanzamiento": "12/07/2022"
+}
+]
+[
+  {
+   "id": 46,
+    "slug": "hasta-que.caiga-la-luna",
+    "nombre": "HASTA QUE CAIGA LA LUNA",
+    "autor": "Sarah A. Parker",
+    "sinopsis": "Como asesina rebelde, el objetivo de Raeve es cumplir su misión y que jamás la atrapen. Sin embargo, cuando un cazarrecompensas rival hace añicos su realidad, la joven se ve prisionera del Gremio de Nobles, una organización de elementales poderosos que pretenden dar ejemplo con ella. Solo la muerte podrá liberarla. Devastadopor una terrible pérdida, el jinete de dragón Kaan Vaegor decapitó a un rey y se puso su corona derretida. Ahora, su búsqueda incansable para reunir fragmentos lunares lo conduce a la prisión de la ciudad, donde se topa con una Raeve encadenada, con rabia en la mirada y sangre en las manos. Juntos, deberán descubrir una verdad que amenaza con hacer que su mundo se desmorone... y ellos con él.",
+    "editorial": "PLAZA&JANES ",
+    "genero": {
+        "categoria": "Juvenil",
+        "subgenero": "Narrativa fantástica"
+    },
+    "encuadernacion": "Tapa dura",
+    "precio":23.65,
+    "codigo_isbn": 9788401035623,
+    "idioma": "Castellano",
+    "numero_paginas": 672,
+    "fecha_lanzamiento": "28/11/2024"
+},
+
+  {
+   "id": 47,
+    "slug": "el-señor-de-los-anillos",
+    "nombre": "EL SEÑOR DE LOS ANILLOS ",
+    "autor": "J.R.R. TOLKIEN",
+    "sinopsis": "Los Anillos de Poder fueron forjados en antiguos tiempos por los herreros Elfos, y Sauron, el Señor Oscuro, forjó el Anillo Único. Pero en una ocasión se lo quitaron, y aunque lo buscó por toda la Tierra Media nunca pudo encontrarlo. Al cabo de muchos años fue a caer casualmente en manos del hobbit Bilbo Bolsón. Desde la Torre Oscura de Mordor, el poder de Sauron se extendió alrededor. Llegó a reunir todos los Grandes Anillos, pero continuaba buscando el Anillo Único, que completaría el dominio de Mordor. Bilbo desapareció durante la celebración de su centesimodecimoprimer cumpleaños, y dejó a Frodo a cargo del Anillo, y con una peligrosa misión por delante: atravesar la Tierra Media, internarse en las sombras del País Oscuro y destruir en Anillo arrojándolo en las Grietas del Destino. El Señor de los Anillos cuenta la gran misión cumplida por Frodo y sus amigos: Gandalf el Mago, Merry, Pippiny Sam, Gimli el Enano, Legolas el Elfo, y un hombre extraño y misterioso llamado Trancos.",
+    "editorial": "Minotauro ",
+    "genero": {
+        "categoria": "Juvenil",
+        "subgenero": "Narrativa fantástica"
+    },
+    "encuadernacion": "Tapa dura",
+    "precio":66.45,
+    "codigo_isbn": "9788445018538",
+    "idioma": "Castellano",
+    "numero_paginas":1392,
+    "fecha_lanzamiento": "13/11/2024"
+},
+
+  {
+   "id": 48,
+    "slug": "viento-y-verdad",
+    "nombre": "VIENTO Y VERDAD (EL ARCHIVO DE LAS TORMENTAS 5)",
+    "autor": "BRANDON SANDERSON",
+    "sinopsis": "La esperada y explosiva conclusión del primer arco de El Archivo de las Tormentas, la emblemática obra maestra de la fantasía épica d e Brandon Sanderson, con más de diez millones de lectores en todo el mundo.Dalinar Kholin desafió al malvado dios Odium a un duelo de campeones en el que se decidirá el futuro de Roshar. Los Caballeros Radiantes solo tienen diez días para prepararse... y la repentina ascensión del taimado e implacable Taravangian al puesto de Odium lo ha sumido todo en una tremenda confusión. La lucha desesperada prosigue simultáneamente a lo largo y ancho del mundo: Adolin en Azimir, Sigzil y Venli en las Llanuras Quebradas y Jasnah en Ciudad Thaylen. El exasesino Seth deberá purgar Shinovar, su tierra natal, de la oscura influencia de los Deshechos. Lo acompaña Kaladin, que afronta una nueva batalla ayudando a Seth a combatir sus propios demonios... y tendrá que hacer lo mismo con Ishar, el demente Heraldo del Todopoderoso. Al mismo tiempo, Shallan, Renarin y Rlain se esfuerzan en desentrañar el misterio que hay tras la Deshecha Ba-Ado-Mishram, el de qué papel tuvo en la esclavización de la especie cantora y en el hecho de que los antiguos Caballeros Radiantes mataran a sus spren. Y Dalinar y Navani buscan una ventaja contra el campeón de Odium que solo puede hallarse en el Reino Espiritual, donde el recuerdo y la posibilidad se combinan en el caos. El destino de todo el Cosmere pende de un hilo.",
+    "editorial": "Nova",
+    "genero": {
+        "categoria": "Juvenil",
+        "subgenero": "Narrativa fantástica"
+    },
+    "encuadernacion": "Tapa Dura",
+    "precio":33.15,
+    "codigo_isbn": 9788419260543,
+    "idioma": "Castellano",
+    "numero_paginas": 1408,
+    "fecha_lanzamiento": "09/12/2024"
+},
+
+  {
+   "id": 49,
+    "slug": "atlas-de-la-tierra-media",
+    "nombre": "ATLAS DE LA TIERRA MEDIA ",
+    "autor": "KAREN WYNN FONSTAD",
+    "sinopsis": "¡La guía geográfica imprescindible del universo de J.R.R. Tolkien! El Atlas de la Tierra Media de Karen Wynn Fonstad es una obra de referencia para cualquier fan de Tolkien. Una visión completa de los mundos imaginados en El Silmarillion, El Hobbit y El Señor de los Anillos. Desde la formación de la Tierra Media, en la época de los Días Antiguos, hasta la Tercera Edad, una era que verá los viajes de Bilbo, Frodo y la Comunidad del Anillo, este Atlas proporciona una visión completa de los mundos imaginados por Tolkien en El Silmarillion, El Hobbit y El Señor de los Anillos. Más de 100 mapas y planos a color.",
+    "editorial": "Minotauro",
+    "genero": {
+        "categoria": "Juvenil",
+        "subgenero": "Narrativa fantástica"
+    },
+    "encuadernacion": "Tapa dura",
+    "precio":47.50,
+    "codigo_isbn": 9788445017135,
+    "idioma": "Castellano",
+    "numero_paginas":216 ,
+    "fecha_lanzamiento": "10/07/2024"
+},
+
+  {
+   "id": 50,
+    "slug": "la-vuelta-a-casa",
+    "nombre": "LA VUELTA A CASA Nº 02/03 MAESTRO",
+    "autor": "R.A. SALVATORE",
+    "sinopsis": "Drizzt está yendo a casa, pero no a Mithril Hall o al Valle de Viento Helado. Está yendo a Menzoberranzan, el mismo lugar que abandonó como un joven drow rechazado. Pero algo terrible, inmenso, innombrable, ha llegado a la Ciudad de las Arañas, sembrando la muerte y la destrucción a su paso.Mientras que el daño del Oscurecimiento, de la guerra y de una Infraoscuridad devastada por los demonios produce grietas por todo el Norte, causando daños irreparables, Drizzt y sus compañeros vuelven a encontrar que sus vidas se hallan en peligro. Cuando el ser primordial de Gauntlgrym despierta, Catti-brie y Gromph se aventuran en las ruinas de la Torre del Arcano, en Luskan, en busca del único poder capaz de mantener a raya a la bestia. Mientras tanto, Jarlaxle tira de las cuerdas de todos ellos, orquestando una obra maestra de la manipulación, que une a viejos enemigos y separa a viejos amigos. Pero incluso el astuto e ingenioso Jarlaxle podría no darse cuenta de lo estrecho que es el camino que recorre. Tal vez la Ciudad de las Arañas haya caído ante los demonios y su malvado príncipe. ¿Qué hace pensar que los demonios vayan a detenerse ahí?",
+    "editorial": "Minotauro",
+    "genero": {
+        "categoria": "Juvenil",
+        "subgenero": "Narrativa fantástica"
+    },
+    "encuadernacion": "Tapa dura",
+    "precio":19.90,
+    "codigo_isbn": 9788445014677,
+    "idioma": "Castellano",
+    "numero_paginas": 432,
+    "fecha_lanzamiento": "25/09/2024"
+}
+]
+[
+  {
+   "id": 51,
+    "slug": "Kaiju-8-n-11",
+    "nombre": "KAIJU 8 Nº 11",
+    "autor": "NAOYA MATSUMOTO",
+    "sinopsis": "Reno Ichikawa sigue entrenándose para dominar el arma creada a partir de un Kaiju identificado que le asignaron. La prueba para demostrar los resultados de su entrenamiento comienza cuando se enfrenta a un Kaiju. Mientras tanto, Iharu, que ha sido testigo del crecimiento de Reno desde que se conocieron, tiene sentimientos encontrados, dándole la sensación de que se queda atrás. Los dos se retan a derrotar al Kaiju, pero... ¡algo le ocurre a Reno!",
+    "editorial": "Planeta Cómic",
+    "genero": {
+        "categoria": "Juvenil",
+        "subgenero": "Manga Shonen"
+    },
+    "encuadernacion": "Tapa dura",
+    "precio":8.07,
+    "codigo_isbn": 9788411612784,
+    "idioma": "Castellano",
+    "numero_paginas": 200,
+    "fecha_lanzamiento": "10/09/2024"
+},
+
+  {
+   "id": 52,
+    "slug": "don-quijote-de-la-mancha",
+    "nombre": "DON QUIJOTE DE LA MANCHA ",
+    "autor": "CHUGONG y REDICE STUDIO DUBU",
+    "sinopsis": "¡SUNG JINWOO SE ADENTRA EN OTRA MAZMORRA JUNTO A VIEJOS CONOCIDOS! Sung Jinwoo sigue subiendo de nivel y mejorando sus atributos yendo de mazmorra en mazmorra.",
+    "editorial": "NORMA EDITORIAL, S.A.",
+   "genero": {
+        "categoria": "Juvenil",
+        "subgenero": "Manga Shonen"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":14.21,
+    "codigo_isbn": 9788467945874,
+    "idioma": "Castellano",
+    "numero_paginas":320,
+    "fecha_lanzamiento": "27/09/2021"
+},
+
+  {
+   "id": 53,
+    "slug": "one-piece",
+    "nombre": "ONE PIECE Nº 42",
+    "autor": "EIICHIRO ODA",
+    "sinopsis": "Luffy y los demás consiguen llegar hasta la Torre de la justicia, así que Spandam ordena la masacre del grupo. ¿¡Podrán superar a los miembros del CP9 para rescatar a Robin sana y salva!? ¡¡Comienzan los trepidantes combates de la banda del sombrero de paja contra los superhombres del CP9!! ¡¡Aquí teneis una historia de piratas que buscan el gran tesoro, el One Piece!!",
+    "editorial": "Planeta Cómic",
+    "genero": {
+        "categoria": "Juvenil",
+        "subgenero": "Manga Shonen"
+    },
+    "encuadernacion": "Tapa dura",
+    "precio":8.07,
+    "codigo_isbn": 9788468471938,
+    "idioma": "Castellano",
+    "numero_paginas": 208,
+    "fecha_lanzamiento": "21/03/2008"
+},
+
+  {
+   "id": 54,
+    "slug": "chainsaw-man",
+    "nombre": "CHAINSAW MAN 17",
+    "autor": "TATSUKI FUJIMOTO",
+    "sinopsis": "La redada a gran escala a las instalaciones de la Iglesia Chainsaw Man por parte de Seguridad Pública pone en peligro a Asa Mitaka, convertida en símbolo de la organización religiosa. Cuando parecía que habían logrado desbaratar los planes de Varm, este desvela sus verdaderas intenciones sobre el Soberano del Terror. En ese momento, aparece una horda demoníaca que desata un caos infernal en la ciudad y pone a Denji en una encrucijada: ¿qué hará ante esta terrible situación?",
+    "editorial": " ",
+    "genero": {
+        "categoria": "Juvenil",
+        "subgenero": "Manga Shonen"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":8.55,
+    "codigo_isbn": 9788467971767,
+    "idioma": "Castellano",
+    "numero_paginas": 184,
+    "fecha_lanzamiento": "06/09/2024"
+},
+
+  {
+   "id": 55,
+    "slug": "dan-da-dan",
+    "nombre": "DAN DA DAN 12",
+    "autor": "YUKINOBU TATSU",
+    "sinopsis": "¡SE ACERCA LA INVASIÓN EXTRATERRESTRE! Okarun se convierte en un espíritu y viaja hacia Hokkaidô, donde se encuentra con Seiko. Allí le habla del peligro de la invasión extraterrestre y la Turbovieja le cuenta el secreto para la batalla y la forma de volver a su cuerpo. Por otro lado, Momo y los demás siguen preparándose para el ataque extraterrestre, pero, cuando vuelven a la ciudad en el supuesto día de la invasión... ¡los extraterrestres ya están atacando la zona! Mientras los demás pelean, Momo y el serponiano tratan de cerrar el portal antes de la llegada de la flota principal, y entonces...",
+    "editorial": "NORMA EDITORIAL, S.A.",
+    "genero": {
+        "categoria": "Juvenil",
+        "subgenero": "Manga Shonen"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":8.55,
+    "codigo_isbn": 9788467971279,
+    "idioma": "Castellano",
+    "numero_paginas": 194,
+    "fecha_lanzamiento": "04/10/2024"
+}
+]
+[
+  {
+   "id": 56,
+    "slug": "mas-alla-del-amor",
+    "nombre": "MÁS ALLÁ DEL AMOR 2",
+    "autor": "FUJIMOMO",
+    "sinopsis": "Risa siente una gratitud creciente hacia Zen, ya que siempre acude a su rescate cada vez que ella se encuentra en un apuro. Poco a poco, Risa se abre a Zen y comienza a sentir la necesidad de devolverle el favor de algún modo. Sus sentimientos van en aumento& x02026; y un día, ¡Risa le da un beso inesperado a Zen! Sin embargo, cuando es consciente de lo que ha hecho, huye de la escena& x02026; Pero, a pesar de su inquietud, ambos terminan teniendo una sesión de estudio en casa de Zen.",
+    "editorial": "Distrito Manga",
+    "genero": {
+        "categoria": "Juvenil",
+        "subgenero": "Manga Shojo"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":9.45,
+    "codigo_isbn": 9788419412584,
+    "idioma": "Castellano",
+    "numero_paginas": 176,
+    "fecha_lanzamiento": "05/12/2023"
+},
+
+  {
+   "id": 57,
+    "slug": "mermaid-melody-pichi-pichi-pith",
+    "nombre": "MERMAID MELODY PICHI PICHI PITCH 5 ",
+    "autor": "MICHIKO YOKOTE y PINK HANAMORI",
+    "sinopsis": "Kaito por fn ha descubierto que Luchia es la sirena que había sido su primer amor, y ambos deciden profundizar en su relación. Sin embargo, todo cambia cuando Kaito desaparece al viajar a Hawái para participar en un torneo de surf... Comienza un nuevo arco de la serie que está rompiendo moldes!",
+    "editorial": "YERMO EDICIONES",
+    "genero": {
+        "categoria": "Juvenil",
+        "subgenero": "Manga Shojo"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":9.45,
+    "codigo_isbn": 9788418776618,
+    "idioma": "Castellano",
+    "numero_paginas": 212,
+    "fecha_lanzamiento": "01/12/2022"
+},
+
+  {
+   "id": 58,
+    "slug": "don-quijote-de-la-mancha",
+    "nombre": "STUDIO CABANA 1",
+    "autor": "UMA AGRUI",
+    "sinopsis": "Uma Agri llega por primera vez a España con una obra romántica con tintes musicales para los más fans de BECK y Nana. Yukari Maki es una joven de instituto muy aplicada y con los pies en la tierra, pero la aparición de Yusuke Kusaka hace añicos todo lo que conoce sobre el amor. Su compañero de clase, considerado por todo el instituto como un delincuente, y Yukari son completamente polos opuestos. Sin embargo, desprende un halo de misterio que ha dejado a nuestra protagonista embaucada. Un día, preocupada por si Yusuke se ha metido en algún lío con la mafia, decide seguirle, ¡pero ve que entra en un estudio de música! Entonces, ¡le oye cantar una canción de amor y las mariposas de su estómago estarán más revoltosas que nunca!",
+    "editorial": "Distrito Manga",
+    "genero": {
+        "categoria": "Juvenil",
+        "subgenero": "Manga Shojo"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":9.45,
+    "codigo_isbn": 9788419819048,
+    "idioma": "Castellano",
+    "numero_paginas": 176,
+    "fecha_lanzamiento": "05/09/2024"
+},
+
+  {
+   "id": 59,
+    "slug": "crush-of-lifetime",
+    "nombre": "CRUSH OF LIFETIME 4",
+    "autor": "JEONG HALIM y KIM YEONWOO",
+    "sinopsis": "Hyeji sigue disfrutando de su vida amorosa tras verse inmersa en un inesperado triángulo amoroso, aunque está aprendiendo que amar es bastante complicado. Jaehee le ha declarado sus sentimientos, pero ella lo ha rechazado porque tiene claro lo que siente por Kisung. No obstante, parece que esa primera cita soñada con el aún no tiene lugar, y eso la mosquea. Por si fuera poco, Kisung parece que ha empezado a evitarla... Pero mientras Hyeji se debate que hacer con el chico que le gusta, su pasado vuel- ve a irrumpir en su vida y la vapulea sin remedio...",
+    "editorial": "NORMA EDITORIAL, S.A.",
+    "genero": {
+        "categoria": "Juvenil",
+        "subgenero": "Manga Shojo"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":15.15,
+    "codigo_isbn": 9788467958195,
+    "idioma": "Castellano",
+    "numero_paginas": 236,
+    "fecha_lanzamiento": "07/06/2024"
+},
+
+  {
+   "id": 60,
+    "slug": "ocean-endroll-5",
+    "nombre": "OCEAN ENDROLL 5",
+    "autor": "JOHN TARACHINE",
+    "sinopsis": "Umiko sigue remando como si le fuera la vida en el cine. Sin embargo, acaba desmayándose en el festival por el cansancio acumulado, a raíz de lo cual se aleja un poco de su obra. Al verla así, Kai trata de animarla y... Este es el quinto volumen de un paraíso cinematográfico a la orilla del mar! Una historia de juventud y madurez! SHOJO",
+    "editorial": "MILKY WAY EDICIONES",
+    "genero": {
+        "categoria": "Juvenil",
+        "subgenero": "Manga Shojo"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":8.55,
+    "codigo_isbn": 9788410223912,
+    "idioma": "Castellano",
+    "numero_paginas":160,
+    "fecha_lanzamiento": "25/09/2024"
+}
+]
+[
+  {
+   "id": 61,
+    "slug": "letrilanda-escritura-espiral-pauta.montessori-2",
+    "nombre": "LETRILANDIA ESCRITURA ESPIRAL PAUTA MONTESSORI 2",
+    "autor": "VV.AA.",
+    "sinopsis": "Libro de Texto: Cuader. Letrilandia pauta Mont. 2 - Espiral Infantil Letrilandia Pauta Espiral",
+    "editorial": "Editorial Luis Vives (Edelvives)",
+    "genero": {
+        "categoria": "Libros de Texto",
+        "subgenero": "Educación infantil"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":13.90,
+    "codigo_isbn": 9788426371409,
+    "idioma": "Castellano",
+    "numero_paginas": 72,
+    "fecha_lanzamiento": "17/03/2009"
+},
+
+  {
+   "id": 62,
+    "slug": "archies-world-a-cb-pack",
+    "nombre": "ARCHIE S WORLD A CB PACK",
+    "autor": "VV.AA.",
+    "sinopsis": "Play, learn, and explore a world where toys come to life with entertaining stories, crafts, and songs. Combine Archie’s World Class Book, Archie’s World Play and Learn Pack, and Archie’s World Phonics as needed to suit your classroom and timetable.",
+    "editorial": "Oxford University Press España, S.A.",
+    "genero": {
+        "categoria": "Libros de Texto",
+        "subgenero": "Educación infantil"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":33.00,
+    "codigo_isbn": 9780194900706,
+    "idioma": "Inglés",
+    "numero_paginas": 34,
+    "fecha_lanzamiento": "04/03/2019"
+},
+
+  {
+   "id": 63,
+    "slug": "letrilandia-1-libro-de-lectura",
+    "nombre": "LETRILANDIA 1. LIBRO DE LECTURA",
+    "autor": "AURORA USERO ALIJARDE",
+    "sinopsis": "Libro de Texto: Letrilandia Libro Lectura 1 Infantil Letrilandia Lectura",
+    "editorial": "Editorial Luis Vives (Edelvives)",
+    "genero": {
+        "categoria": "Libros de Texto",
+        "subgenero": "Educación infantil"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":3250,
+    "codigo_isbn": 9788426355836,
+    "idioma": "Castellano",
+    "numero_paginas": 96,
+    "fecha_lanzamiento": "02/04/2004"
+},
+
+  {
+   "id": 64,
+    "slug": "animales-en-peligro-nivel-1",
+    "nombre": "ANIMALES EN PELIGRO. NIVEL 1",
+    "autor": "VV.AA.",
+    "sinopsis": "Material educativo Educación Infantil",
+    "editorial": "ANAYA EDUCACIÓN",
+    "genero": {
+        "categoria": "Libros de Texto",
+        "subgenero": "Educación infantil"
+    },
+    "encuadernacion": "Tapa Blanda",
+    "precio":25.00,
+    "codigo_isbn": 9788414337264,
+    "idioma": "Castellano",
+    "numero_paginas": 60,
+    "fecha_lanzamiento": "15/05/2024"
+},
+
+  {
+   "id": 65,
+    "slug": "mmm-palomitas-educacio-infantil-4-años",
+    "nombre": "¡MMM... PALOMITAS! EDUCACIÓN INFANTIL 4 AÑOS",
+    "autor": "VV.AA.",
+    "sinopsis": "Este material consiste en un pack completo para Educación Infantil de 4 años, 9788491895336, es un conjunto de libros con un contenido específico para que los niños adquieran competencias necesarias. El pack completo para 4 años se basa en un análisis de las herramientas diarias que necesitan los maestros y maestras para solventar los problemas a los que se enfrentan, aportando los recursos que puedan ayudarles. Con este material didáctico desarrollará las competencias del alumnado ey responderá al mismo tiempo al nuevo currículo LOMLOE.El material del alumnado se ofrece en un contenedor que incluye cajón y bandeja. Tres carpetas por nivel en una caja contenedora que se puede personalizar y apilar para formar un mueble en el que cada niño y niña tenga su material.",
+    "editorial": "Algaida Editores",
+    "genero": {
+        "categoria": "Libros de Texto",
+        "subgenero": "Educación infantil"
+    },
+    "encuadernacion": "Algaida Editores",
+    "precio":129.30,
+    "codigo_isbn": 9788491895336,
+    "idioma": "Castellano",
+    "numero_paginas": 602,
+    "fecha_lanzamiento": "26/04/2022"
+}
+]
+[
+  {
+   "id": 66,
+    "slug": "open-up-4-activity-book",
+    "nombre": "OPEN UP 4 ACTIVITY BOOK (4º PRIMARIA)",
+    "autor": "VV.AA.",
+    "sinopsis": "Open Up your world Activate your students through a course which takes video to the next level and taps into their real world. Develop the tools needed for authentic communication and the values of global citizenship, mediation, emotional wellbeing and intercultural openness.Enjoy all the benefits of using the print and the digital book whenever the situation requires, both in and outside the classroom through the blended solution.",
+    "editorial": "Oxford University Press España, S.A.",
+    "genero": {
+        "categoria": "Libros de Texto",
+        "subgenero": "Educación primaria"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":32.80,
+    "codigo_isbn": 9780194072694,
+    "idioma": "Inglés",
+    "numero_paginas": 114,
+    "fecha_lanzamiento": "05/05/2022"
+},
+{
+   "id": 67,
+    "slug": "plastica-4-educacion-primaria",
+    "nombre": "PLÁSTICA 4º EDUCACION PRIMARIA",
+    "autor": "VV.AA.",
+    "sinopsis": "Libro de plástica para 4º de primaria",
+    "editorial": "ANAYA EDUCACIÓN",
+    "genero": {
+        "categoria": "Libros de Texto",
+        "subgenero": "Educación primaria"
+    },
+    "encuadernacion": "Wire-O",
+    "precio":40.30,
+    "codigo_isbn":9788414321331,
+    "idioma": "Castellano",
+    "numero_paginas":80 ,
+    "fecha_lanzamiento": "14/04/2023"
+},
+{
+   "id": 68,
+    "slug": "matematicas-1-educacion-primaria-cuaderno-1-construyendo-mundos",
+    "nombre": "MATEMÁTICAS 1º EDUCACIÓN PRIMARIA CUADERNO 1 CONSTRUYENDO MUNDOS ED 2022",
+    "autor": "VV.AA.",
+    "sinopsis": "Una colección de libros de texto cuidadosamente elaborada para el ciclo de EDUCACION PRIMARIA, con temas seleccionados para mejorar sus conocimientos. MATEMATICAS 1º EDUCACION PRIMARIA CUADERNO 1 CONSTRUYENDO MUNDOS ED 2022 editado por SANTILLANA (26/05/2022), es una ayuda eficaz para revisar los contenidos y las destrezas básicas del nivel de EDUCACION PRIMARIA. Los padres hallarán en este libro de texto una herramienta comprobada de apoyo escolar. Un libro de EDUCACION PRIMARIA indispensable para el profesor que le permitirá repasar todas sus clases a lo largo del curso escolar de EDUCACION PRIMARIA. Con el libro de texto MATEMATICAS 1º EDUCACION PRIMARIA CUADERNO 1 CONSTRUYENDO MUNDOS ED 2022 el niño y la niña podrá comprobar que ha mejorado sus conocimientos.",
+    "editorial": "Santillana Educación, S.L. ",
+    "genero": {
+        "categoria": "Libros de Texto",
+        "subgenero": "Educación primaria"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":13.30,
+    "codigo_isbn": 9788468071268,
+    "idioma": "Castellano",
+    "numero_paginas": 40,
+    "fecha_lanzamiento": "01/04/2022"
+},
+{
+   "id": 69,
+    "slug": "don-quijote-de-la-mancha",
+    "nombre": "NATURAL SCIENCE 2 OUTSIDE THE BOX ACTIVITY BOOK",
+    "autor": "VV.AA.",
+    "sinopsis": "NATURAL SCIENCE 2 OUTSIDE THE BOX ACTIVITY BOOK es el nuevo proyecto de EDICIONES BILINGUES S L para niños y niñas de educación primaria, con temas seleccionados para mejorar sus conocimientos. NATURAL SCIENCE 2 OUTSIDE THE BOX ACTIVITY BOOK editado por EDICIONES BILINGUES S L, ofrece apoyo para revisar los contenidos y las destrezas básicas del nivel de educación primaria. Los profesores hallarán en este libro de texto un eficaz instrumento de apoyo escolar. Un libro de ejercicio indispensable para el profesor que le permitirá planificar todas sus clases a lo largo del curso escolar de educación primariaCon el libro de texto NATURAL SCIENCE 2 OUTSIDE THE BOX ACTIVITY BOOK el alumno o la alumna podrá comprobar que ha mejorado sus conocimientos.",
+    "editorial": "EDICIONES BILINGÜES",
+    "genero": {
+        "categoria": "Libros de Texto",
+        "subgenero": "Educación primaria"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":16.10,
+    "codigo_isbn": 9788419417527,
+    "idioma": "Inglés",
+    "numero_paginas": 50,
+    "fecha_lanzamiento": "15/06/2023"
+},
+{
+   "id": 70,
+    "slug": "musica-4-educacion-primaria-nuevo-acorde-cast-ed-2023",
+    "nombre": "MUSICA 4º EDUCACION PRIMARIA NUEVO ACORDE CAST ED 2023",
+    "autor": "VV.AA.",
+    "sinopsis": "MUSICA 4º EDUCACION PRIMARIA NUEVO ACORDE CAST ED es un libro de texto para los cursos de educación primaria, con temas seleccionados para tener éxito en sus exámenes. MUSICA 4º EDUCACION PRIMARIA NUEVO ACORDE CAST ED editado por SANTILLANA , es un apoyo para reforzar los contenidos y las destrezas básicas del nivel de educación primaria. Los niños y niñas hallarán en este libro de texto de EDUCACION PRIMARIA una herramienta válida de apoyo escolar. Un libro de texto indispensable para el niño que le permitirá planear todas sus clases a lo largo del curso escolar de educación primariaCon el libro de texto MUSICA 4º EDUCACION PRIMARIA NUEVO ACORDE CAST ED el niño y la niña podrá comprobar que ha mejorado sus conocimientos.",
+    "editorial": "Santillana Educación, S.L. ",
+    "genero": {
+        "categoria": "Libros de Texto",
+        "subgenero": "Educación primaria"
+    },
+    "encuadernacion": "Wire-O",
+    "precio":35.60,
+    "codigo_isbn": 9788414407424,
+    "idioma": "Castellano",
+    "numero_paginas": 108,
+    "fecha_lanzamiento": "13/06/2023"
+}
+
+
+]
+[
+  {
+   "id": 71,
+    "slug": "lengua-y-literatura-1-eso-construyendo-mundos",
+    "nombre": "LENGUA Y LITERATURA 1º ESO CONSTRUYENDO MUNDOS ED 2022",
+    "autor": "VV.AA.",
+    "sinopsis": "LENGUA Y LITERATURA 1º ESO CONSTRUYENTO MUNDOS ED 2022 es el nuevo proyecto de SANTILLANA para estudiantes de EDUCACION SECUNDARIA, con temas seleccionados para conseguir diploma. LENGUA Y LITERATURA 1º ESO CONSTRUYENTO MUNDOS ED 2022 editado por SANTILLANA , es un apoyo para revisar los contenidos y las destrezas básicas de las clases de EDUCACION SECUNDARIA. Los padres hallarán en este libro de texto una herramienta comprobada de apoyo escolar. Un libro de ejercicio indispensable para el niño que le permitirá planificar todas sus clases a lo largo de los cursos escolares de EDUCACION SECUNDARIA. Con el libro de texto LENGUA Y LITERATURA 1º ESO CONSTRUYENTO MUNDOS ED 2022 la alumna podrá comprobar que ha comprendido la asignatura.",
+    "editorial": "Santillana Educación, S.L.",
+    "genero": {
+        "categoria": "Libros de texto",
+        "subgenero": "Educación secundaria"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":52.70,
+    "codigo_isbn": 9788468049335,
+    "idioma": "Castellano",
+    "numero_paginas": 320,
+    "fecha_lanzamiento": "08/06/2022"
+},
+
+  {
+   "id": 72,
+    "slug": "geniox-lengua-1-eso-libro-del-alumno",
+    "nombre": "GENIOX LENGUA 1º ESO LIBRO DEL ALUMNO",
+    "autor": "VV.AA.",
+    "sinopsis": "GENIOX LENGUA 1º ESO LIBRO DEL ALUMNO es el nuevo proyecto de OXFORD UNIVERSITY PRESS para los cursos de EDUCACION SECUNDARIA, con temas seleccionados para mejorar sus conocimientos. GENIOX LENGUA 1º ESO LIBRO DEL ALUMNO editado por OXFORD UNIVERSITY PRESS ( 5/05/2022), es una ayuda eficaz para estudiar los contenidos y las destrezas básicas de las clases de EDUCACION SECUNDARIA. Los profesores hallarán en este libro de texto con ejercicios una herramienta válida de apoyo escolar. Una herramienta indispensable para el alumno que le permitirá planificar todas sus clases a lo largo de los cursos escolares de EDUCACION SECUNDARIA. Con el libro de texto GENIOX LENGUA 1º ESO LIBRO DEL ALUMNO la niña podrá comprobar que ha mejorado sus conocimientos.",
+    "editorial": "Oxford University Press España, S.A.",
+    "genero": {
+        "categoria": "Libros de texto",
+        "subgenero": "Educación secundaria"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":51.30,
+    "codigo_isbn": 9780190530273,
+    "idioma": "Castellano",
+    "numero_paginas": 284,
+    "fecha_lanzamiento": "05/05/2022"
+},
+
+  {
+   "id": 73,
+    "slug": "geniox-biologia-y-geologia-3-eso-libro-del-alumno",
+    "nombre": "GENIOX BIOLOGÍA Y GEOLOGÍA 3º ESO LIBRO DEL ALUMNO",
+    "autor": "VV.AA.",
+    "sinopsis": "Los libros de texto de esta colección constituyen unos instrumentos útiles para estudiantes de EDUCACION SECUNDARIA, con temas seleccionados para tener éxito en sus exámenes. GENIOX BIOLOGIA Y GEOLOGIA 3º ESO LIBRO DEL ALUMNO editado por OXFORD UNIVERSITY PRESS ( 5/05/2022), da soporte para estudiar los contenidos y las destrezas básicas de las clases de EDUCACION SECUNDARIA. Los alumnos y alumnas hallarán en este libro de texto de EDUCACION SECUNDARIA una herramienta válida de apoyo escolar. Una herramienta indispensable para el niño que le permitirá organizar todas sus clases a lo largo de los cursos escolares de EDUCACION SECUNDARIA. Con el libro de texto GENIOX BIOLOGIA Y GEOLOGIA 3º ESO LIBRO DEL ALUMNO la niña podrá comprobar que ha mejorado sus conocimientos.",
+    "editorial": "Oxford University Press España, S.A.",
+    "genero": {
+        "categoria": "Libros de texto",
+        "subgenero": "Educación secundaria"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":50.60,
+    "codigo_isbn": 9780190530198,
+    "idioma": "Castellano",
+    "numero_paginas":320,
+    "fecha_lanzamiento": "05/05/2022"
+},
+
+  {
+   "id": 74,
+    "slug": "synchronize-4-workbook",
+    "nombre": "SYNCHRONIZE 4 WORKBOOK (4º ESO)",
+    "autor": "VV.AA.",
+    "sinopsis": "Este es un libro de texto para alumnos y alumnas de EDUCACION SECUNDARIA, con temas seleccionados para mejorar sus conocimientos. SYNCHRONIZE 4 WORKBOOK (4º ESO) editado por OXFORD UNIVERSITY PRESS ( 5/05/2022), una ayuda fundamental para revisar los contenidos y las destrezas básicas de las clases de EDUCACION SECUNDARIA. Los padres hallarán en este libro de texto con ejercicios un eficaz instrumento de apoyo escolar. Una herramienta indispensable para el alumno que le permitirá proyectar todas sus clases a lo largo de los cursos escolares de EDUCACION SECUNDARIA. Con el libro de texto SYNCHRONIZE 4 WORKBOOK (4º ESO) la niña podrá comprobar que ha mejorado sus conocimientos.",
+    "editorial": "Oxford University Press España, S.A.",
+    "genero": {
+        "categoria": "Libros de texto",
+        "subgenero": "Educación secundaria"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":31.50,
+    "codigo_isbn": 9780194065641,
+    "idioma": "Inglés",
+    "numero_paginas": 176,
+    "fecha_lanzamiento": "05/05/2022"
+},
+
+  {
+   "id": 75,
+    "slug": "think-ahead-2-eso-workbook",
+    "nombre": "THINK AHEAD 2º ESO WORKBOOK",
+    "autor": "VV.AA.",
+    "sinopsis": "Los libros de texto de esta colección constituyen unos instrumentos útiles para niños y niñas de EDUCACION SECUNDARIA, con temas seleccionados para conseguir diploma. THINK AHEAD 2º ESO WORKBOOK editado por BURLINGTON BOOKS (26/03/2019), apoya para revisar los contenidos y las destrezas básicas del nivel de EDUCACION SECUNDARIA. Los niños hallarán en este libro de texto una herramienta comprobada de apoyo escolar. Un libro de texto indispensable para el niño que le permitirá planear todas sus clases a lo largo de los cursos escolares de EDUCACION SECUNDARIA. Con el libro de texto THINK AHEAD 2º ESO WORKBOOK la niña podrá comprobar que ha mejorado sus conocimientos.",
+    "editorial": "BURLINGTON BOOKS",
+    "genero": {
+        "categoria": "Libros de texto",
+        "subgenero": "Educación secundaria"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":26.30,
+    "codigo_isbn": 9789925300761,
+    "idioma": "Inglés",
+    "numero_paginas": 150,
+    "fecha_lanzamiento": "26/03/2019"
+}
+]
+[
+  {
+   "id": 76,
+    "slug": "o-que-non-ten-prezo",
+    "nombre": "O QUE NON TEN PREZO",
+    "autor": "XOSE M. PACHO BLANCO",
+    "sinopsis": "Se hai algo que nos diferencia dos animais é a capacidade de soñar, de sermos mellores. Esta historia pescuda na esencia do ser humano, dende Galicia ata a India, transitando por todos os lugares que poidamos imaxinar e empapándose de todas as vidas para entender o que realmente nos une. Porque un billete de cor púrpura pode cambiar o mundo, ou polo menos tentalo. Un mundo onde se agochan personaxes que gozan da felicidade, que cobizan o amor, o sexo e a beleza. Porque iso é a vida, o que somos e o que queremos ser. O prezo dos nosos soños.",
+    "editorial": "Editorial Galaxia, S.A.",
+    "genero": {
+        "categoria": "Libros en gallego",
+        "subgenero": "Narrativa"
+    },
+    "encuadernacion": "Tapa Blanda",
+    "precio":15.67,
+    "codigo_isbn": 9788411762229,
+    "idioma": "Gallego",
+    "numero_paginas": 150,
+    "fecha_lanzamiento": "14/06/2024"
+},
+
+  {
+   "id": 77,
+    "slug": "sen-piedade",
+    "nombre": "SEN PIEDADE",
+    "autor": "PEDRO FEIJOO",
+    "sinopsis": "Unha novela escrita a tumba aberta. Sen coidado nin precaución, sen tregua, sen límites. Sen piedade. Podería contar moitas cousas daqueles dous días. Pero supoño que agora o único que importa é que Gordo era o meu mellor amigo, e que eu estaba fodido coma nunca. Porque ela xa non quería saber nada de min. E eu queríaa, maldita sexa, queríaa. Por riba das cidades, por riba das autoestradas, por riba do mar e das estrelas, eu estaba tolo por ela... Pero agora non parecía disposta a escoitarme. E Gordo comprendeuno.",
+    "editorial": "Edicións Xerais",
+    "genero": {
+        "categoria": "Libros en gallego",
+        "subgenero": "Narrativa"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":17.05,
+    "codigo_isbn": 9788491214007,
+    "idioma": "Gallego",
+    "numero_paginas": 248,
+    "fecha_lanzamiento": "07/06/2018"
+},
+
+  {
+   "id": 78,
+    "slug": "don-quijote-de-la-mancha",
+    "nombre": "ATUADO NA BRAÑA",
+    "autor": "XABIER QUIROGA",
+    "sinopsis": "Atuado na braña relata a teima de Luís Salgueiro Pardo, un empresario da construcción acomodado e triunfador na procura do seu pasado. Un segredo familiar, revelado pola súa nai, convértese na chispa que provoca a busca das súas raíces e a verdadeira identidade da súa familia biolóxica. Luis Salgueiro deixará o temón da súa empresa en mans de persoas da súa confianza e acometerá unha viaxe apaixonada cara ás súas orixes agachadas na Casona do Saviñao e na braña lamacenta de Bouzuás, onde se ocultan, dende hai anos, a Meiga e dúas rapaciñas novas. Unha viaxe na que Luis Salgueiro poñerá en risco a súa propia vida e suporá reavivar unha ferida que, despois de corenta anos, aínda segue aberta. A represión militar dos anos da posguerra (cando a garda civil perseguía aos últimos guerrilleiros), os receos da xente da aldea, a crueldade dunha implacábel e feroz persecución que non rematou e unha vida que, paseniñamente, se vai esfarelando, levarán, nunha narración cargada de intriga, á descuberta duns froitos que só a porfía dun home capaz de enfrontarse aos demais e á natureza pode acadar.O eixo desta novela extensa e ambiciosa, escrita nunha prosa fermosísima e engaiolante, reside na necesidade que sente o protagonista, ese antiheroe vividor e elitista, de acometer unha descuberta profunda sobre quen é, sobre o que sente, sobre a necesidade de enfrontarse o que non sabe de si mesmo, anque nese intento poida sucumbir e perder todo aquilo que posúe. Para o autor, ese personaxe pode ser calquera de nós: Na obsesión dunha persoa acomodada mestúrase a dúbida sobre a identidade e, ao tempo, sobre a súa relación co contorno, coas xentes e os lugares desta Galiza de contrastes.",
+    "editorial": "Edicións Xerais",
+    "genero": {
+        "categoria": "Libros en gallego",
+        "subgenero": "Narrativa"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":24.65,
+    "codigo_isbn": 9788483027707,
+    "idioma": "Gallego",
+    "numero_paginas": 632,
+    "fecha_lanzamiento": "20/03/2002"
+},
+
+  {
+   "id": 79,
+    "slug": "o-souto-dos-catro-ventos",
+    "nombre": "O SOUTO DOS CATRO VENTOS",
+    "autor": "MARIA ORUÑA",
+    "sinopsis": "No evocador souto dos catro ventos do antigo mosteiro de Santo Estevo de Ribas de Sil aparece morto un home vestido como un monxe bieito. Como é posible, se os frades abandonaron aquel lugar no século XIX? Jon Bécquer, un detective de obras de arte que está a descubrir as marabillas da Ribeira Sacra, tomará moi a peito descubrir que hai de certo na lenda dos nove aneis de Santo Estevo e en descubrir o enigma daquela morte. Na súa pesquisa vai dar co legado de Marina Vallejo, unha moza vallisoletana, que viviu os derradeiros anos da vida monástica, na década do 1830, pelexando por conducir o seu propio destino e esquivar a represión que sufrían as mulleres naquel tempo convulso de absolutismo e cólera. O souto dos catro ventos é a primeira novela de María Oruña publicada en galego.",
+    "editorial": "Aira",
+    "genero": {
+        "categoria": "Libros en gallego",
+        "subgenero": "Narrativa"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":19.85,
+    "codigo_isbn": 9788412263107,
+    "idioma": "Gallego",
+    "numero_paginas": 352,
+    "fecha_lanzamiento": "27/06/2022"
+},
+
+  {
+   "id": 80,
+    "slug": "a-nosa-cinza",
+    "nombre": "A NOSA CINZA",
+    "autor": "XAVIER ALCALA",
+    "sinopsis": "Unha das obras máis populares da narrativa galega Xavier Alcalá (Miguelturra, 1947) relembra o mundo da infancia a través do seu protagonista, un rapaz que medra durante os anos da posguerra. Os días da escola, a adolescencia coas súas inseguridades e medos, o espertar dos sentimentos amorosos e a descuberta do valor da amizade cóntanolos o autor coa frescura e autenticidade do vivido. A experiencia cotiá feita literatura.",
+    "editorial": "Editorial Galaxia, S.A.",
+    "genero": {
+        "categoria": "Libros en gallego",
+        "subgenero": "Narrativa"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":19.95,
+    "codigo_isbn": 9788491514091,
+    "idioma": "Gallego",
+    "numero_paginas": 244,
+    "fecha_lanzamiento": "25/10/2019"
+}
+]
+[
+  {
+   "id": 81,
+    "slug": "o-cabronario",
+    "nombre": "O CABRONARIO",
+    "autor": "CELSO EMILIO FERREIRO MIGUEZ",
+    "sinopsis": "Poemario inédito de Celso Emilio Ferreiro, escrito en Venezuela, e prohibido en España na ditadura por ir contra o franquismo. Neste proxecto participa o fillo de Celso Emilio, Xabier Ferreiro, que tiña no seu poder o orixinal da obra e que fai unha ampla explicación do contido e o contexto no que nace este libro.",
+    "editorial": "EDITORIAL ELVIRA",
+    "genero": {
+        "categoria": "Libros en gallego",
+        "subgenero": "Poesía"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":22.80,
+    "codigo_isbn": 9788412800661,
+    "idioma": "Castellano",
+    "numero_paginas": 280,
+    "fecha_lanzamiento": "29/02/2024"
+},
+
+  {
+   "id": 82,
+    "slug": "follas-novas",
+    "nombre": "FOLLAS NOVAS",
+    "autor": "Edicións Xerais",
+    "sinopsis": "Rosalía de Castro (1837-1885) publicou Follas novas en 1880, comprometida como estaba na recuperación e dignificación da nosa lingua, despois da edición de Cantares gallegos en 1863. Posiblemente aquí están as páxinas e os versos máis intensos da nosa autora, os sentimentos máis desacougantes, as grandes preguntas universais, a sociedade, a morte, a inxustiza, o baleiro... Tamén as súas primeiras contribucións formais e as combinacións rítmicas que tanto influíron non só na poesía galega senón en toda a lírica peninsular.Velaquí un dos grandes libros da nosa literatura.Rosalía de Castro (1837-1885) publicou Follas novas en 1880, comprometida como estaba na recuperación e dignificación da nosa lingua, despois da edición de Cantares gallegos en 1863. Posiblemente aquí están as páxinas e os versos máis intensos da nosa autora, os sentimentos máis desacougantes, as grandes preguntas universais, a sociedade, a morte, a inxustiza, o baleiro... Tamén as súas primeiras contribucións formais e as combinacións rítmicas que tanto influíron non só na poesía galega senón en toda a lírica peninsular.Velaquí un dos grandes libros da nosa literatura.",
+    "editorial": "Edicións Xerais",
+    "genero": {
+        "categoria": "Libros en gallego",
+        "subgenero": "Poesía"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":14.72,
+    "codigo_isbn": 9788491214885,
+    "idioma": "Castellano",
+    "numero_paginas": 400,
+    "fecha_lanzamiento": "19/03/2020"
+},
+
+  {
+   "id": 83,
+    "slug": "poesia-reunida-de-x-l-mendez-ferrin",
+    "nombre": "POESÍA REUNIDA DE X. L. MÉNDEZ FERRÍN",
+    "autor": "X.L. MENDEZ FERRIN",
+    "sinopsis": "A figura e mais a obra de X. L. Méndez Ferrín son determinantes na historia da Galicia contemporánea. No caso da súa poesía achamos un río de longa e ás veces accidentada singradura, especialmente por causas políticas durante o período franquista, que aquí se detallan. Comeza con «Voce na néboa» (1957), que nos descobre de xeito embrionario os principais camiños do poeta, e prosegue con «Antoloxía popular» (1972), poesía cívica asinada por Heriberto Bens, poeta heterónimo do noso autor desde «Poesía enteira de Heriberto Bens» (1980). A publicación en 1976 de «Con pólvora e magnolias» é un antes e un despois na historia da literatura galega contemporánea pola apertura de horizontes que incorpora e ao seu ciclo poético cómpre engadir en «O fin dun canto» (1982). En 1994 «Estirpe» suporá un importante xiro estilístico e temático, mentres que «Contra Maquieiro» (2005) será un máis alá que pecha o conxunto. Polo medio aínda outras obras moi relacionadas coa expresión plástica «Homes e illas» (1986), «Morte de Amadís» (1989), «Erótica» (1991), «O outro» (2002) e «Albh» (2007). Neste volume inclúese tamén a súa poesía dispersa, que en parte fora xuntada polo autor en «Era na selva de Esm» (2004). Anxo Angueira, profesor da Universidade de Vigo, escritor e ensaísta, fixo a súa tese sobre «Bretaña, Esmeraldina» de Méndez Ferrín e a edición crítica da poesía de Rosalía de Castro. Esta edición da poesía do autor ourensán ofrece un longo estudo introdutorio, así como un detallado repertorio de notas de cada poema.",
+    "editorial": "Edicións Xerais",
+    "genero": {
+        "categoria": "Libros en gallego",
+        "subgenero": "Poesía"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":25.60,
+    "codigo_isbn": "9788411105798",
+    "idioma": "Castellano",
+    "numero_paginas": 552,
+    "fecha_lanzamiento": "05/09/2024"
+},
+
+  {
+   "id": 84,
+    "slug": "antoloxia-do-rexurdimento",
+    "nombre": "ANTOLOXÍA DO REXURDIMENTO (1853-1916)",
+    "autor": "RAMON NICOLAS",
+    "sinopsis": "O Rexurdimento representa un período brillante e inaugural da literatura galega. Esta «Antoloxía do Rexurdimento», preparada por Ramón Nicolás, sintetiza á perfección o espírito e as voces dese momento crucial. Logo dun breve estudo introdutorio e de notas biográficas actualizadas, atopamos unha coidada selección de textos literarios poéticos, narrativos, teatrais ou ensaísticos de Xoán Manuel Pintos, Rosalía de Castro, Manuel Curros Enríquez, Eduardo Pondal, Antonio Fernández Morales, Marcial Valladares, Valentín Lamas Carvajal e Manuel Murguía, entre outros. Todos eles gozan, ademais, dunha proposta de carácter didáctico, baixo o título de «suxestións de lectura» á que se pode acceder a través dun código QR.",
+    "editorial": "Edicións Xerais",
+    "genero": {
+        "categoria": "Libros en gallego",
+        "subgenero": "Poesía"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":12.82,
+    "codigo_isbn": 9788411105316,
+    "idioma": "Castellano",
+    "numero_paginas": 144,
+    "fecha_lanzamiento": "13/06/2024"
+},
+
+  {
+   "id": 85,
+    "slug": "baleas-e-baleas",
+    "nombre": "BALEAS E BALEAS",
+    "autor": "LUISA CASTRO",
+    "sinopsis": "En 1988 chegaba ás librarías Baleas e Baleas, o primeiro e único poemario en galego asinado por Luisa Castro ata a data, e que reaparece agora trinta anos despois convertido nun libro de culto. Considerado como un dos títulos máis rompedores das últimas décadas do pasado século, o discurso provocador e profético de Baleas e baleas non deixou indiferente nin a crítica nin a lectores. Alfaia das máis importantes renovacións poéticas das últimas promocións, Dombate reedita agora este clásico contemporáneo.",
+    "editorial": "Editorial Galaxia, S.A.",
+    "genero": {
+        "categoria": "Libros en gallego",
+        "subgenero": "Poesía"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":13.25,
+    "codigo_isbn": 9788491511809,
+    "idioma": "Castellano",
+    "numero_paginas": 108,
+    "fecha_lanzamiento": "01/06/2018"
+}
+]
+[
+  {
+   "id": 86,
+    "slug": "a-fraga-das-arborea-das-palabras",
+    "nombre": "A FRAGA DAS ARBORES DAS PALABRAS",
+    "autor": "CARLOS LABRAÑA",
+    "sinopsis": "Vemos a imaxe dunha nave espacial que se achega ao escenario, ata que aterra nel. Soa a apertura dunha porta, e entre o fume dos motores aparecen tres extraterrestres. Semellan bonecos de feluxe de cor malva, teñen cara riseira como unha máscara, levan unha pequena antena na cabeza e un peto no bandullo. Moita xente ao escoitar o balbordo asoma para ver o que acontece.",
+    "editorial": "EDICIONS EMBORA",
+    "genero": {
+        "categoria": "Libros en gallego",
+        "subgenero": "Teatro"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":190.00,
+    "codigo_isbn": 9788492644674,
+    "idioma": "Gallego",
+    "numero_paginas": 59,
+    "fecha_lanzamiento": "20/02/2014"
+},
+
+  {
+   "id": 87,
+    "slug": "o-facedor-de-teatro",
+    "nombre": "O FACEDOR DE TEATRO",
+    "autor": "THOMAS BERNHARD",
+    "sinopsis": "O Facedor de teatro trata sobre Bruscon, un arrogante director de teatro que viaja por pequeñas aldeas de Austria con su familia, presentando una obra que él considera una obra maestra. Al llegar a una posada en un pueblo decadente, se enfrenta a las miserias del lugar, mientras expresa su desprecio por la mediocridad que lo rodea y la frustración de su propia grandeza incomprendida. La obra explora temas de frustración artística, egocentrismo y la confrontación entre el arte y la realidad.",
+    "editorial": " ",
+    "genero": {
+        "categoria": "Libros en gallego",
+        "subgenero": "Teatro"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":17.10,
+    "codigo_isbn": 9788491510833,
+    "idioma": "Castellano",
+    "numero_paginas": 184,
+    "fecha_lanzamiento": "27/10/2017"
+},
+
+  {
+   "id": 88,
+    "slug": "a-expresion-damatica-na-educacion",
+    "nombre": "A EXPRESION DRAMATICA NA EDUCACION",
+    "autor": "GAVIN BOLTON",
+    "sinopsis": "Este libro estuda a relación entre expresión dramática e aprendizaxe nunha perspectiva histórica, desde os inicios do século XX ata principios da década de 1980. Analiza a expresión dramática nas súas dimensións de ferramenta educativa e de experiencia estética, considerando os vínculos entre ambas as dúas. Tamén se poñen de relevo aspectos metodolóxicos e prácticos a partir da análise de traballos de aula. Un libro fundamental para coñecer a historia da educación teatral e para afondar na súa praxe diaria.",
+    "editorial": "Editorial Galaxia, S.A.",
+    "genero": {
+        "categoria": "Libros en gallego",
+        "subgenero": "Teatro"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":27.07,
+    "codigo_isbn": 9788498651928,
+    "idioma": "Castellano",
+    "numero_paginas": 260,
+    "fecha_lanzamiento": "08/07/2009"
+},
+
+  {
+   "id": 89,
+    "slug": "teatro-occidental-una-historia-tea",
+    "nombre": "TEATRO OCCIDENTAL: UNHA HISTORIA TEA",
+    "autor": "ANNE SURGERS",
+    "sinopsis": "A traves da análise de numerosos textos, debuxos, planos, gravados, pinturas e fotografías, este libro ofrece un percorrido polos vestixios que quedan dos tempos en que o arquitecto, o decorador ou o pintor aínda non recibían o nome de escenógrafo, mais non por iso deixaban de colaborar na invención e reinvención do espazo escenico. Unha visión rigorosa e útil do lugar onde se desenvolve a ficción teatral, o espazo de encontro e troco entre público e actores.",
+    "editorial": "Editorial Galaxia, S.A.",
+    "genero": {
+        "categoria": "Libros en gallego",
+        "subgenero": "Teatro"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":190.00,
+    "codigo_isbn": 9788498652086,
+    "idioma": "Castellano",
+    "numero_paginas": 272,
+    "fecha_lanzamiento": "08/07/2009"
+},
+
+  {
+   "id": 90,
+    "slug": "contiños-da-terra",
+    "nombre": "CONTIÑOS DA TERRA",
+    "autor": "SANTIAGO CORTEGOSO",
+    "sinopsis": "Esta obra constitúe un conxunto de contos narrados “a carón da pedra” que, tal e como indica o seu prologuista, Carlos Loureiro, “teñen que cumprir a función de ser un elo interxeracional porque unha sociedade que mira cara adiante terá sempre que empregar o retrovisor senón será unha sociedade capada... para sabermos a onde imos temor que saber de onde vimos, e ese será o obxectivo do conto popular e por iso o Manu acudirá onda o avó, o personaxe que lembra o de hai moito tempo e non o do máis presente, porque toda persoa, por moi insignificante que sexa e toda cousa pequena que faga cada día, inda que non pasen á historia, sen elas non se pode entender un país, tal e como se nos di nesta adaptación, e porque que o feito de que haxa personaxes históricos famosos non quita que sexa moi importante o que fan as persoas comúns, digamos, porque son a expresión do pobo”.",
+    "editorial": "EDICIONS FERVENZA",
+    "genero": {
+        "categoria": "Libros en gallego",
+        "subgenero": "Teatro"
+    },
+    "encuadernacion": "Tapa blanda",
+    "precio":12.35,
+    "codigo_isbn": 9788417094515,
+    "idioma": "Castellano",
+    "numero_paginas": 58,
+    "fecha_lanzamiento": "04/02/2019"
+}
+]
+
+
+
