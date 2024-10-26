@@ -1,6 +1,38 @@
 .hero {
-    border: 2px solid black;
     height: 100vh;
+    background-color: var(--color-beige);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero__text{
+    text-align: center;
+}
+.firstLayer,.secondLayer,.thirtLayer {
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    border: 2px solid var(--color-green);
+    position: absolute;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.firstLayer{
+    background-image: url(../imagenes/otros/capa1.png);
+    margin-right: 150px;
+
+}
+.secondLayer{
+    background-image: url(../imagenes/otros/capa2.png);
+
+}
+.thirtLayer{
+    background-image: url(../imagenes/otros/capa3.png);
+    margin-right: 150px;
+
 }
 
 .trendingSection,.newBooks,.popularCategories,.reviewSection,.ubication,.subscribe {

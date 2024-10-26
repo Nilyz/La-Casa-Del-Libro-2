@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="src/css/headerFooter.css" />
         <link rel="stylesheet" href="src/css/index.css" />
         <script src="src/js/nav.js" defer></script>
+        <script src="src/js/parallax.js" defer></script>
     </head>
     <body>
         <header>
@@ -273,7 +274,16 @@
         </header>
 
         <main>
-            <div class="hero"></div>
+            <div class="hero">
+                <div class="hero__text layer" data-speed="1">
+                    <h2>Encuentra tu inspiración aquí</h2>
+                    <h3>La Casa Del Libro</h3>
+                </div>
+
+                <div class="layer firstLayer" data-speed="-2"></div>
+                <div class="layer secondLayer" data-speed="-6"></div>
+                <div class="layer thirtLayer" data-speed="-4"></div>
+            </div>
             <div class="trendingSection">
                 <h3>Libros destacados</h3>
                 <hr class="trendingSection__titleLine titleLine" />
@@ -363,7 +373,7 @@
 
             <div class="popularCategories">
                 <h3>Categorías populares</h3>
-                <hr>
+                <hr />
                 <div class="categories">
                     <div class="category">
                         <div class="category__img"></div>
@@ -392,48 +402,68 @@
                 </div>
             </div>
             <div class="reviewSection">
-                <div class="row d-flex justify-content-around align-items-center reviewCont">
+                <div
+                    class="row d-flex justify-content-around align-items-center reviewCont"
+                >
                     <div class="col-ld-5 reviewUser">
                         <div class="reviewUser__img">
-                            <img src="src/imagenes/iconos/user-svgrepo-com.svg" alt="">
+                            <img
+                                src="src/imagenes/iconos/user-svgrepo-com.svg"
+                                alt=""
+                            />
                         </div>
                         <p class="reviewUser__name">Nombre</p>
                     </div>
-                    <div class="col-ld-7  review">
+                    <div class="col-ld-7 review">
                         <div class="review__starDate">
                             <div class="review__stars"></div>
                             <p class="review__date">20/10/2024</p>
                         </div>
                         <p class="review__text">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea minus corrupti cupiditate aut aliquam tempora ipsum eligendi atque magni quae laboriosam ducimus animi, tempore voluptates fuga labore odit consequatur. Omnis.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Ea minus corrupti cupiditate aut aliquam
+                            tempora ipsum eligendi atque magni quae laboriosam
+                            ducimus animi, tempore voluptates fuga labore odit
+                            consequatur. Omnis.
                         </p>
                     </div>
                 </div>
-                
             </div>
             <div class="ubication">
                 <div class="ubication__title">
-                    <a href="https://maps.app.goo.gl/72auE2xf7QyFWKfT6"><p>Ubícanos en: <span>Gran Vía, 29, Centro, 28013 Madrid</span></p></a>
+                    <a href="https://maps.app.goo.gl/72auE2xf7QyFWKfT6"
+                        ><p>
+                            Ubícanos en:
+                            <span>Gran Vía, 29, Centro, 28013 Madrid</span>
+                        </p></a
+                    >
                 </div>
                 <div class="ubication__map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.4996814041638!2d-3.705786523597669!3d40.41993315544379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42287d850c6d3f%3A0x536e1ebfdef1e58!2sCasa%20del%20Libro!5e0!3m2!1ses!2ses!4v1729977650979!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.4996814041638!2d-3.705786523597669!3d40.41993315544379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42287d850c6d3f%3A0x536e1ebfdef1e58!2sCasa%20del%20Libro!5e0!3m2!1ses!2ses!4v1729977650979!5m2!1ses!2ses"
+                        width="600"
+                        height="450"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
                 </div>
             </div>
             <div class="subscribe">
                 <div class="subscribe__img">
-                    <img src="src/imagenes/otros/persona-leyendo.jpg" alt="">
+                    <img src="src/imagenes/otros/persona-leyendo.jpg" alt="" />
                 </div>
                 <div class="subscribe__info">
                     <h3 class="subscribe__title">
                         Suscríbete para recibir las últimas noticias
                     </h3>
-                    <hr>
+                    <hr />
                     <p>Cuéntanos qué libros te gustan</p>
                     <div class="subscribe__button">
                         <button>SUSCRIBIRME</button>
                     </div>
                 </div>
-                
             </div>
         </main>
 
