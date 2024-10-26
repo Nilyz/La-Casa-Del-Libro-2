@@ -42,8 +42,11 @@
                         <ul
                             class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-space align-items-center"
                         >
-                            <li class="nav-item ">
-                                <a class="nav-link" aria-current="page" href="#"
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="index.html"
                                     >Inicio</a
                                 >
                             </li>
@@ -62,7 +65,9 @@
                                     class="dropdown-menu"
                                     aria-labelledby="menuToggle"
                                 >
-                                    <a href="src/paginas/catalogo.html" class="catalogueLink"
+                                    <a
+                                        href="src/paginas/catalogo.html"
+                                        class="catalogueLink"
                                         ><p>Catálogo</p></a
                                     >
                                     <div class="catalogueMenu">
@@ -267,7 +272,165 @@
             </nav>
         </header>
 
-        <main></main>
+        <main>
+            <div class="hero"></div>
+            <div class="trendingSection">
+                <h3>Libros destacados</h3>
+                <hr class="trendingSection__titleLine titleLine" />
+                <div class="trendingBooks">
+                    <img
+                        src="src/imagenes/iconos/arrow-prev-svgrepo-com.svg"
+                        alt=""
+                        class="arrow"
+                    />
+                    <div class="trendingBooks__Slider">
+                        <div class="book">
+                            <img
+                                src="src/imagenes/libros/la-isla-de-la-mujer-dormida.webp"
+                                alt=""
+                                class="book__img"
+                            />
+                            <div class="book__infoCont">
+                                <p class="book__title">
+                                    La isla de la mujer dormida
+                                </p>
+                                <hr />
+                                <p class="book__autor">Autor del libro</p>
+                                <p class="book__price">12,50$</p>
+                            </div>
+                        </div>
+                        <div class="book">
+                            <img
+                                src="src/imagenes/libros/la-isla-de-la-mujer-dormida.webp"
+                                alt=""
+                                class="book__img"
+                            />
+                            <div class="book__infoCont">
+                                <p class="book__title">
+                                    La isla de la mujer dormida
+                                </p>
+                                <hr />
+                                <p class="book__autor">Autor del libro</p>
+                                <p class="book__price">12,50$</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="newBooks">
+                <h3>Novedades</h3>
+                <hr class="newBooks__titleLine titleLine" />
+                <div class="trendingBooks">
+                    <img
+                        src="src/imagenes/iconos/arrow-prev-svgrepo-com.svg"
+                        alt=""
+                        class="arrow"
+                    />
+                    <div class="trendingBooks__Slider">
+                        <div class="book">
+                            <img
+                                src="src/imagenes/libros/la-isla-de-la-mujer-dormida.webp"
+                                alt=""
+                                class="book__img"
+                            />
+                            <div class="book__infoCont">
+                                <p class="book__title">
+                                    La isla de la mujer dormida
+                                </p>
+                                <hr />
+                                <p class="book__autor">Autor del libro</p>
+                                <p class="book__price">12,50$</p>
+                            </div>
+                        </div>
+                        <div class="book">
+                            <img
+                                src="src/imagenes/libros/la-isla-de-la-mujer-dormida.webp"
+                                alt=""
+                                class="book__img"
+                            />
+                            <div class="book__infoCont">
+                                <p class="book__title">
+                                    La isla de la mujer dormida
+                                </p>
+                                <hr />
+                                <p class="book__autor">Autor del libro</p>
+                                <p class="book__price">12,50$</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popularCategories">
+                <h3>Categorías populares</h3>
+                <hr />
+                <div class="categories">
+                    <div class="category">
+                        <div class="category__img"></div>
+                        <p class="category__name">Ficción</p>
+                    </div>
+                    <div class="category">
+                        <div class="category__img"></div>
+                        <p class="category__name">No ficción</p>
+                    </div>
+                    <div class="category">
+                        <div class="category__img"></div>
+                        <p class="category__name">Infantil</p>
+                    </div>
+                    <div class="category">
+                        <div class="category__img"></div>
+                        <p class="category__name">Juvenil</p>
+                    </div>
+                    <div class="category">
+                        <div class="category__img"></div>
+                        <p class="category__name">Libros de texto</p>
+                    </div>
+                    <div class="category">
+                        <div class="category__img"></div>
+                        <p class="category__name">Libros en gallego</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviewSection">
+                <div class="reviewUser">
+                    <div class="reviewUser__img"></div>
+                    <p class="reviewUser__name">Nombre</p>
+                </div>
+                <div class="review">
+                    <div class="review__starDate">
+                        <div class="review__stars"></div>
+                        <p class="review__date">20/10/2024</p>
+                    </div>
+                    <p class="review__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quisquam, quod.
+                    </p>
+                </div>
+            </div>
+            <div class="ubication">
+                <div class="ubication__title">
+                    <p>Ubícanos en: <span>Gran Vía, 29</span></p>
+                </div>
+                <div class="ubication__map"></div>
+                <div class="ubication__form"></div>
+            </div>
+            <div class="subscribe">
+                <div class="subscribe__img">
+                    <img src="src/imagenes/otros/persona-leyendo.jpg" alt="">
+                </div>
+                <div class="subscribe__info">
+                    <h3 class="subscribe__title">
+                        Suscríbete para recibir las últimas noticias
+                    </h3>
+                    <hr>
+                    <p>Cuéntanos qué libros te gustan</p>
+                    <div class="subscribe__button">
+                        <button>SUSCRIBIRME</button>
+                    </div>
+                </div>
+                
+            </div>
+        </main>
 
         <footer>
             <div class="container">
@@ -280,7 +443,7 @@
                             alt="logo"
                             class="footerLogo__img"
                         />
-                        <span class="footerLogo__name">La Casa Del Libro</span>
+                        <span class="FfooterLogo__name">La Casa Del Libro</span>
                     </div>
                     <div class="col-lg-3 footerLink">
                         <ul class="list-unstyled">
