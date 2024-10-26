@@ -3,10 +3,13 @@
     height: 100vh;
 }
 
+.trendingSection,.newBooks,.popularCategories,.reviewSection,.ubication,.subscribe {
+    margin-top: 150px;
+}
 /*SECCIÓN DESTACADOS Y NOVEDADES*/
 .trendingSection {
     padding: 0 3% 0 3%;
-    border: 2px solid black;
+
 }
 .trendingSection h3,
 .newBooks h3 {
@@ -40,21 +43,25 @@
     gap: 30px;
 }
 .book {
-    height: auto;
-    width: 150px;
-    background-color: blanchedalmond;
+    width: 140px;
 }
 .book__img {
-    height: 250px;
+    height: 210px;
     width: 100%;
-    border: 2px solid black;
+}
+.book__img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.book__infoCont{
 }
 .book__title {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 }
 .book__autor {
-    font-size: 14px;
+    font-size: 12px;
 }
 .book__infoCont hr {
     margin: 5px 0 5px 0;
@@ -62,21 +69,20 @@
     width: 30%;
 }
 .book__price {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     text-align: end;
 }
 
 .newBooks {
-    border: 2px solid black;
-    width: 100%;
+    width: 100%;;
 }
 
 /*CATEGORÍAS*/
 .popularCategories {
     padding: 0 3% 0 3%;
-    border: 2px solid black;
     width: 100%;
+    margin-top: 100px;
 }
 .popularCategories h3 {
     font-size: 20px;
@@ -126,6 +132,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .reviewCont {
     height: 100%;
@@ -185,28 +192,34 @@
 }
 /*UBICACIÓN*/
 .ubication {
-    height: 500px;
-    background-color: rgb(116, 162, 147);
+    height: 400px;
     width: 100%;
 }
 .ubication__title {
     width: 100%;
-    background-color: rgb(166, 166, 110);
-    font-size: 16px;
-    height: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    height: 20%;
+    padding: 20px;
+}
+.ubication__title span{
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--color-green);
 }
 .ubication__map {
     width: 100%;
-    height: 60%;
-    border: 2px solid black;
-}
-.ubication__form {
-    width: 100%;
-    height: 30%;
+    height: 80%;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(166, 166, 110);
+    flex-direction: column;
+}
+iframe{
+    width: 95%;
+    height: 100%;
+    border-radius: 10px;
 }
 
 /*SUSCRIPCIÓN*/
@@ -267,6 +280,7 @@
         width: 90%;
         height: 250px;
         justify-content: space-around;
+        overflow: hidden;
     }
     .category {
         width: 170px;
@@ -279,7 +293,7 @@
     }
 
     .reviewSection {
-        height: 400px;
+        height: 500px;
     }
     .reviewCont {
         background-color: transparent;
@@ -304,6 +318,20 @@
     .review__date{
         font-size: 16px;
     }
+
+    .ubication {
+        height: 500px;
+        padding: 0 3% 0 3%;
+    }
+    .ubication__title p{
+        font-size: 24px;
+    }
+    .ubication__title span{
+        font-size: 20px;
+    }
+
+
+
     .subscribe {
         height: 550px;
     }
