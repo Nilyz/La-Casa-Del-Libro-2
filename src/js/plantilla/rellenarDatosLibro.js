@@ -42,6 +42,8 @@ function rellenarDatosLibro() {
                 numero_paginas.innerHTML = libro.numero_paginas;
                 fecha_lanzamiento.innerHTML = libro.fecha_lanzamiento;
 
+                document.title = libro.nombre;
+
                 // Inicializar el botón "Ver más" después de cargar los datos
                 initVerMasButton();
             } else {
