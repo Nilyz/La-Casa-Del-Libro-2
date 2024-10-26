@@ -1,30 +1,33 @@
 function initVerMasButton() {
     const sinopsisText = document.getElementById("sinopsis-text");
-    const btnVermas = document.getElementById("btnVerMas");
+    const btnVerMas = document.getElementById("btnVerMas");
 
-    if (!sinopsisText || !btnVermas) {
+    if (!sinopsisText || !btnVerMas) {
         return; // Salir si los elementos no existen en el DOM
     }
 
     function updateVerMasButton() {
-        const totalHeight = sinopsisText.scrollHeight; // Altura total del texto
-        const containerHeight = sinopsisText.clientHeight; // Altura visible del contenedor
+        const lineHeight = parseInt(window.getComputedStyle(sinopsisText).lineHeight); // Altura de cada línea
+        const totalLines = Math.floor(sinopsisText.scrollHeight / lineHeight); // Número total de líneas
 
-        if (totalHeight > containerHeight) {
-            btnVermas.style.display = "block"; // Muestra el botón si el texto no cabe
+        if (totalLines > 8) {
+            btnVerMas.style.display = "block"; // Muestra el botón si hay más de 8 líneas
+            sinopsisText.style.maxHeight = `${8 * lineHeight}px`; // Limita la altura a 8 líneas
         } else {
-            btnVermas.style.display = "none"; // Oculta el botón si todo el texto cabe
+            btnVerMas.style.display = "none"; // Oculta el botón si hay 8 líneas o menos
+            sinopsisText.style.maxHeight = "none"; // Muestra el texto completo si es corto
         }
     }
 
-    btnVermas.addEventListener("click", function () {
-        console.log("click");
+    btnVerMas.addEventListener("click", function () {
         if (sinopsisText.classList.contains("expanded")) {
             sinopsisText.classList.remove("expanded");
-            btnVermas.textContent = "Ver más";
+            sinopsisText.style.maxHeight = `${8 * parseInt(window.getComputedStyle(sinopsisText).lineHeight)}px`;
+            btnVerMas.textContent = "Ver más";
         } else {
             sinopsisText.classList.add("expanded");
-            btnVermas.textContent = "Ver menos";
+            sinopsisText.style.maxHeight = "none"; // Quita la limitación para mostrar todo el texto
+            btnVerMas.textContent = "Ver menos";
         }
     });
 
@@ -34,3 +37,6 @@ function initVerMasButton() {
     // Llama a la función cuando se cambia el tamaño de la ventana
     window.addEventListener("resize", updateVerMasButton);
 }
+
+// Llama a la función para inicializar
+initVerMasButton();

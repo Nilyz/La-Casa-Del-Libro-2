@@ -115,7 +115,7 @@
   },
   {
       "id": 7,
-      "slug": "trista-e-isea",
+      "slug": "tristan-e-iseo",
       "nombre": "TRISTAN E ISEO",
       "autor": "ALICIA YLLERA",
       "sinopsis": "Paradigma de la historia de una pasión amorosa enfrentada a un destino trágico, Tristán e Iseo gozó desde sus primeras versiones medievales de una gran celebridad. A partir del siglo xii fueron numerosas las variantes de esta leyenda, vinculada más tarde a las hazañas de los caballeros de la corte artúrica y cuyos ecos llegaron hasta el siglo xix, sirviendo de motivo inspirador de la poesía de Arnold y Tennyson y de una ópera de Wagner. Para la presente edición, Alicia Yllera ha reconstruido el texto a partir de los fragmentos conservados de los poemas franceses del siglo xii de Thomas y Béroul, apoyándose en las versiones de Eilhart y de Gottfried y en las adaptaciones al francés moderno elaboradas por A. Mary y J. Bédier.",
@@ -151,7 +151,7 @@
   },
   {
       "id": 9,
-      "slug": "la-odisea-de-homero",
+      "slug": "odisea",
       "nombre": "ODISEA",
       "autor": "HOMERO",
       "sinopsis": "He aquí uno de los más grandes poemas épicos de todos los tiempos: Odisea. En él se narra el regreso del héroe, Odiseo, a su patria, Ítaca, después de la conquista de Troya. Compuesta como la Ilíada en hexámetros, recoge numerosos cuentos populares y leyendas que, adaptadas, se integran en la epopeya. De este modo, mientras que en la Ilíada el tema central, la cólera de Aquiles, va avanzando inexorablemente, verso a verso, desde su planteamiento hasta su desenlace, en Odisea el regreso del héroe es narrado, con arte magistral, sin recelar de las vueltas atrás o de las digresiones, porque el objetivo supremo es lograr mayor gozo en la narración de bellas historias. Todo ello se logra, además, sin que merme en absoluto la cohesión que mantiene unidos sus episodios.",
@@ -290,7 +290,7 @@
           "categoria": "No ficción",
           "subgenero": "Ciencias"
       },
-      "encuadernacion": "Tapa Blanda",
+      "encuadernacion": "Tapa blanda",
       "precio":20.80,
       "codigo_isbn": "9788410313163",
       "idioma": "Castellano",
@@ -326,7 +326,7 @@
           "categoria": "No ficción",
           "subgenero": "Ciencias"
       },
-      "encuadernacion": "Tapa Blanda",
+      "encuadernacion": "Tapa blanda",
       "precio":18.95,
       "codigo_isbn": 9788411191807,
       "idioma": "Castellano",
@@ -400,7 +400,7 @@
         "categoria": "No ficción",
         "subgenero": "Biografías"
     },
-    "encuadernacion": "Tapa Blanda",
+    "encuadernacion": "Tapa blanda",
     "precio": 18.90,
     "codigo_isbn": 9788410299160,
     "idioma": "Castellano",
@@ -466,7 +466,7 @@
   {
    "id": 26,
     "slug": "anatomia-del-mal",
-    "nombre": "ANATOMIA DEL MAL",
+    "nombre": "ANATOMÍA DEL MAL",
     "autor": "JORDI WILD",
     "sinopsis": "En estas páginas nos embarcaremos en un viaje inquietante a traves de ocho crímenes, cada cual más terrible, con los que os mostrare y reflexionare sobre la maldad y cómo puede infiltrarse en los sitios menos esperados.Indagare dentro de las mentes enfermas de asesinos, psicópatas, ególatras y monstruos, revelando, desde una perspectiva psicológica y científica, cuáles fueron sus motivaciones y más oscuros secretos que los llevaron a cometer estos crímenes imperdonables.",
     "editorial": "B",
@@ -493,7 +493,7 @@
         "categoria": "No ficción",
         "subgenero": "Criminología"
     },
-    "encuadernacion": "Tapa Blanda",
+    "encuadernacion": "Tapa blanda",
     "precio":14.72,
     "codigo_isbn": 9788430991662,
     "idioma": "Castellano",
@@ -523,7 +523,7 @@
    "id": 29,
     "slug": "la-mente-criminal",
     "nombre": "LA MENTE CRIMINAL",
-    "autor": "Booket",
+    "autor": "VICENTE GARRIDO",
     "sinopsis": "¿Cómo actúan los asesinos en serie? ¿Para que sirve el análisis del perfil genetico (ADN)? ¿Que es el modus operandi y la firma de un asesino? ¿Cuáles son los metodos de investigación de la Policía?áLos interesados en las ciencias sociales y criminológicas y los estudiantes y profesionales de las diferentes policías encontrarán en La mente criminal nociones esenciales de criminología forense aplicadas a casos criminales que conmovieron a una sociedad entera e incluso al mundo. Al analizar la forma de actuar y de pensar de los asesinos seriales su autor, Vicente Garrido, proporciona al lector unos conocimientos sobre cómo estos crean su propia realidad y las formas peculiares en que llevan a la práctica sus terribles fantasías.",
     "editorial": "Booket",
     "genero": {
@@ -549,7 +549,7 @@
         "categoria": "No ficción",
         "subgenero": "Criminología"
     },
-    "encuadernacion": "Tapa Blanda",
+    "encuadernacion": "Tapa blanda",
     "precio":19.00,
     "codigo_isbn": 9789878956282,
     "idioma": "Castellano",
@@ -606,7 +606,7 @@
         "categoria": "Infantil",
         "subgenero": "Cómic infantil"
     },
-    "encuadernacion": "Tapa Blanda",
+    "encuadernacion": "Tapa blanda",
     "precio":17.00,
     "codigo_isbn": 9788418279997,
     "idioma": "Castellano",
@@ -690,7 +690,7 @@
 },
   {
    "id": 38,
-    "slug": "doraemon-colar-05-06",
+    "slug": "doraemon-color-05-06",
     "nombre": "DORAEMON COLOR Nº 05/06",
     "autor": "FUJIO F. FUJIKO",
     "sinopsis": "Este tomo incluye:¡Doraemon llega desde el futuro!,Fantasmas blandengues, Un baño algo extraño, La pulga cuchi-cuchi, La sal moldeadora, La bolsa del resfriado, El coche robot, La semilla del árbol de Navidad, El espejo de la atracción, Una medicina curiosa, La pintura de la invisibilidad, El ultra anillo, La arcilla de nubes, El colirio de la telequinesis,  El casco de la autoestima, El lápiz de la realidad, Acampada, La máquina del tiempo,El martillo productor de estrellas fugaces, Año 1970: ¡NaceDoraemon!",
@@ -747,7 +747,7 @@
 [
   {
    "id": 41,
-    "slug": "handa-s-surprise",
+    "slug": "handas-surprise",
     "nombre": "HANDA S SURPRISE",
     "autor": "EILEEN BROWNE",
     "sinopsis": "Handa puts seven delicious fruits in a basket to take to her friend, Akeyo. But as she walks, carrying the basket on her head, various creatures steal her fruits. A monkey takes the banana, an ostrich the guava, a zebra the orange, an elephant the mango, a giraffe the pineapple, an antelope the avocado and a parrot the passion fruit. Handa walks on, wondering which of the fruits her friend will like best, oblivious to the fact that her basket is now empty. But then, behind her, a goat charges into a tangerine tree and fills Handa's basket with the fruit. Hello, Akeyo,she greets her friend. I've brought you a surprise. But when she lifts off her basket, it's Handa who gets the biggest surprise. Akeyo, meanwhile, is delighted, because tangerines are her favourite fruit!",
@@ -783,7 +783,7 @@
 },
   {
    "id": 43,
-    "slug": "don-quijote-de-la-mancha",
+    "slug": "my-mouth-is-a-volcano",
     "nombre": "MY MOUTH IS A VOLCANO",
     "autor": "JULIA COOK",
     "sinopsis": "My Mouth Is A Volcano takes an empathetic approach to the habit of interrupting and teaches children a witty technique to capture their rambunctious thoughts and words for expression at an appropriate time. Told from Louis’ perspective, this story provides parents, teachers, and counselors with an entertaining way to teach children the value of respecting others by listening and waiting for their turn to speak.",
@@ -839,7 +839,7 @@
 [
   {
    "id": 46,
-    "slug": "hasta-que.caiga-la-luna",
+    "slug": "hasta-que-caiga-la-luna",
     "nombre": "HASTA QUE CAIGA LA LUNA",
     "autor": "Sarah A. Parker",
     "sinopsis": "Como asesina rebelde, el objetivo de Raeve es cumplir su misión y que jamás la atrapen. Sin embargo, cuando un cazarrecompensas rival hace añicos su realidad, la joven se ve prisionera del Gremio de Nobles, una organización de elementales poderosos que pretenden dar ejemplo con ella. Solo la muerte podrá liberarla. Devastadopor una terrible pérdida, el jinete de dragón Kaan Vaegor decapitó a un rey y se puso su corona derretida. Ahora, su búsqueda incansable para reunir fragmentos lunares lo conduce a la prisión de la ciudad, donde se topa con una Raeve encadenada, con rabia en la mirada y sangre en las manos. Juntos, deberán descubrir una verdad que amenaza con hacer que su mundo se desmorone... y ellos con él.",
@@ -886,7 +886,7 @@
         "categoria": "Juvenil",
         "subgenero": "Narrativa fantástica"
     },
-    "encuadernacion": "Tapa Dura",
+    "encuadernacion": "Tapa dura",
     "precio":33.15,
     "codigo_isbn": 9788419260543,
     "idioma": "Castellano",
@@ -915,7 +915,7 @@
 
   {
    "id": 50,
-    "slug": "la-vuelta-a-casa",
+    "slug": "la-vuelta-a-casa-02-02-maestro",
     "nombre": "LA VUELTA A CASA Nº 02/03 MAESTRO",
     "autor": "R.A. SALVATORE",
     "sinopsis": "Drizzt está yendo a casa, pero no a Mithril Hall o al Valle de Viento Helado. Está yendo a Menzoberranzan, el mismo lugar que abandonó como un joven drow rechazado. Pero algo terrible, inmenso, innombrable, ha llegado a la Ciudad de las Arañas, sembrando la muerte y la destrucción a su paso.Mientras que el daño del Oscurecimiento, de la guerra y de una Infraoscuridad devastada por los demonios produce grietas por todo el Norte, causando daños irreparables, Drizzt y sus compañeros vuelven a encontrar que sus vidas se hallan en peligro. Cuando el ser primordial de Gauntlgrym despierta, Catti-brie y Gromph se aventuran en las ruinas de la Torre del Arcano, en Luskan, en busca del único poder capaz de mantener a raya a la bestia. Mientras tanto, Jarlaxle tira de las cuerdas de todos ellos, orquestando una obra maestra de la manipulación, que une a viejos enemigos y separa a viejos amigos. Pero incluso el astuto e ingenioso Jarlaxle podría no darse cuenta de lo estrecho que es el camino que recorre. Tal vez la Ciudad de las Arañas haya caído ante los demonios y su malvado príncipe. ¿Qué hace pensar que los demonios vayan a detenerse ahí?",
@@ -935,7 +935,7 @@
 [
   {
    "id": 51,
-    "slug": "Kaiju-8-n-11",
+    "slug": "kaiju-8-11",
     "nombre": "KAIJU 8 Nº 11",
     "autor": "NAOYA MATSUMOTO",
     "sinopsis": "Reno Ichikawa sigue entrenándose para dominar el arma creada a partir de un Kaiju identificado que le asignaron. La prueba para demostrar los resultados de su entrenamiento comienza cuando se enfrenta a un Kaiju. Mientras tanto, Iharu, que ha sido testigo del crecimiento de Reno desde que se conocieron, tiene sentimientos encontrados, dándole la sensación de que se queda atrás. Los dos se retan a derrotar al Kaiju, pero... ¡algo le ocurre a Reno!",
@@ -954,8 +954,8 @@
 
   {
    "id": 52,
-    "slug": "don-quijote-de-la-mancha",
-    "nombre": "DON QUIJOTE DE LA MANCHA ",
+    "slug": "solo-leveling-3",
+    "nombre": "SOLO LEVELING 3",
     "autor": "CHUGONG y REDICE STUDIO DUBU",
     "sinopsis": "¡SUNG JINWOO SE ADENTRA EN OTRA MAZMORRA JUNTO A VIEJOS CONOCIDOS! Sung Jinwoo sigue subiendo de nivel y mejorando sus atributos yendo de mazmorra en mazmorra.",
     "editorial": "NORMA EDITORIAL, S.A.",
@@ -973,7 +973,7 @@
 
   {
    "id": 53,
-    "slug": "one-piece",
+    "slug": "one-piece-42",
     "nombre": "ONE PIECE Nº 42",
     "autor": "EIICHIRO ODA",
     "sinopsis": "Luffy y los demás consiguen llegar hasta la Torre de la justicia, así que Spandam ordena la masacre del grupo. ¿¡Podrán superar a los miembros del CP9 para rescatar a Robin sana y salva!? ¡¡Comienzan los trepidantes combates de la banda del sombrero de paja contra los superhombres del CP9!! ¡¡Aquí teneis una historia de piratas que buscan el gran tesoro, el One Piece!!",
@@ -992,7 +992,7 @@
 
   {
    "id": 54,
-    "slug": "chainsaw-man",
+    "slug": "chainsaw-man-17",
     "nombre": "CHAINSAW MAN 17",
     "autor": "TATSUKI FUJIMOTO",
     "sinopsis": "La redada a gran escala a las instalaciones de la Iglesia Chainsaw Man por parte de Seguridad Pública pone en peligro a Asa Mitaka, convertida en símbolo de la organización religiosa. Cuando parecía que habían logrado desbaratar los planes de Varm, este desvela sus verdaderas intenciones sobre el Soberano del Terror. En ese momento, aparece una horda demoníaca que desata un caos infernal en la ciudad y pone a Denji en una encrucijada: ¿qué hará ante esta terrible situación?",
@@ -1011,7 +1011,7 @@
 
   {
    "id": 55,
-    "slug": "dan-da-dan",
+    "slug": "dan-da-dan-12",
     "nombre": "DAN DA DAN 12",
     "autor": "YUKINOBU TATSU",
     "sinopsis": "¡SE ACERCA LA INVASIÓN EXTRATERRESTRE! Okarun se convierte en un espíritu y viaja hacia Hokkaidô, donde se encuentra con Seiko. Allí le habla del peligro de la invasión extraterrestre y la Turbovieja le cuenta el secreto para la batalla y la forma de volver a su cuerpo. Por otro lado, Momo y los demás siguen preparándose para el ataque extraterrestre, pero, cuando vuelven a la ciudad en el supuesto día de la invasión... ¡los extraterrestres ya están atacando la zona! Mientras los demás pelean, Momo y el serponiano tratan de cerrar el portal antes de la llegada de la flota principal, y entonces...",
@@ -1031,7 +1031,7 @@
 [
   {
    "id": 56,
-    "slug": "mas-alla-del-amor",
+    "slug": "mas-alla-del-amor-2",
     "nombre": "MÁS ALLÁ DEL AMOR 2",
     "autor": "FUJIMOMO",
     "sinopsis": "Risa siente una gratitud creciente hacia Zen, ya que siempre acude a su rescate cada vez que ella se encuentra en un apuro. Poco a poco, Risa se abre a Zen y comienza a sentir la necesidad de devolverle el favor de algún modo. Sus sentimientos van en aumento& x02026; y un día, ¡Risa le da un beso inesperado a Zen! Sin embargo, cuando es consciente de lo que ha hecho, huye de la escena& x02026; Pero, a pesar de su inquietud, ambos terminan teniendo una sesión de estudio en casa de Zen.",
@@ -1050,7 +1050,7 @@
 
   {
    "id": 57,
-    "slug": "mermaid-melody-pichi-pichi-pith",
+    "slug": "mermaid-melody-pichi-pichi-pith-5",
     "nombre": "MERMAID MELODY PICHI PICHI PITCH 5 ",
     "autor": "MICHIKO YOKOTE y PINK HANAMORI",
     "sinopsis": "Kaito por fn ha descubierto que Luchia es la sirena que había sido su primer amor, y ambos deciden profundizar en su relación. Sin embargo, todo cambia cuando Kaito desaparece al viajar a Hawái para participar en un torneo de surf... Comienza un nuevo arco de la serie que está rompiendo moldes!",
@@ -1069,7 +1069,7 @@
 
   {
    "id": 58,
-    "slug": "don-quijote-de-la-mancha",
+    "slug": "studio-cabana-1",
     "nombre": "STUDIO CABANA 1",
     "autor": "UMA AGRUI",
     "sinopsis": "Uma Agri llega por primera vez a España con una obra romántica con tintes musicales para los más fans de BECK y Nana. Yukari Maki es una joven de instituto muy aplicada y con los pies en la tierra, pero la aparición de Yusuke Kusaka hace añicos todo lo que conoce sobre el amor. Su compañero de clase, considerado por todo el instituto como un delincuente, y Yukari son completamente polos opuestos. Sin embargo, desprende un halo de misterio que ha dejado a nuestra protagonista embaucada. Un día, preocupada por si Yusuke se ha metido en algún lío con la mafia, decide seguirle, ¡pero ve que entra en un estudio de música! Entonces, ¡le oye cantar una canción de amor y las mariposas de su estómago estarán más revoltosas que nunca!",
@@ -1088,7 +1088,7 @@
 
   {
    "id": 59,
-    "slug": "crush-of-lifetime",
+    "slug": "crush-of-lifetime-4",
     "nombre": "CRUSH OF LIFETIME 4",
     "autor": "JEONG HALIM y KIM YEONWOO",
     "sinopsis": "Hyeji sigue disfrutando de su vida amorosa tras verse inmersa en un inesperado triángulo amoroso, aunque está aprendiendo que amar es bastante complicado. Jaehee le ha declarado sus sentimientos, pero ella lo ha rechazado porque tiene claro lo que siente por Kisung. No obstante, parece que esa primera cita soñada con el aún no tiene lugar, y eso la mosquea. Por si fuera poco, Kisung parece que ha empezado a evitarla... Pero mientras Hyeji se debate que hacer con el chico que le gusta, su pasado vuel- ve a irrumpir en su vida y la vapulea sin remedio...",
@@ -1127,7 +1127,7 @@
 [
   {
    "id": 61,
-    "slug": "letrilanda-escritura-espiral-pauta.montessori-2",
+    "slug": "letrilandia-escritura-espiral-pauta-montessori-2",
     "nombre": "LETRILANDIA ESCRITURA ESPIRAL PAUTA MONTESSORI 2",
     "autor": "VV.AA.",
     "sinopsis": "Libro de Texto: Cuader. Letrilandia pauta Mont. 2 - Espiral Infantil Letrilandia Pauta Espiral",
@@ -1193,7 +1193,7 @@
         "categoria": "Libros de Texto",
         "subgenero": "Educación infantil"
     },
-    "encuadernacion": "Tapa Blanda",
+    "encuadernacion": "Tapa blanda",
     "precio":25.00,
     "codigo_isbn": 9788414337264,
     "idioma": "Castellano",
@@ -1203,7 +1203,7 @@
 
   {
    "id": 65,
-    "slug": "mmm-palomitas-educacio-infantil-4-años",
+    "slug": "mmm-palomitas-educacion-infantil-4-años",
     "nombre": "¡MMM... PALOMITAS! EDUCACIÓN INFANTIL 4 AÑOS",
     "autor": "VV.AA.",
     "sinopsis": "Este material consiste en un pack completo para Educación Infantil de 4 años, 9788491895336, es un conjunto de libros con un contenido específico para que los niños adquieran competencias necesarias. El pack completo para 4 años se basa en un análisis de las herramientas diarias que necesitan los maestros y maestras para solventar los problemas a los que se enfrentan, aportando los recursos que puedan ayudarles. Con este material didáctico desarrollará las competencias del alumnado ey responderá al mismo tiempo al nuevo currículo LOMLOE.El material del alumnado se ofrece en un contenedor que incluye cajón y bandeja. Tres carpetas por nivel en una caja contenedora que se puede personalizar y apilar para formar un mueble en el que cada niño y niña tenga su material.",
@@ -1277,7 +1277,7 @@
 },
 {
    "id": 69,
-    "slug": "don-quijote-de-la-mancha",
+    "slug": "natural-science-2-outside-the-box-activity-book",
     "nombre": "NATURAL SCIENCE 2 OUTSIDE THE BOX ACTIVITY BOOK",
     "autor": "VV.AA.",
     "sinopsis": "NATURAL SCIENCE 2 OUTSIDE THE BOX ACTIVITY BOOK es el nuevo proyecto de EDICIONES BILINGUES S L para niños y niñas de educación primaria, con temas seleccionados para mejorar sus conocimientos. NATURAL SCIENCE 2 OUTSIDE THE BOX ACTIVITY BOOK editado por EDICIONES BILINGUES S L, ofrece apoyo para revisar los contenidos y las destrezas básicas del nivel de educación primaria. Los profesores hallarán en este libro de texto un eficaz instrumento de apoyo escolar. Un libro de ejercicio indispensable para el profesor que le permitirá planificar todas sus clases a lo largo del curso escolar de educación primariaCon el libro de texto NATURAL SCIENCE 2 OUTSIDE THE BOX ACTIVITY BOOK el alumno o la alumna podrá comprobar que ha mejorado sus conocimientos.",
@@ -1422,7 +1422,7 @@
         "categoria": "Libros en gallego",
         "subgenero": "Narrativa"
     },
-    "encuadernacion": "Tapa Blanda",
+    "encuadernacion": "Tapa blanda",
     "precio":15.67,
     "codigo_isbn": 9788411762229,
     "idioma": "Gallego",

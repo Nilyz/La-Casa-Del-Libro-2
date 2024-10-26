@@ -1,4 +1,4 @@
-fetch('libros.json')
+fetch('../src/json/libros.json')
     .then(response => response.json())
     .then(data => {
         const catalogoDiv = document.getElementById('catalogo');
@@ -11,7 +11,7 @@ fetch('libros.json')
             // Agregar evento de clic
             libroDiv.addEventListener('click', () => {
                 // Redirigir a la página del libro usando el slug
-                window.location.href = `libro.html?slug=${libro.slug}`;
+                window.location.href = `../src/plantilla/libro.html?slug=${libro.slug}`;
             });
             catalogoDiv.appendChild(libroDiv);
         });

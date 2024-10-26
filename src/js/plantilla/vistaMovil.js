@@ -278,8 +278,8 @@ function updateContent() {
         `;
     }
 
-    // Llamar a la función que inicializa el comportamiento del botón "Ver más"
-    initVerMasButton();
+    // Llamar a la funcion que rellena los datos del libro
+    rellenarDatosLibro();
 
 }
 
