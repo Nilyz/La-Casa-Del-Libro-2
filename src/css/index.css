@@ -1,3 +1,8 @@
+img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
 .hero {
     height: 100vh;
     background-color: var(--color-beige);
@@ -209,7 +214,7 @@
 .review__stars {
     width: 30%;
     height: 100%;
-    background-color: rgb(166, 166, 110);
+    background-color: white;
 }
 .review__date {
     font-size: 12px;
@@ -221,7 +226,7 @@
     padding: 20px;
     backdrop-filter: blur(2px);
     border-radius: 5px;
-    overflow: scroll;
+    overflow-y: auto;
 }
 /*UBICACIÓN*/
 .ubication {
