@@ -1,4 +1,4 @@
-fetch('../src/json/libros.json')
+fetch('libros.json')
     .then(response => response.json())
     .then(data => {
         const catalogoDiv = document.getElementById('catalogo');
