@@ -14,11 +14,11 @@
     width: 95%;
     height: 95%;
     object-fit: cover;
-    border: 2px solid var(--color-green);
     position: absolute;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    border: 2px solid var(--color-green);
 }
 .firstLayer{
     background-image: url(../imagenes/otros/capa1.png);
@@ -128,7 +128,7 @@
     margin: auto;
     border: 1px solid var(--color-yellow);
 }
-.categories {
+.popularCategories__categories {
     height: 170px;
     width: 95%;
     margin: auto;
@@ -221,6 +221,7 @@
     padding: 20px;
     backdrop-filter: blur(2px);
     border-radius: 5px;
+    overflow: scroll;
 }
 /*UBICACIÓN*/
 .ubication {
@@ -278,7 +279,7 @@ iframe{
 }
 .subscribe__button button {
     background-color: var(--color-yellow);
-    color: var(--color-black);
+    color: var(--color-white);
     border: none;
     border-radius: 10px;
     padding: 10px 20px;
@@ -308,7 +309,7 @@ iframe{
         border: 3px solid var(--color-yellow);
         margin-bottom: 50px;
     }
-    .categories {
+    .popularCategories__categories {
         width: 90%;
         height: 250px;
         justify-content: space-around;
@@ -406,7 +407,6 @@ iframe{
     .subscribe__button button {
         font-size: 20px;
         padding: 15px 30px;
-        color: var(--color-white);
     }
     .subscribe__info hr {
         display: block;

@@ -265,7 +265,6 @@ footer {
         margin: 0 20px 0 20px;
     }
     .dropdown-menu {
-        background-color: var(--color-beige);
         min-width: none;
         width: 800px;
         display: none;
@@ -281,7 +280,6 @@ footer {
     }
 
     .catalogueMenu {
-        background-color: var(--color-beige);
         display: flex;
         justify-content: center;
         align-items: center;
