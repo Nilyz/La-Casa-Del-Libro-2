@@ -18,8 +18,10 @@ function rellenarDatosLibro() {
     const fecha_lanzamiento = document.getElementById('fecha_lanzamiento');
     const imagen = document.getElementById('imagen');
 
+    console.log(libroSlug);
+
     // Cargar el archivo JSON y mostrar los datos
-    fetch('../json/libros.json')
+    fetch('../../pruebas/libros.json')
         .then(response => response.json())
         .then(data => {
             // Buscar el libro en el JSON usando el "slug" de la URL
@@ -30,7 +32,7 @@ function rellenarDatosLibro() {
                 nombre.innerHTML = libro.nombre;
                 autor.innerHTML = libro.autor;
                 editorial.innerHTML = libro.editorial;
-                imagen.src = `../../imagenes/${libro.slug}.webp`; // Asegúrate de que la ruta sea correcta
+                imagen.src = `../imagenes/libros/${libro.slug}.webp`; // Asegúrate de que la ruta sea correcta
                 imagen.alt = libro.nombre;
                 sinopsis.innerHTML = libro.sinopsis;
                 categoria.innerHTML = libro.genero.categoria;
