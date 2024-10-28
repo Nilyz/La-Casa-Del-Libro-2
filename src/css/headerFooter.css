@@ -4,6 +4,7 @@
     --color-beige: #f4efd9;
     --color-brown: #4f1b0d;
     --color-white: #fdfcf7;
+    --color-black: #1a1a1a;
 }
 
 * {
@@ -13,6 +14,8 @@
 }
 body {
     min-height: 150vh;
+    color: var(--color-black);
+    background-color: var(--color-white);
 }
 main {
     min-height: 150vh;
@@ -29,6 +32,19 @@ a {
 p{
     margin: 0;
 }
+img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+hr{
+    opacity: 1;
+    border-radius: 10px;
+}
+.row{
+     --bs-gutter-x: 0; 
+
+}
+
 /*------------ HEADER ------------*/
 header {
     background-color: var(--color-green);
@@ -249,7 +265,6 @@ footer {
         margin: 0 20px 0 20px;
     }
     .dropdown-menu {
-        background-color: var(--color-beige);
         min-width: none;
         width: 800px;
         display: none;
@@ -265,7 +280,6 @@ footer {
     }
 
     .catalogueMenu {
-        background-color: var(--color-beige);
         display: flex;
         justify-content: center;
         align-items: center;
