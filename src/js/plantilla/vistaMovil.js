@@ -15,57 +15,17 @@ function updateContent() {
                             <h2>Sinopsis</h2>
                         </div>
                         <div class="sinopsis-text">
-                            <p id="sinopsis-text">
-                                Una novela de mar, amor y aventuras en el Egeo durante los años de la Guerra Civil
-                                española.
-                                Abril de 1937. Mientras en España transcurre la guerra civil, el marino mercante
-                                Miguel
-                                Jordán Kyriazis es enviado por el bando sublevado para atacar de modo clandestino el
-                                tráfico
-                                naval que desde la Unión Soviética transporta ayuda militar para la República. En la
-                                base de
-                                operaciones, una pequeña isla del mar Egeo, la vida del corsario español se cruzará
-                                en
-                                turbio triángulo con la de los propietarios, el barón Katelios y su esposa: una
-                                seductora
-                                mujer madura que busca, con fría desesperación, el modo de escapar a su destino.
-                                Una novela de mar, amor y aventuras en el Egeo durante los años de la Guerra Civil
-                                española.
-                                Abril de 1937. Mientras en España transcurre la guerra civil, el marino mercante
-                                Miguel
-                                Jordán Kyriazis es enviado por el bando sublevado para atacar de modo clandestino el
-                                tráfico
-                                naval que desde la Unión Soviética transporta ayuda militar para la República. En la
-                                base de
-                                operaciones, una pequeña isla del mar Egeo, la vida del corsario español se cruzará
-                                en
-                                turbio triángulo con la de los propietarios, el barón Katelios y su esposa: una
-                                seductora
-                                mujer madura que busca, con fría desesperación, el modo de escapar a su destino
-                                Una novela de mar, amor y aventuras en el Egeo durante los años de la Guerra Civil
-                                española.
-                                Abril de 1937. Mientras en España transcurre la guerra civil, el marino mercante
-                                Miguel
-                                Jordán Kyriazis es enviado por el bando sublevado para atacar de modo clandestino el
-                                tráfico
-                                naval que desde la Unión Soviética transporta ayuda militar para la República. En la
-                                base de
-                                operaciones, una pequeña isla del mar Egeo, la vida del corsario español se cruzará
-                                en
-                                turbio triángulo con la de los propietarios, el barón Katelios y su esposa: una
-                                seductora
-                                mujer madura que busca, con fría desesperación, el modo de escapar a su destino
-                            </p>
+                            <p id="sinopsis-text"></p>
                             <p id="btnVerMas" class="sinopsis-ampliar">Ver más</p>
                         </div>
                     </div>
 
                     <div class="book-genres">
                         <div class="genres-genre">
-                            <p id="categoria">Ficción</p>
+                            <p id="categoria"></p>
                         </div>
                         <div class="genres-genre">
-                            <p id="subgenero">Libros infantiles en inglés</p>
+                            <p id="subgenero"></p>
                         </div>
                     </div>
 
@@ -76,7 +36,7 @@ function updateContent() {
                     <div class="data-basket">
                         <div class="basket-buy">
                             <div class="basket-price">
-                                <p id="precio">20.00</p>
+                                <p id="precio"></p>
                                 <p>€</p>
                             </div>
                             <div class="basket-text">
@@ -99,7 +59,7 @@ function updateContent() {
                                 <p>Encuadernación:</p>
                             </div>
                             <div class="content-data">
-                                <p id="encuadernacion">Tapa dura</p>
+                                <p id="encuadernacion"></p>
                             </div>
                         </div>
                         <div class="info-content">
@@ -107,7 +67,7 @@ function updateContent() {
                                 <p>ISBN:</p>
                             </div>
                             <div class="content-data">
-                                <p id="codigo_isbn">9788410299634</p>
+                                <p id="codigo_isbn"></p>
                             </div>
                         </div>
                         <div class="info-content">
@@ -115,7 +75,7 @@ function updateContent() {
                                 <p>Idioma:</p>
                             </div>
                             <div class="content-data">
-                                <p id="idioma">Castellano</p>
+                                <p id="idioma"></p>
                             </div>
                         </div>
                         <div class="info-content">
@@ -123,7 +83,7 @@ function updateContent() {
                                 <p>Número de páginas:</p>
                             </div>
                             <div class="content-data">
-                                <p id="numero_paginas">433</p>
+                                <p id="numero_paginas"></p>
                             </div>
                         </div>
                         <div class="info-content">
@@ -131,7 +91,7 @@ function updateContent() {
                                 <p>Fecha de lanzamiento:</p>
                             </div>
                             <div class="content-data">
-                                <p id="fecha_lanzamiento">21/06/2024</p>
+                                <p id="fecha_lanzamiento"></p>
                             </div>
                         </div>
                     </div>
@@ -150,7 +110,7 @@ function updateContent() {
                                 <p>Encuadernación:</p>
                             </div>
                             <div class="content-data">
-                                <p id="encuadernacion">Tapa dura</p>
+                                <p id="encuadernacion"></p>
                             </div>
                         </div>
                         <div class="info-content">
@@ -158,7 +118,7 @@ function updateContent() {
                                 <p>ISBN:</p>
                             </div>
                             <div class="content-data">
-                                <p id="codigo_isbn">9788410299634</p>
+                                <p id="codigo_isbn"></p>
                             </div>
                         </div>
                         <div class="info-content">
@@ -166,7 +126,7 @@ function updateContent() {
                                 <p>Idioma:</p>
                             </div>
                             <div class="content-data">
-                                <p id="idioma">Castellano</p>
+                                <p id="idioma"></p>
                             </div>
                         </div>
                         <div class="info-content">
@@ -174,7 +134,7 @@ function updateContent() {
                                 <p>Número de páginas:</p>
                             </div>
                             <div class="content-data">
-                                <p id="numero_paginas">433</p>
+                                <p id="numero_paginas"></p>
                             </div>
                         </div>
                         <div class="info-content">
@@ -182,7 +142,7 @@ function updateContent() {
                                 <p>Fecha de lanzamiento:</p>
                             </div>
                             <div class="content-data">
-                                <p id="fecha_lanzamiento">21/06/2024</p>
+                                <p id="fecha_lanzamiento"></p>
                             </div>
                         </div>
                     </div>
@@ -196,57 +156,17 @@ function updateContent() {
                             <h2>Sinopsis</h2>
                         </div>
                         <div class="sinopsis-text">
-                            <p id="sinopsis-text">
-                                Una novela de mar, amor y aventuras en el Egeo durante los años de la Guerra Civil
-                                española.
-                                Abril de 1937. Mientras en España transcurre la guerra civil, el marino mercante
-                                Miguel
-                                Jordán Kyriazis es enviado por el bando sublevado para atacar de modo clandestino el
-                                tráfico
-                                naval que desde la Unión Soviética transporta ayuda militar para la República. En la
-                                base de
-                                operaciones, una pequeña isla del mar Egeo, la vida del corsario español se cruzará
-                                en
-                                turbio triángulo con la de los propietarios, el barón Katelios y su esposa: una
-                                seductora
-                                mujer madura que busca, con fría desesperación, el modo de escapar a su destino.
-                                Una novela de mar, amor y aventuras en el Egeo durante los años de la Guerra Civil
-                                española.
-                                Abril de 1937. Mientras en España transcurre la guerra civil, el marino mercante
-                                Miguel
-                                Jordán Kyriazis es enviado por el bando sublevado para atacar de modo clandestino el
-                                tráfico
-                                naval que desde la Unión Soviética transporta ayuda militar para la República. En la
-                                base de
-                                operaciones, una pequeña isla del mar Egeo, la vida del corsario español se cruzará
-                                en
-                                turbio triángulo con la de los propietarios, el barón Katelios y su esposa: una
-                                seductora
-                                mujer madura que busca, con fría desesperación, el modo de escapar a su destino
-                                Una novela de mar, amor y aventuras en el Egeo durante los años de la Guerra Civil
-                                española.
-                                Abril de 1937. Mientras en España transcurre la guerra civil, el marino mercante
-                                Miguel
-                                Jordán Kyriazis es enviado por el bando sublevado para atacar de modo clandestino el
-                                tráfico
-                                naval que desde la Unión Soviética transporta ayuda militar para la República. En la
-                                base de
-                                operaciones, una pequeña isla del mar Egeo, la vida del corsario español se cruzará
-                                en
-                                turbio triángulo con la de los propietarios, el barón Katelios y su esposa: una
-                                seductora
-                                mujer madura que busca, con fría desesperación, el modo de escapar a su destino
-                            </p>
+                            <p id="sinopsis-text"></p>
                             <p id="btnVerMas" class="sinopsis-ampliar">Ver más</p>
                         </div>
                     </div>
 
                     <div class="book-genres">
                         <div class="genres-genre">
-                            <p id="categoria">Ficción</p>
+                            <p id="categoria"></p>
                         </div>
                         <div class="genres-genre">
-                            <p id="subgenero">Libros infantiles en inglés</p>
+                            <p id="subgenero"></p>
                         </div>
                     </div>
 
@@ -257,7 +177,7 @@ function updateContent() {
                     <div class="data-basket">
                         <div class="basket-buy">
                             <div class="basket-price">
-                                <p id="precio">20.00</p>
+                                <p id="precio"></p>
                                 <p>€</p>
                             </div>
                             <div class="basket-text">

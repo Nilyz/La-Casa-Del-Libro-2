@@ -37,7 +37,7 @@ function rellenarDatosLibro() {
                 sinopsis.innerHTML = libro.sinopsis;
                 categoria.innerHTML = libro.genero.categoria;
                 subgenero.innerHTML = libro.genero.subgenero;
-                precio.innerHTML = libro.precio;
+                precio.innerHTML = libro.precio.toFixed(2);
                 encuadernacion.innerHTML = libro.encuadernacion;
                 isbn.innerHTML = libro.codigo_isbn;
                 idioma.innerHTML = libro.idioma;
