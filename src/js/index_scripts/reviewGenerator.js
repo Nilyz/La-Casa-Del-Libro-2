@@ -18,7 +18,6 @@ fetch("/src/json/review.json")
         document.getElementById("review-date").textContent = data[i].date;
         document.getElementById("review-text").textContent = data[i].review;
     
-        console.log(data[i].valoration);
     
         // Llenar estrellas según la valoración
         for (let j = 0; j < data[i].valoration; j++) {
