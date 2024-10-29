@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 :root {
     --color-green: #37643b;
     --color-yellow: #dea02e;
@@ -7,6 +9,16 @@
     --color-black: #1a1a1a;
 }
 
+h1 {
+    font-family: "Montserrat", helvetica, arial, sans-serif;
+}
+h2,
+h3 {
+    font-family: "Lora", Georgia, times, serif;
+}
+p {
+    font-family: "Hind Madurai", helvetica, arial, sans-serif;
+}
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +28,7 @@ body {
     min-height: 150vh;
     color: var(--color-black);
     background-color: var(--color-white);
+    font-family: "Hind Madurai", helvetica, arial, sans-serif;
 }
 main {
     min-height: 150vh;
@@ -29,18 +42,21 @@ a {
     text-decoration: none;
     color: rgb(24, 24, 24);
 }
-p{
+p {
     margin: 0;
     margin-bottom: 0;
 }
 
-hr{
+
+button p {
+    margin: 0;
+}
+hr {
     opacity: 1;
     border-radius: 10px;
 }
-.row{
-     --bs-gutter-x: 0; 
-
+.row {
+    --bs-gutter-x: 0;
 }
 
 /*------------ HEADER ------------*/
@@ -96,7 +112,7 @@ nav {
 .nav-link:hover {
     color: var(--color-yellow);
 }
-.catalogueLink p{
+.catalogueLink p {
     font-size: 24px;
 }
 .catalogueMenu {
@@ -265,7 +281,6 @@ footer {
         margin: 0 20px 0 20px;
     }
     .dropdown-menu {
-        min-width: none;
         width: 800px;
         display: none;
     }
