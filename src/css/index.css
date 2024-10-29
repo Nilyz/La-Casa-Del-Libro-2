@@ -14,7 +14,9 @@ img{
 }
 .hero__text{
     text-align: center;
+    font-family: 'Montserrat', helvetica, arial, sans-serif;
 }
+
 .firstLayer,.secondLayer,.thirtLayer {
     width: 95%;
     height: 95%;
@@ -28,26 +30,23 @@ img{
 .firstLayer{
     background-image: url(../imagenes/otros/capa1.png);
     margin-right: 150px;
-
 }
 .secondLayer{
     background-image: url(../imagenes/otros/capa2.png);
-
 }
 .thirtLayer{
     background-image: url(../imagenes/otros/capa3.png);
     margin-right: 150px;
+    margin-bottom: 80px;
 
 }
 
 .trendingSection,.newBooks,.popularCategories,.reviewSection,.ubication,.subscribe {
     margin-top: 150px;
 }
-/*SECCIÓN DESTACADOS Y NOVEDADES*/
-.trendingSection {
-    padding: 0 3% 0 3%;
 
-}
+/*SECCIÓN DESTACADOS Y NOVEDADES*/
+
 .trendingSection h3,
 .newBooks h3 {
     font-size: 28px;
@@ -61,26 +60,46 @@ img{
     width: 80%;
     margin: auto;
 }
-.trendingBooks {
+.trendingBooks,.newBooks {
     margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.arrow {
-    height: 50px;
-    display: none;
-}
-.trendingBooks__Slider {
+
+.trendingBooks__Slider,.newBooks__Slider {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
+    background-color: beige;
 }
+.trendingBooks__booksCont,.newBooks__booksCont{
+    background-color: blueviolet;
+    width: 70%;
+    overflow: hidden;
+}
+.trendingBooks__books,.newBooks__books {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+    background-color: aquamarine;
+    justify-content: space-around;
+    overflow-x: auto;
+    overflow-y: hidden;
+    transition: transform 0.5s ease;
+}
+.arrow {
+    display: none;
+}
+#arrow-right {
+    width: 50px;
+    transform: rotate(180deg);
+}
+
 .book {
     width: 140px;
+    flex-shrink: 0;
 }
 .book__img {
     height: 210px;
@@ -91,8 +110,6 @@ img{
     object-fit: cover;
 }
 
-.book__infoCont{
-}
 .book__title {
     font-size: 14px;
     font-weight: bold;
@@ -193,6 +210,9 @@ img{
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.26);
     backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .reviewUser__img img {
     height: 100%;
@@ -212,9 +232,15 @@ img{
     align-items: center;
 }
 .review__stars {
-    width: 30%;
+    width: auto;
     height: 100%;
-    background-color: white;
+    padding: 0 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review__stars img {
+    height: 50%;
 }
 .review__date {
     font-size: 12px;
@@ -304,6 +330,13 @@ iframe{
 }
 
 @media (min-width: 992px) {
+    .arrow{
+        height: 50px;
+        display: block;
+    }
+    .trendingBooks__books{
+        min-width: 800px;
+    }
     .popularCategories h3 {
         font-size: 24px;
         margin-left: 0;
@@ -355,6 +388,9 @@ iframe{
     }
     .review__date{
         font-size: 16px;
+    }
+    .review__text {
+        overflow: auto;
     }
 
     .ubication {

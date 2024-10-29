@@ -13,8 +13,9 @@
 
         <link rel="stylesheet" href="src/css/headerFooter.css" />
         <link rel="stylesheet" href="src/css/index.css" />
-        <script src="src/js/nav.js" defer></script>
-        <script src="src/js/parallax.js" defer></script>
+        <script src="src/js/index_scripts/parallax.js" defer></script>
+        <script src="src/js/index_scripts/reviewGenerator.js" defer></script>
+        <script src="src/js/index_scripts/productSlider.js" defer></script>
     </head>
     <body>
         <header>
@@ -275,98 +276,59 @@
 
         <main>
             <div class="hero">
-                <div class="hero__text layer" data-speed="1">
-                    <h2>Encuentra tu inspiración aquí</h2>
-                    <h3>La Casa Del Libro</h3>
-                </div>
-
                 <div class="layer firstLayer" data-speed="-2"></div>
                 <div class="layer secondLayer" data-speed="-6"></div>
                 <div class="layer thirtLayer" data-speed="-4"></div>
+                <div class="hero__text layer" data-speed="1">
+                    <h1>Encuentra tu inspiración aquí</h1>
+                    <h2>La Casa Del Libro</h2>
+                </div>
             </div>
             <div class="trendingSection">
                 <h3>Libros destacados</h3>
                 <hr class="trendingSection__titleLine titleLine" />
                 <div class="trendingBooks">
-                    <img
-                        src="src/imagenes/iconos/arrow-prev-svgrepo-com.svg"
-                        alt=""
-                        class="arrow"
-                    />
                     <div class="trendingBooks__Slider">
-                        <div class="book">
-                            <img
-                                src="src/imagenes/libros/la-isla-de-la-mujer-dormida.webp"
-                                alt=""
-                                class="book__img"
-                            />
-                            <div class="book__infoCont">
-                                <p class="book__title">
-                                    La isla de la mujer dormida
-                                </p>
-                                <hr />
-                                <p class="book__autor">Autor del libro</p>
-                                <p class="book__price">12,50$</p>
+                        <img
+                            src="src/imagenes/iconos/arrow-prev-svgrepo-com.svg"
+                            alt=""
+                            class="arrow"
+                            id="arrow-left-trending"
+                        />
+                        <div class="trendingBooks__booksCont">
+                            <div class="trendingBooks__books" id="trendingBooks-books">
                             </div>
                         </div>
-                        <div class="book">
-                            <img
-                                src="src/imagenes/libros/la-isla-de-la-mujer-dormida.webp"
-                                alt=""
-                                class="book__img"
-                            />
-                            <div class="book__infoCont">
-                                <p class="book__title">
-                                    La isla de la mujer dormida
-                                </p>
-                                <hr />
-                                <p class="book__autor">Autor del libro</p>
-                                <p class="book__price">12,50$</p>
-                            </div>
-                        </div>
+                        <img
+                            src="src/imagenes/iconos/arrow-prev-svgrepo-com.svg"
+                            alt=""
+                            class="arrow"
+                            id="arrow-right-trending"
+                        />
                     </div>
                 </div>
             </div>
             <div class="newBooks">
                 <h3>Novedades</h3>
                 <hr class="newBooks__titleLine titleLine" />
-                <div class="trendingBooks">
-                    <img
-                        src="src/imagenes/iconos/arrow-prev-svgrepo-com.svg"
-                        alt=""
-                        class="arrow"
-                    />
-                    <div class="trendingBooks__Slider">
-                        <div class="book">
-                            <img
-                                src="src/imagenes/libros/la-isla-de-la-mujer-dormida.webp"
-                                alt=""
-                                class="book__img"
-                            />
-                            <div class="book__infoCont">
-                                <p class="book__title">
-                                    La isla de la mujer dormida
-                                </p>
-                                <hr />
-                                <p class="book__autor">Autor del libro</p>
-                                <p class="book__price">12,50$</p>
+                <div class="newBooks">
+                    <div class="newBooks__Slider">
+                        <img
+                            src="src/imagenes/iconos/arrow-prev-svgrepo-com.svg"
+                            alt=""
+                            class="arrow"
+                            id="arrow-left-new"
+                        />
+                        <div class="newBooks__booksCont">
+                            <div class="newBooks__books" id="newBooks-books">
                             </div>
                         </div>
-                        <div class="book">
-                            <img
-                                src="src/imagenes/libros/la-isla-de-la-mujer-dormida.webp"
-                                alt=""
-                                class="book__img"
-                            />
-                            <div class="book__infoCont">
-                                <p class="book__title">
-                                    La isla de la mujer dormida
-                                </p>
-                                <hr />
-                                <p class="book__autor">Autor del libro</p>
-                                <p class="book__price">12,50$</p>
-                            </div>
-                        </div>
+                        <img
+                            src="src/imagenes/iconos/arrow-prev-svgrepo-com.svg"
+                            alt=""
+                            class="arrow"
+                            id="arrow-right-new"
+                        />
                     </div>
                 </div>
             </div>
@@ -404,28 +366,50 @@
             <div class="reviewSection">
                 <div
                     class="row d-flex justify-content-around align-items-center reviewCont"
+                    id="reviewCont"
                 >
                     <div class="col-ld-5 reviewUser">
                         <div class="reviewUser__img">
                             <img
                                 src="src/imagenes/iconos/user-svgrepo-com.svg"
                                 alt=""
+                                id="user-img"
                             />
                         </div>
-                        <p class="reviewUser__name">Nombre</p>
+                        <p class="reviewUser__name" id="user-name">------</p>
                     </div>
                     <div class="col-ld-7 review">
                         <div class="review__starDate">
-                            <div class="review__stars"></div>
-                            <p class="review__date">20/10/2024</p>
+                            <div class="review__stars" id="user-stars">
+                                <img
+                                    src="src/imagenes/iconos/star2-svgrepo-com.svg"
+                                    alt=""
+                                    id="star0"
+                                />
+                                <img
+                                    src="src/imagenes/iconos/star2-svgrepo-com.svg"
+                                    alt=""
+                                    id="star1"
+                                />
+                                <img
+                                    src="src/imagenes/iconos/star2-svgrepo-com.svg"
+                                    alt=""
+                                    id="star2"
+                                />
+                                <img
+                                    src="src/imagenes/iconos/star2-svgrepo-com.svg"
+                                    alt=""
+                                    id="star3"
+                                />
+                                <img
+                                    src="src/imagenes/iconos/star2-svgrepo-com.svg"
+                                    alt=""
+                                    id="star4"
+                                />
+                            </div>
+                            <p class="review__date" id="review-date">-/-/-</p>
                         </div>
-                        <p class="review__text">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Ea minus corrupti cupiditate aut aliquam
-                            tempora ipsum eligendi atque magni quae laboriosam
-                            ducimus animi, tempore voluptates fuga labore odit
-                            consequatur. Omnis.
-                        </p>
+                        <p class="review__text" id="review-text">...</p>
                     </div>
                 </div>
             </div>
