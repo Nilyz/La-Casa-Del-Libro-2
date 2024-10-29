@@ -46,28 +46,56 @@ body {
     margin-top: 10px;
     border: 1px solid #000;
 }
-.libros{
+.mostradorLibros{
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
     border: 1px solid #000;
 }
-.tipoLibro{
-    
+.librosEnfilados{
+    height: 100%;
     width: 100%;
-
-}
-.portadaLibro{
-    width: 100px;
-    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
     border: 1px solid #000;
+}
+.libro{
+    width: 150px;
+    height: 200px;
+    border: 1px solid #000;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
 }
 .portadaLibro img{
     width: 100%;
     height: 100%;
 }
-
+.infoLibro{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #000;
+}
+.nombreLibro{
+    width: 75%;
+    border: 1px solid #000;
+}
+.precioLibro{
+    border: 1px solid #000;
+    
+    width: 25%
+}
+.autorLibro{
+    border: 1px solid #000;
+    width: 100%;
+}   
 /*div {
     border: 1px solid #ccc;
     margin-bottom: 10px;
