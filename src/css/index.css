@@ -5,19 +5,45 @@ img{
 
 .hero {
     height: 100vh;
-    background-color: var(--color-beige);
     position: relative;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    color: var(--color-white);
+}
+.hero::before{
+    content: "";
+    position: absolute;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../imagenes/otros/pngtree-the-background-photography-of-the-empty-bookstore-library-picture-image_1474804.jpg);    
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: scale(1.01);
+    filter: blur(3px);
 }
 .hero__text{
+    width: 100%;
+    padding: 0 20px 0 20px;
     text-align: center;
     font-family: 'Montserrat', helvetica, arial, sans-serif;
 }
+.hero__text h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.hero__text h2{
+    font-size: 32px;
+    font-weight: bold;
+}
 
 .firstLayer,.secondLayer,.thirtLayer {
+    display: none;
     width: 95%;
     height: 95%;
     object-fit: cover;
@@ -25,7 +51,6 @@ img{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    border: 2px solid var(--color-green);
 }
 .firstLayer{
     background-image: url(../imagenes/otros/capa1.png);
@@ -33,22 +58,23 @@ img{
 }
 .secondLayer{
     background-image: url(../imagenes/otros/capa2.png);
+    margin-top: 100px;
 }
 .thirtLayer{
     background-image: url(../imagenes/otros/capa3.png);
     margin-right: 150px;
     margin-bottom: 80px;
-
 }
 
-.trendingSection,.newBooks,.popularCategories,.reviewSection,.ubication,.subscribe {
+.trendingSection,.newBooksSection,.popularCategories,.reviewSection,.ubication,.subscribe {
     margin-top: 150px;
 }
+
 
 /*SECCIÓN DESTACADOS Y NOVEDADES*/
 
 .trendingSection h3,
-.newBooks h3 {
+.newBooksSection h3 {
     font-size: 28px;
     font-weight: bold;
     text-align: center;
@@ -71,10 +97,8 @@ img{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background-color: beige;
 }
 .trendingBooks__booksCont,.newBooks__booksCont{
-    background-color: blueviolet;
     width: 70%;
     overflow: hidden;
 }
@@ -83,27 +107,28 @@ img{
     justify-content: center;
     align-items: center;
     width: 200%;
-    background-color: aquamarine;
     justify-content: space-around;
     overflow-x: auto;
     overflow-y: hidden;
     transition: transform 0.5s ease;
+    gap: 30px;
 }
 .arrow {
     display: none;
 }
-#arrow-right {
-    width: 50px;
+#arrow-right-trending,#arrow-right-new {
     transform: rotate(180deg);
 }
 
 .book {
-    width: 140px;
+    width: 150px;
     flex-shrink: 0;
 }
 .book__img {
-    height: 210px;
+    height: 240px;
     width: 100%;
+    border-radius: 5px;
+
 }
 .book__img img {
     width: 100%;
@@ -113,9 +138,18 @@ img{
 .book__title {
     font-size: 14px;
     font-weight: bold;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 15px 0 5px 0;
+
 }
 .book__autor {
     font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 5px 0 5px 0;
 }
 .book__infoCont hr {
     margin: 5px 0 5px 0;
@@ -170,6 +204,12 @@ img{
     aspect-ratio: 1/1;
     border-radius: 100%;
     background-color: var(--color-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category__img img{
+    width: 60%;
 }
 .category__name {
     text-align: center;
@@ -182,7 +222,7 @@ img{
     padding: 4%;
     height: 340px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(../imagenes/otros/persona-leyendo.jpg);
+        url(../imagenes/otros/libreria.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -330,6 +370,10 @@ iframe{
 }
 
 @media (min-width: 992px) {
+    .firstLayer,.secondLayer,.thirtLayer {
+        display: block;
+    }
+
     .arrow{
         height: 50px;
         display: block;
@@ -354,7 +398,7 @@ iframe{
         overflow: hidden;
     }
     .category {
-        width: 170px;
+        width: 160px;
     }
     .category__img {
         margin: auto;
@@ -362,6 +406,17 @@ iframe{
     .category__name {
         font-size: 20px;
     }
+    .book {
+        width: 160px;
+    }
+    .book__img{
+        height: 260px;
+    }
+    .book__price{
+        font-size: 18px;
+    }
+
+
 
     .reviewSection {
         height: 500px;
@@ -379,18 +434,23 @@ iframe{
         font-size: 20px;
     }
     .review {
-        height: 100%;
+        height: auto;
         width: 60%;
         background-color: rgba(255, 255, 255, 0.26);
         backdrop-filter: blur(5px);
         border-radius: 10px;
         overflow: hidden;
     }
+    .review__starDate {
+        height: 70px;
+    }
     .review__date{
         font-size: 16px;
     }
     .review__text {
+        font-size: 18px;
         overflow: auto;
+        padding: 30px;
     }
 
     .ubication {
