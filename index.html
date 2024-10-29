@@ -16,6 +16,7 @@
         <script src="src/js/index_scripts/parallax.js" defer></script>
         <script src="src/js/index_scripts/reviewGenerator.js" defer></script>
         <script src="src/js/index_scripts/productSlider.js" defer></script>
+        <script src="src/js/header.js"></script>
     </head>
     <body>
         <header>
@@ -67,11 +68,6 @@
                                     class="dropdown-menu"
                                     aria-labelledby="menuToggle"
                                 >
-                                    <a
-                                        href="src/paginas/catalogo.html"
-                                        class="catalogueLink"
-                                        ><p>Catálogo</p></a
-                                    >
                                     <div class="catalogueMenu">
                                         <ul class="categories">
                                             <li>
@@ -296,8 +292,10 @@
                             id="arrow-left-trending"
                         />
                         <div class="trendingBooks__booksCont">
-                            <div class="trendingBooks__books" id="trendingBooks-books">
-                            </div>
+                            <div
+                                class="trendingBooks__books"
+                                id="trendingBooks-books"
+                            ></div>
                         </div>
                         <img
                             src="src/imagenes/iconos/arrow-prev-svgrepo-com.svg"
@@ -308,7 +306,7 @@
                     </div>
                 </div>
             </div>
-            <div class="newBooks">
+            <div class="newBooksSection">
                 <h3>Novedades</h3>
                 <hr class="newBooks__titleLine titleLine" />
                 <div class="newBooks">
@@ -320,8 +318,10 @@
                             id="arrow-left-new"
                         />
                         <div class="newBooks__booksCont">
-                            <div class="newBooks__books" id="newBooks-books">
-                            </div>
+                            <div
+                                class="newBooks__books"
+                                id="newBooks-books"
+                            ></div>
                         </div>
                         <img
                             src="src/imagenes/iconos/arrow-prev-svgrepo-com.svg"
@@ -338,27 +338,57 @@
                 <hr />
                 <div class="popularCategories__categories">
                     <div class="category">
-                        <div class="category__img"></div>
+                        <div class="category__img">
+                            <img
+                                src="src/imagenes/iconos/footprint-svgrepo-com.svg"
+                                alt=""
+                            />
+                        </div>
                         <p class="category__name">Ficción</p>
                     </div>
                     <div class="category">
-                        <div class="category__img"></div>
+                        <div class="category__img">
+                            <img
+                                src="src/imagenes/iconos/education-experiment-lab-svgrepo-com.svg"
+                                alt=""
+                            />
+                        </div>
                         <p class="category__name">No ficción</p>
                     </div>
                     <div class="category">
-                        <div class="category__img"></div>
+                        <div class="category__img">
+                            <img
+                                src="src/imagenes/iconos/teddy-bear-bear-svgrepo-com.png"
+                                alt=""
+                            />
+                        </div>
                         <p class="category__name">Infantil</p>
                     </div>
                     <div class="category">
-                        <div class="category__img"></div>
+                        <div class="category__img">
+                            <img
+                                src="src/imagenes/iconos/headphones-svgrepo-com.svg"
+                                alt=""
+                            />
+                        </div>
                         <p class="category__name">Juvenil</p>
                     </div>
                     <div class="category">
-                        <div class="category__img"></div>
+                        <div class="category__img">
+                            <img
+                                src="src/imagenes/iconos/books-literature-svgrepo-com.svg"
+                                alt=""
+                            />
+                        </div>
                         <p class="category__name">Libros de texto</p>
                     </div>
                     <div class="category">
-                        <div class="category__img"></div>
+                        <div class="category__img">
+                            <img
+                                src="src/imagenes/iconos/abalone-svgrepo-com.svg"
+                                alt=""
+                            />
+                        </div>
                         <p class="category__name">Libros en gallego</p>
                     </div>
                 </div>
@@ -479,26 +509,35 @@
                     <div
                         class="col-lg-3 d-flex justify-content-around align-items-center footerSocial"
                     >
-                        <img
-                            src="src/imagenes/iconos/instagram-svgrepo-com.svg"
-                            alt="instagram"
-                            class="footerSocial__img"
-                        />
-                        <img
-                            src="src/imagenes/iconos/facebook-svgrepo-com.svg"
-                            alt="facebook"
-                            class="footerSocial__img"
-                        />
-                        <img
-                            src="src/imagenes/iconos/prime--twitter.svg"
-                            alt="X"
-                            class="footerSocial__img"
-                        />
-                        <img
-                            src="src/imagenes/iconos/ic--baseline-tiktok.svg"
-                            alt="tik tok"
-                            class="footerSocial__img"
-                        />
+                        <a href="https://www.instagram.com/casadellibro/?hl=es">
+                            <img
+                                src="src/imagenes/iconos/instagram-svgrepo-com.svg"
+                                alt="instagram"
+                                class="footerSocial__img"
+                            />
+                        </a>
+                        <a href="https://www.facebook.com/casadellibro">
+                            <img
+                                src="src/imagenes/iconos/facebook-svgrepo-com.svg"
+                                alt="facebook"
+                                class="footerSocial__img"
+                            />
+                        </a>
+                        <a href="https://x.com/casadellibro">
+                            <img
+                                src="src/imagenes/iconos/prime--twitter.svg"
+                                alt="X"
+                                class="footerSocial__img"
+                            />
+                        </a>
+
+                        <a href="https://github.com/Nilyz/La-Casa-Del-Libro-2">
+                            <img
+                                src="src/imagenes/iconos/github-svgrepo-com2.svg"
+                                alt="github"
+                                class="footerSocial__img"
+                            />
+                        </a>
                     </div>
                 </div>
                 <div class="footerPolicy">
@@ -519,5 +558,8 @@
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"
         ></script>
+        <script src="src/js/index_scripts/parallax.js" defer></script>
+        <script src="src/js/index_scripts/reviewGenerator.js" defer></script>
+        <script src="src/js/index_scripts/productSlider.js" defer></script>
     </body>
 </html>

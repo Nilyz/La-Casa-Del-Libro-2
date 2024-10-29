@@ -60,10 +60,18 @@ hr {
 /*------------ HEADER ------------*/
 header {
     background-color: var(--color-green);
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    transition: all 0.3s ease;
 }
-nav {
-    background-color: var(--color-green);
+.navbar-nav .nav-link.show {
+    color: var(--color-yellow);
 }
+.navbar-nav{
+    --bs-nav-link-hover-color: var(--color-white);
+}
+
 .navbar-brand img {
     height: 50px;
 }
@@ -108,9 +116,7 @@ nav {
 .nav-link:hover {
     color: var(--color-yellow);
 }
-.catalogueLink p {
-    font-size: 24px;
-}
+
 .catalogueMenu {
     background-color: var(--color-white);
     width: 100%;
@@ -209,6 +215,7 @@ footer {
     margin: 0;
     border: 1px solid var(--color-yellow);
     opacity: 1;
+    background-color: var(--color-yellow);
 }
 .footerCopy {
     width: 100%;
@@ -269,7 +276,7 @@ footer {
         color: var(--color-white);
     }
     .navbar-collapse {
-        background-color: var(--color-green);
+        
     }
     .navbar-nav li {
         text-align: center;
