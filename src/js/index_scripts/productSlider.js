@@ -112,3 +112,24 @@ function generateNewBooks(data) {
     }
 }
 
+// Escucha los clics en el contenedor del slider
+slider.addEventListener('click', (event) => {
+    const book = event.target.closest('.book');
+    if (book) {
+        const slug = book.querySelector('img').alt;
+        console.log('click en trending');
+        window.location.href = `../src/plantilla/libro.html?slug=${slug}`;
+    }
+});
+
+// Escucha los clics en el contenedor de libros nuevos
+sliderNewBooks.addEventListener('click', (event) => {
+    const book = event.target.closest('.book');
+    if (book) {
+        const slug = book.querySelector('img').alt;
+        console.log('click en nuevo');
+        window.location.href = `../src/plantilla/libro.html?slug=${slug}`;
+    }
+});
+
+
