@@ -1,1 +1,518 @@
+img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
 
+.hero {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: var(--color-white);
+}
+.hero::before{
+    content: "";
+    position: absolute;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../imagenes/otros/pngtree-the-background-photography-of-the-empty-bookstore-library-picture-image_1474804.jpg);    
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: scale(1.01);
+    filter: blur(3px);
+}
+.hero__text{
+    width: 100%;
+    padding: 0 20px 0 20px;
+    text-align: center;
+    font-family: 'Montserrat', helvetica, arial, sans-serif;
+}
+.hero__text h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.hero__text h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.firstLayer,.secondLayer,.thirtLayer {
+    display: none;
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    position: absolute;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.firstLayer{
+    background-image: url(../imagenes/otros/capa1.png);
+    margin-right: 150px;
+}
+.secondLayer{
+    background-image: url(../imagenes/otros/capa2.png);
+    margin-top: 100px;
+}
+.thirtLayer{
+    background-image: url(../imagenes/otros/capa3.png);
+    margin-right: 150px;
+    margin-bottom: 80px;
+}
+
+.trendingSection,.newBooksSection,.popularCategories,.reviewSection,.ubication,.subscribe {
+    margin-top: 150px;
+}
+
+
+/*SECCIÓN DESTACADOS Y NOVEDADES*/
+
+.trendingSection h3,
+.newBooksSection h3 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+.titleLine {
+    margin: 5px 0 5px 0;
+    border: 2px solid var(--color-green);
+    width: 80%;
+    margin: auto;
+}
+.trendingBooks,.newBooks {
+    margin-top: 40px;
+}
+
+.trendingBooks__Slider,.newBooks__Slider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.trendingBooks__booksCont,.newBooks__booksCont{
+    width: 70%;
+    overflow: hidden;
+}
+.trendingBooks__books,.newBooks__books {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+    justify-content: space-around;
+    overflow-x: auto;
+    overflow-y: hidden;
+    transition: transform 0.5s ease;
+    gap: 30px;
+}
+.arrow {
+    display: none;
+}
+#arrow-right-trending,#arrow-right-new {
+    transform: rotate(180deg);
+}
+
+.book {
+    width: 150px;
+    flex-shrink: 0;
+}
+.book__img {
+    height: 240px;
+    width: 100%;
+    border-radius: 5px;
+
+}
+.book__img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.book__title {
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 15px 0 5px 0;
+
+}
+.book__autor {
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 5px 0 5px 0;
+}
+.book__infoCont hr {
+    margin: 5px 0 5px 0;
+    border: 2px solid var(--color-green);
+    width: 30%;
+}
+.book__price {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: end;
+}
+
+.newBooks {
+    width: 100%;;
+}
+
+/*CATEGORÍAS*/
+.popularCategories {
+    padding: 0 3% 0 3%;
+    width: 100%;
+    margin-top: 100px;
+}
+.popularCategories h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin: 20px 0 20px 0;
+    margin-left: 10px;
+}
+.popularCategories hr {
+    width: 95%;
+    margin: auto;
+    border: 1px solid var(--color-yellow);
+}
+.popularCategories__categories {
+    height: 170px;
+    width: 95%;
+    margin: auto;
+    overflow: scroll;
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.category {
+    height: 100%;
+    width: 100px;
+    min-width: 100px;
+}
+.category__img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    background-color: var(--color-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category__img img{
+    width: 60%;
+}
+.category__name {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/*RESEÑAS*/
+.reviewSection {
+    padding: 4%;
+    height: 340px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../imagenes/otros/libreria.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.reviewCont {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    border-radius: 10px;
+}
+.reviewUser {
+    height: 25%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+.reviewUser__img {
+    height: 100%;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviewUser__img img {
+    height: 100%;
+}
+.reviewUser__name {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--color-white);
+}
+.review {
+    height: 75%;
+}
+.review__starDate {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+.review__stars {
+    width: auto;
+    height: 100%;
+    padding: 0 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review__stars img {
+    height: 50%;
+}
+.review__date {
+    font-size: 12px;
+}
+.review__text {
+    width: 100%;
+    height: 80%;
+    font-size: 16px;
+    padding: 20px;
+    backdrop-filter: blur(2px);
+    border-radius: 5px;
+    overflow-y: auto;
+}
+/*UBICACIÓN*/
+.ubication {
+    height: 400px;
+    width: 100%;
+}
+.ubication__title {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    height: 20%;
+    padding: 20px;
+}
+.ubication__title span{
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--color-green);
+}
+.ubication__map {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+iframe{
+    width: 95%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/*SUSCRIPCIÓN*/
+.subscribe {
+    background: var(--color-beige);
+    height: 200px;
+    color: var(--color-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe__info {
+    width: 100%;
+    text-align: center;
+}
+.subscribe__title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.subscribe__button {
+    margin-top: 30px;
+}
+.subscribe__button button {
+    background-color: var(--color-yellow);
+    color: var(--color-white);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.subscribe__info hr {
+    display: none;
+}
+.subscribe__img {
+    display: none;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .categories {
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 992px) {
+    .firstLayer,.secondLayer,.thirtLayer {
+        display: block;
+    }
+
+    .arrow{
+        height: 50px;
+        display: block;
+    }
+    .trendingBooks__books{
+        min-width: 800px;
+    }
+    .popularCategories h3 {
+        font-size: 24px;
+        margin-left: 0;
+    }
+    .popularCategories hr {
+        width: 20%;
+        margin-left: 0;
+        border: 3px solid var(--color-yellow);
+        margin-bottom: 50px;
+    }
+    .popularCategories__categories {
+        width: 90%;
+        height: 250px;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+    .category {
+        width: 160px;
+    }
+    .category__img {
+        margin: auto;
+    }
+    .category__name {
+        font-size: 20px;
+    }
+    .book {
+        width: 160px;
+    }
+    .book__img{
+        height: 260px;
+    }
+    .book__price{
+        font-size: 18px;
+    }
+
+
+
+    .reviewSection {
+        height: 500px;
+    }
+    .reviewCont {
+        background-color: transparent;
+        backdrop-filter: none;
+    }
+    .reviewUser {
+        width: 30%;
+        height: 75%;
+        flex-direction: column;
+    }
+    .reviewUser__name{
+        font-size: 20px;
+    }
+    .review {
+        height: auto;
+        width: 60%;
+        background-color: rgba(255, 255, 255, 0.26);
+        backdrop-filter: blur(5px);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .review__starDate {
+        height: 70px;
+    }
+    .review__date{
+        font-size: 16px;
+    }
+    .review__text {
+        font-size: 18px;
+        overflow: auto;
+        padding: 30px;
+    }
+
+    .ubication {
+        height: 500px;
+        padding: 0 3% 0 3%;
+    }
+    .ubication__title p{
+        font-size: 24px;
+    }
+    .ubication__title span{
+        font-size: 20px;
+    }
+
+
+
+    .subscribe {
+        height: 550px;
+    }
+    .subscribe__img {
+        display: block;
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .subscribe__img img {
+        height: 100%;
+        width: 100%;
+    }
+    .subscribe__info {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        padding: 50px;
+    }
+    .subscribe__title {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: left;
+    }
+    .subscribe__info p {
+        font-size: 24px;
+    }
+    .subscribe__button {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .subscribe__button {
+        margin-top: 80px;
+    }
+    .subscribe__button button {
+        font-size: 20px;
+        padding: 15px 30px;
+    }
+    .subscribe__info hr {
+        display: block;
+        width: 30%;
+        border: 3px solid var(--color-yellow);
+        margin: 40px 0 40px 0;
+    }
+}

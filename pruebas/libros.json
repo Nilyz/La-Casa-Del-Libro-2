@@ -1,39 +1,39 @@
 [
     {
         "id": 1,
-        "slug": "don-quijote-de-la-mancha",
-        "nombre": "Don Quijote de la Mancha",
-        "autor": "Miguel de Cervantes",
+        "slug": "la-isla-de-la-mujer-dormida",
+        "nombre": "LA ISLA DE LA MUJER DORMIDA",
+        "autor": "ARTURO PÉREZ REVERTE",
         "sinopsis": "Una novela de mar, amor y aventuras en el Egeo durante los años de la Guerra Civil española. Abril de 1937. Mientras en España transcurre la guerra civil, el marino mercante Miguel Jordán Kyriazis es enviado por el bando sublevado para atacar de modo clandestino el tráfico naval que desde la Unión Soviética transporta ayuda militar para la República. En la base de operaciones, una pequeña isla del mar Egeo, la vida del corsario español se cruzará en turbio triángulo con la de los propietarios, el barón Katelios y su esposa: una seductora mujer madura que busca, con fría desesperación, el modo de escapar a su destino.",
-        "editorial": "Francisco de Robles",
+        "editorial": "ALFAGUARA",
         "genero": {
             "categoria": "Ficción",
-            "subgenero": "Novela caballeresca"
+            "subgenero": "Contemporánea"
         },
         "encuadernacion": "Tapa dura",
-        "precio": 25.99,
-        "codigo_isbn": 9788491050291,
-        "idioma": "Español",
-        "numero_paginas": 1345,
-        "fecha_lanzamiento": "1605-01-16"
+        "precio": 22.00,
+        "codigo_isbn": 9788410299634,
+        "idioma": "Castellano",
+        "numero_paginas": 416,
+        "fecha_lanzamiento": "08/10/2024"
     },
     {
         "id": 2,
-        "slug": "cien-anos-de-soledad",
-        "nombre": "Cien años de soledad",
-        "autor": "Gabriel García Márquez",
-        "sinopsis": "Una obra maestra de la literatura latinoamericana...",
-        "editorial": "Editorial Sudamericana",
+        "slug": "intermezzo",
+        "nombre": "INTERMEZZO",
+        "autor": "SALLY ROONEY",
+        "sinopsis": "Una obra maestra de la literatura latinoamericana... Peter, de treinta y pocos, es un carismático y renombrado abogado en Dublín de apariencia inquebrantable. Tras la muerte de su padre, lucha por mantener bajo control su caótica vida personal. Se medica para poder dormir y manejar la relación sentimental que mantiene con dos mujeres muy diferentes: su eterno primer amor, Sylvia, y Naomi, una estudiante universitaria que no se toma la vida muy en serio. Ivan, de veintidós años, es un ajedrecista de carácter reservado, rígido en su actitud y aparentemente poco empático, que se ve a sí mismo como la antítesis de su hermano mayor, al que considera superficial y hablador. Pocos días después del funeral, Ivan conocerá a Margaret, una mujer catorce años mayor, y sus vidas se entrelazarán rápida e intensamente. Intermezzo es un nuevo interludio para dos hermanos afligidos y las personas que aman, un tiempo cargado de deseo y desesperación, pero también de posibilidades. Una oportunidad para descubrir cuánto puede contener una vida sin romperse.",
+        "editorial": "RANDOM HOUSE",
         "genero": {
             "categoria": "Ficción",
-            "subgenero": "Realismo mágico"
+            "subgenero": "Contemporánea"
         },
         "encuadernacion": "Tapa blanda",
-        "precio": 19.99,
-        "codigo_isbn": 9788497599998,
-        "idioma": "Español",
-        "numero_paginas": 400,
-        "fecha_lanzamiento": "1967-06-05"
+        "precio": 21.75,
+        "codigo_isbn": 9788439744030,
+        "idioma": "Castellano",
+        "numero_paginas": 416,
+        "fecha_lanzamiento": "25/09/2024"
     },
     {
         "id": 3,
@@ -695,7 +695,7 @@
             "subgenero": "Manga infantil"
         },
         "encuadernacion": "Bolsillo",
-        "precio": 807,
+        "precio": 8.07,
         "codigo_isbn": 9788468476247,
         "idioma": "Castellano",
         "numero_paginas": 192,
@@ -1453,7 +1453,7 @@
         "encuadernacion": "Tapa blanda",
         "precio": 22.80,
         "codigo_isbn": 9788412800661,
-        "idioma": "Castellano",
+        "idioma": "Gallego",
         "numero_paginas": 280,
         "fecha_lanzamiento": "29/02/2024"
     },
@@ -1471,7 +1471,7 @@
         "encuadernacion": "Tapa blanda",
         "precio": 14.72,
         "codigo_isbn": 9788491214885,
-        "idioma": "Castellano",
+        "idioma": "Gallego",
         "numero_paginas": 400,
         "fecha_lanzamiento": "19/03/2020"
     },
@@ -1489,7 +1489,7 @@
         "encuadernacion": "Tapa blanda",
         "precio": 25.60,
         "codigo_isbn": "9788411105798",
-        "idioma": "Castellano",
+        "idioma": "Gallego",
         "numero_paginas": 552,
         "fecha_lanzamiento": "05/09/2024"
     },
@@ -1507,7 +1507,7 @@
         "encuadernacion": "Tapa blanda",
         "precio": 12.82,
         "codigo_isbn": 9788411105316,
-        "idioma": "Castellano",
+        "idioma": "Gallego",
         "numero_paginas": 144,
         "fecha_lanzamiento": "13/06/2024"
     },
@@ -1525,7 +1525,7 @@
         "encuadernacion": "Tapa blanda",
         "precio": 13.25,
         "codigo_isbn": 9788491511809,
-        "idioma": "Castellano",
+        "idioma": "Gallego",
         "numero_paginas": 108,
         "fecha_lanzamiento": "01/06/2018"
     },
@@ -1561,7 +1561,7 @@
         "encuadernacion": "Tapa blanda",
         "precio": 17.10,
         "codigo_isbn": 9788491510833,
-        "idioma": "Castellano",
+        "idioma": "Gallego",
         "numero_paginas": 184,
         "fecha_lanzamiento": "27/10/2017"
     },
@@ -1579,7 +1579,7 @@
         "encuadernacion": "Tapa blanda",
         "precio": 27.07,
         "codigo_isbn": 9788498651928,
-        "idioma": "Castellano",
+        "idioma": "Gallego",
         "numero_paginas": 260,
         "fecha_lanzamiento": "08/07/2009"
     },
@@ -1597,7 +1597,7 @@
         "encuadernacion": "Tapa blanda",
         "precio": 190.00,
         "codigo_isbn": 9788498652086,
-        "idioma": "Castellano",
+        "idioma": "Gallego",
         "numero_paginas": 272,
         "fecha_lanzamiento": "08/07/2009"
     },
@@ -1615,7 +1615,7 @@
         "encuadernacion": "Tapa blanda",
         "precio": 12.35,
         "codigo_isbn": 9788417094515,
-        "idioma": "Castellano",
+        "idioma": "Gallego",
         "numero_paginas": 58,
         "fecha_lanzamiento": "04/02/2019"
     }

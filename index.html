@@ -13,7 +13,11 @@
 
         <link rel="stylesheet" href="src/css/headerFooter.css" />
         <link rel="stylesheet" href="src/css/index.css" />
-        <script src="src/js/nav.js" defer></script>
+        <script src="src/js/index_scripts/parallax.js" defer></script>
+        <script src="src/js/index_scripts/reviewGenerator.js" defer></script>
+        <script src="src/js/index_scripts/productSlider.js" defer></script>
+        <script src="src/js/header.js"></script>
+        <script src="pruebas/catalogo2.js" defer></script>
     </head>
     <body>
         <header>
@@ -26,7 +30,7 @@
                         href="index.html"
                     >
                         <img
-                            src="src/imagenes/iconos/Logo_Casa_del_libro.png"
+                            src="src/imagenes/iconos/Logo_Casa_del_libro2.png"
                             alt="logo"
                             class="me-1"
                         />
@@ -42,8 +46,11 @@
                         <ul
                             class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-space align-items-center"
                         >
-                            <li class="nav-item ">
-                                <a class="nav-link" aria-current="page" href="#"
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="index.html"
                                     >Inicio</a
                                 >
                             </li>
@@ -62,9 +69,6 @@
                                     class="dropdown-menu"
                                     aria-labelledby="menuToggle"
                                 >
-                                    <a href="src/paginas/catalogo.html" class="catalogueLink"
-                                        ><p>Catálogo</p></a
-                                    >
                                     <div class="catalogueMenu">
                                         <ul class="categories">
                                             <li>
@@ -267,7 +271,216 @@
             </nav>
         </header>
 
-        <main></main>
+        <main>
+            <div class="hero">
+                <div class="layer firstLayer" data-speed="-2"></div>
+                <div class="layer secondLayer" data-speed="-6"></div>
+                <div class="layer thirtLayer" data-speed="-4"></div>
+                <div class="hero__text layer" data-speed="1">
+                    <h1>Encuentra tu inspiración aquí</h1>
+                    <h2>La Casa Del Libro</h2>
+                </div>
+            </div>
+            <div class="trendingSection">
+                <h3>Libros destacados</h3>
+                <hr class="trendingSection__titleLine titleLine" />
+                <div class="trendingBooks">
+                    <div class="trendingBooks__Slider">
+                        <img
+                            src="src/imagenes/iconos/arrow-prev-svgrepo-com.svg"
+                            alt=""
+                            class="arrow"
+                            id="arrow-left-trending"
+                        />
+                        <div class="trendingBooks__booksCont">
+                            <div
+                                class="trendingBooks__books"
+                                id="trendingBooks-books"
+                            ></div>
+                        </div>
+                        <img
+                            src="src/imagenes/iconos/arrow-prev-svgrepo-com.svg"
+                            alt=""
+                            class="arrow"
+                            id="arrow-right-trending"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div class="newBooksSection">
+                <h3>Novedades</h3>
+                <hr class="newBooks__titleLine titleLine" />
+                <div class="newBooks">
+                    <div class="newBooks__Slider">
+                        <img
+                            src="src/imagenes/iconos/arrow-prev-svgrepo-com.svg"
+                            alt=""
+                            class="arrow"
+                            id="arrow-left-new"
+                        />
+                        <div class="newBooks__booksCont">
+                            <div
+                                class="newBooks__books"
+                                id="newBooks-books"
+                            ></div>
+                        </div>
+                        <img
+                            src="src/imagenes/iconos/arrow-prev-svgrepo-com.svg"
+                            alt=""
+                            class="arrow"
+                            id="arrow-right-new"
+                        />
+                    </div>
+                </div>
+            </div>
+
+            <div class="popularCategories">
+                <h3>Categorías populares</h3>
+                <hr />
+                <div class="popularCategories__categories">
+                    <div class="category">
+                        <div class="category__img">
+                            <img
+                                src="src/imagenes/iconos/footprint-svgrepo-com.svg"
+                                alt=""
+                            />
+                        </div>
+                        <p class="category__name">Ficción</p>
+                    </div>
+                    <div class="category">
+                        <div class="category__img">
+                            <img
+                                src="src/imagenes/iconos/education-experiment-lab-svgrepo-com.svg"
+                                alt=""
+                            />
+                        </div>
+                        <p class="category__name">No ficción</p>
+                    </div>
+                    <div class="category">
+                        <div class="category__img">
+                            <img
+                                src="src/imagenes/iconos/teddy-bear-bear-svgrepo-com.png"
+                                alt=""
+                            />
+                        </div>
+                        <p class="category__name">Infantil</p>
+                    </div>
+                    <div class="category">
+                        <div class="category__img">
+                            <img
+                                src="src/imagenes/iconos/headphones-svgrepo-com.svg"
+                                alt=""
+                            />
+                        </div>
+                        <p class="category__name">Juvenil</p>
+                    </div>
+                    <div class="category">
+                        <div class="category__img">
+                            <img
+                                src="src/imagenes/iconos/books-literature-svgrepo-com.svg"
+                                alt=""
+                            />
+                        </div>
+                        <p class="category__name">Libros de texto</p>
+                    </div>
+                    <div class="category">
+                        <div class="category__img">
+                            <img
+                                src="src/imagenes/iconos/abalone-svgrepo-com.svg"
+                                alt=""
+                            />
+                        </div>
+                        <p class="category__name">Libros en gallego</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviewSection">
+                <div
+                    class="row d-flex justify-content-around align-items-center reviewCont"
+                    id="reviewCont"
+                >
+                    <div class="col-ld-5 reviewUser">
+                        <div class="reviewUser__img">
+                            <img
+                                src="src/imagenes/iconos/user-svgrepo-com.svg"
+                                alt=""
+                                id="user-img"
+                            />
+                        </div>
+                        <p class="reviewUser__name" id="user-name">------</p>
+                    </div>
+                    <div class="col-ld-7 review">
+                        <div class="review__starDate">
+                            <div class="review__stars" id="user-stars">
+                                <img
+                                    src="src/imagenes/iconos/star2-svgrepo-com.svg"
+                                    alt=""
+                                    id="star0"
+                                />
+                                <img
+                                    src="src/imagenes/iconos/star2-svgrepo-com.svg"
+                                    alt=""
+                                    id="star1"
+                                />
+                                <img
+                                    src="src/imagenes/iconos/star2-svgrepo-com.svg"
+                                    alt=""
+                                    id="star2"
+                                />
+                                <img
+                                    src="src/imagenes/iconos/star2-svgrepo-com.svg"
+                                    alt=""
+                                    id="star3"
+                                />
+                                <img
+                                    src="src/imagenes/iconos/star2-svgrepo-com.svg"
+                                    alt=""
+                                    id="star4"
+                                />
+                            </div>
+                            <p class="review__date" id="review-date">-/-/-</p>
+                        </div>
+                        <p class="review__text" id="review-text">...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ubication">
+                <div class="ubication__title">
+                    <a href="https://maps.app.goo.gl/72auE2xf7QyFWKfT6"
+                        ><p>
+                            Ubícanos en:
+                            <span>Gran Vía, 29, Centro, 28013 Madrid</span>
+                        </p></a
+                    >
+                </div>
+                <div class="ubication__map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.4996814041638!2d-3.705786523597669!3d40.41993315544379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42287d850c6d3f%3A0x536e1ebfdef1e58!2sCasa%20del%20Libro!5e0!3m2!1ses!2ses!4v1729977650979!5m2!1ses!2ses"
+                        width="600"
+                        height="450"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+            </div>
+            <div class="subscribe">
+                <div class="subscribe__img">
+                    <img src="src/imagenes/otros/persona-leyendo.jpg" alt="" />
+                </div>
+                <div class="subscribe__info">
+                    <h3 class="subscribe__title">
+                        Suscríbete para recibir las últimas noticias
+                    </h3>
+                    <hr />
+                    <p>Cuéntanos qué libros te gustan</p>
+                    <div class="subscribe__button">
+                        <button>SUSCRIBIRME</button>
+                    </div>
+                </div>
+            </div>
+        </main>
 
         <footer>
             <div class="container">
@@ -276,11 +489,11 @@
                 >
                     <div class="col-lg-4 text-center footerLogo">
                         <img
-                            src="src/imagenes/iconos/Logo_Casa_del_libro.png"
+                            src="src/imagenes/iconos/Logo_Casa_del_libro2.png"
                             alt="logo"
                             class="footerLogo__img"
                         />
-                        <span class="footerLogo__name">La Casa Del Libro</span>
+                        <span class="FfooterLogo__name">La Casa Del Libro</span>
                     </div>
                     <div class="col-lg-3 footerLink">
                         <ul class="list-unstyled">
@@ -297,26 +510,35 @@
                     <div
                         class="col-lg-3 d-flex justify-content-around align-items-center footerSocial"
                     >
-                        <img
-                            src="src/imagenes/iconos/instagram-svgrepo-com.svg"
-                            alt="instagram"
-                            class="footerSocial__img"
-                        />
-                        <img
-                            src="src/imagenes/iconos/facebook-svgrepo-com.svg"
-                            alt="facebook"
-                            class="footerSocial__img"
-                        />
-                        <img
-                            src="src/imagenes/iconos/prime--twitter.svg"
-                            alt="X"
-                            class="footerSocial__img"
-                        />
-                        <img
-                            src="src/imagenes/iconos/ic--baseline-tiktok.svg"
-                            alt="tik tok"
-                            class="footerSocial__img"
-                        />
+                        <a href="https://www.instagram.com/casadellibro/?hl=es">
+                            <img
+                                src="src/imagenes/iconos/instagram-svgrepo-com.svg"
+                                alt="instagram"
+                                class="footerSocial__img"
+                            />
+                        </a>
+                        <a href="https://www.facebook.com/casadellibro">
+                            <img
+                                src="src/imagenes/iconos/facebook-svgrepo-com.svg"
+                                alt="facebook"
+                                class="footerSocial__img"
+                            />
+                        </a>
+                        <a href="https://x.com/casadellibro">
+                            <img
+                                src="src/imagenes/iconos/prime--twitter.svg"
+                                alt="X"
+                                class="footerSocial__img"
+                            />
+                        </a>
+
+                        <a href="https://github.com/Nilyz/La-Casa-Del-Libro-2">
+                            <img
+                                src="src/imagenes/iconos/github-svgrepo-com2.svg"
+                                alt="github"
+                                class="footerSocial__img"
+                            />
+                        </a>
                     </div>
                 </div>
                 <div class="footerPolicy">
@@ -337,5 +559,8 @@
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"
         ></script>
+        <script src="src/js/index_scripts/parallax.js" defer></script>
+        <script src="src/js/index_scripts/reviewGenerator.js" defer></script>
+        <script src="src/js/index_scripts/productSlider.js" defer></script>
     </body>
 </html>

@@ -1,11 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 :root {
     --color-green: #37643b;
     --color-yellow: #dea02e;
     --color-beige: #f4efd9;
     --color-brown: #4f1b0d;
     --color-white: #fdfcf7;
+    --color-black: #1a1a1a;
 }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+h1 {
+    font-family: "Montserrat", helvetica, arial, sans-serif;
+}
+h2,
+h3 {
+    font-family: "Lora", Georgia, times, serif;
+}
+p {
+    font-family: "Hind Madurai", helvetica, arial, sans-serif;
+}
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +29,9 @@
 }
 body {
     min-height: 150vh;
+    color: var(--color-black);
+    background-color: var(--color-white);
+    font-family: "Hind Madurai", helvetica, arial, sans-serif;
 }
 main {
     min-height: 150vh;
@@ -26,18 +45,42 @@ a {
     text-decoration: none;
     color: rgb(24, 24, 24);
 }
-p{
+p {
+    margin: 0;
+    margin-bottom: 0;
+}
+
+
+button p {
     margin: 0;
 }
+hr {
+    opacity: 1;
+    border-radius: 10px;
+}
+.row {
+    --bs-gutter-x: 0;
+}
+
 /*------------ HEADER ------------*/
 header {
     background-color: var(--color-green);
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    transition: all 0.3s ease;
 }
-nav {
-    background-color: var(--color-green);
+.navbar-nav .nav-link.show {
+    color: var(--color-yellow);
 }
+.navbar-nav{
+    --bs-nav-link-hover-color: var(--color-white);
+}
+
 .navbar-brand img {
     height: 50px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 .navbar-brand {
     color: var(--color-white);
@@ -80,9 +123,7 @@ nav {
 .nav-link:hover {
     color: var(--color-yellow);
 }
-.catalogueLink p{
-    font-size: 24px;
-}
+
 .catalogueMenu {
     background-color: var(--color-white);
     width: 100%;
@@ -181,6 +222,7 @@ footer {
     margin: 0;
     border: 1px solid var(--color-yellow);
     opacity: 1;
+    background-color: var(--color-yellow);
 }
 .footerCopy {
     width: 100%;
@@ -241,7 +283,7 @@ footer {
         color: var(--color-white);
     }
     .navbar-collapse {
-        background-color: var(--color-green);
+        
     }
     .navbar-nav li {
         text-align: center;
@@ -249,8 +291,6 @@ footer {
         margin: 0 20px 0 20px;
     }
     .dropdown-menu {
-        background-color: var(--color-beige);
-        min-width: none;
         width: 800px;
         display: none;
     }
@@ -265,7 +305,6 @@ footer {
     }
 
     .catalogueMenu {
-        background-color: var(--color-beige);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -299,6 +338,8 @@ footer {
     }
     .footerLogo__img {
         height: 100px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
     }
     .footerLogo__name {
         font-size: 26px;
