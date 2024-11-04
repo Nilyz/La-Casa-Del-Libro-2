@@ -1,0 +1,93 @@
+main{
+    padding-top: 80px;
+    padding-bottom: 110px;
+}
+footer{
+    display: none;
+}
+.productSection{
+    border: 2px solid black;
+}
+.selectAllSection{
+    width: 100%;
+    background-color: antiquewhite;
+}
+.productListSection{
+    background-color: azure;
+    min-height: 100vh;
+}
+.productBook{
+    border: 2px solid black;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productBook__img{
+    height: 100%;
+    width: 100px;
+    background-color: aquamarine;
+}
+.productBook__info{
+    width: 80%;
+    border: 2px solid red;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.productBook__info__title{
+    background-color: rgb(120, 120, 120);
+    width: 80%;
+    height: 50%;
+}
+.productBook__info__trash{
+    width: 20%;
+    background-color: salmon;
+}
+.productBook__info__price{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(158, 207, 179);
+}
+
+.paymentSection{
+    border: 2px solid rgb(14, 110, 212);
+}
+
+/*PRICE SECTION*/
+
+.priceSection{
+    height: 100px;
+    width: 95%;
+    background-color: bisque;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);}
+
+/*EXTRA INFO SECTION*/
+
+.extraInfoSeccion{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(160, 160, 220);
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 992px) {
+    main{
+        padding-bottom: 0;
+    }
+    footer{
+        display: block;
+    }
+    .priceSection{
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+}
