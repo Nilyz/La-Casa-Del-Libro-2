@@ -48,34 +48,34 @@ body {
     margin-top: 10px;
     border: 1px solid #000;
 }
-.slider{
+.slider { 
     width: 100%;
     display: flex;
-    gap: 10px;
-    overflow: auto;
+    justify-content: center; /* Centrar el contenedor */
     padding: 10px;
-    justify-content: center;
-    align-items: center;
+    overflow: hidden; /* Para ocultar el contenido desbordado */
 }
-.ficcion__books{
-    
-    width: 100%;
+
+.ficcion_books {
     display: flex;
     gap: 10px;
     overflow: auto;
-    padding: 10px;
     scroll-behavior: smooth;
+    justify-content: center; /* Centrar los elementos dentro */
+    padding: 10px;
+    max-width: 100%;
 }
+
 .book {
     max-width: 140px;
     flex-shrink: 0;
-    margin-left: 20px;
-    margin-right: 20px;
-
+    margin: 0 20px; /* Para dar espacio entre los libros */
 }
+
 .book__img {
     height: 210px;
     width: 100%;
+    object-fit: cover;
 }
 .book__img img {
     width: 100%;
@@ -98,21 +98,6 @@ body {
     font-size: 16px;
     font-weight: bold;
     text-align: end;
-}
-.arrow-left-ficcion{
-    height: 100px;
-    width: 50px;
-    /* position: absolute; */
-    left: 0;
-    cursor: pointer;
-}
-.arrow-right-ficcion{
-    height: 100px;
-    width: 50px;
-    /* position: absolute; */
-    right: 0;
-    cursor: pointer;
-    rotate: 180deg;
 }
 /*div {
     border: 1px solid #ccc;
