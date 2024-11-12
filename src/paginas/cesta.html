@@ -266,8 +266,8 @@
             </nav>
         </header>
 
-        <main class="row">
-            <div class="col-12 col-lg-7 productSection">
+        <main class="row d-flex justify-content-around">
+            <div class="col-12 col-lg-6 productSection">
                 <div class="selectAllSection">
                     <p>Cesta (3)</p>
                     <div class="selectAll">
@@ -279,39 +279,141 @@
                     <div class="productBook">
                         <input type="checkbox" id="selectAll" />
                         <div class="productBook__img">
-                            <img src="" alt="" />
+                            <img
+                                src="../imagenes/libros/a-expresion-damatica-na-educacion.webp"
+                                alt=""
+                            />
                         </div>
                         <div class="productBook__info">
                             <div class="productBook__info__title">
-                                <p>Titulo</p>
+                                <h4>Titulo</h4>
                                 <p>Autor</p>
                             </div>
-                            <div class="productBook__info__trash"></div>
-                            <div class="productBook__info__price"></div>
+                            <div class="productBook__info__trash">
+                                <img
+                                    src="../imagenes/iconos/trash-delete-svgrepo-com.svg"
+                                    alt="trash"
+                                />
+                            </div>
+                            <div class="productBook__info__priceCount">
+                                <div class="productBook__info__price">
+                                    <p class="price">25,50 €</p>
+                                </div>
+                                <div class="productBook__info__count">
+                                    <input type="number" value="1" />
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <hr>
-                    <div class="productBook">
-                        <input type="checkbox" id="selectAll" />
-                        <div class="productBook__img">
-                            <img src="" alt="" />
+                    <hr />
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 paymentSection">
+                <div class="priceSection">
+                    <h4>Resumen</h4>
+                    <div class="priceSection__resumeCont">
+                        <div class="priceSection__resumeCont-sub">
+                            <h5>Subtotal</h5>
+                            <p>25,50 €</p>
                         </div>
-                        <div class="productBook__info">
-                            <div class="productBook__info__title">
-                                <p>Titulo</p>
-                                <p>Autor</p>
-                            </div>
-                            <div class="productBook__info__trash"></div>
-                            <div class="productBook__info__price"></div>
+                        <div class="priceSection__resumeCont-ship">
+                            <p>Gastos de envío</p>
+                            <p>1,99 €</p>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="priceSection__totalCont">
+                        <div class="priceSection__totalCont-total">
+                            <h5>Total</h5>
+                            <p>27,49 €</p>
+                        </div>
+                        <div class="priceSection__totalCont-iva">
+                            <p>IVA incluido</p>
+                        </div>
+                    </div>
+                    <button class="paymentSection__button">Pagar</button>
+                </div>
+                <div class="extraInfoSeccion">
+                    <div class="extraInfoSeccion__shipment">
+                        <div class="extraInfoSeccion__titles">
+                            <img
+                                src="../imagenes/iconos/box-svgrepo-com.svg"
+                                alt=""
+                            />
+                            <p>Entrega rápida</p>
+                        </div>
+                        <div class="extraInfoSeccion__shipmentList">
+                            <ul>
+                                <li>
+                                    <img
+                                        src="../imagenes/iconos/check-svgrepo-com.svg"
+                                        alt=""
+                                    />Entrega en 24 horas
+                                </li>
+                                <li>
+                                    <img
+                                        src="../imagenes/iconos/check-svgrepo-com.svg"
+                                        alt=""
+                                    />Reembolso por artículos dañados
+                                </li>
+                                <li>
+                                    <img
+                                        src="../imagenes/iconos/check-svgrepo-com.svg"
+                                        alt=""
+                                    />Reembolso por pérdida del paquete
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="extraInfoSeccion__security">
+                        <div class="extraInfoSeccion__titles">
+                            <img
+                                src="../imagenes/iconos/box-svgrepo-com.svg"
+                                alt=""
+                            />
+                            <p>Seguridad y privacidad</p>
+                        </div>
+                        <div class="extraInfoSeccion__securityText">
+                            <p>Pagos seguros · Datos personales seguros</p>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="extraInfoSeccion__payment">
+                        <div class="extraInfoSeccion__titles">
+                            <img
+                                src="../imagenes/iconos/pay-svgrepo-com.svg"
+                                alt=""
+                            />
+                            <p>Pagos seguros</p>
+                        </div>
+                        <div class="extraInfoSeccion__paymentCardCont">
+                            <img
+                                src="../imagenes/iconos/mastercard-svgrepo-com.svg"
+                                alt=""
+                            />
+                            <img
+                                src="../imagenes/iconos/visa-svgrepo-com.svg"
+                                alt=""
+                            />
+                            <img
+                                src="../imagenes/iconos/apple-pay-svgrepo-com.svg"
+                                alt=""
+                            />
+                            <img
+                                src="../imagenes/iconos/amazon-pay-svgrepo-com.svg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="extraInfoSeccion__paymentText">
+                            <p>
+                                Con socios de pago populares tus datos
+                                personales están seguros
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-5 paymentSection">
-                <div class=" priceSection"></div>
-            <div class=" extraInfoSeccion"></div>
-            </div>
-            
         </main>
 
         <footer>
