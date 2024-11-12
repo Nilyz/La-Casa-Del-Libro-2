@@ -48,12 +48,25 @@ body {
     margin-top: 10px;
     border: 1px solid #000;
 }
-.slider { 
+.mostrador { 
     width: 100%;
+    height: max-content;
     display: flex;
+    flex-direction: column;
     justify-content: center; /* Centrar el contenedor */
     padding: 10px;
     overflow: hidden; /* Para ocultar el contenido desbordado */
+}
+.mostradorSubgenero {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+.mostradorSubgenero h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    
 }
 
 .ficcion_books {
