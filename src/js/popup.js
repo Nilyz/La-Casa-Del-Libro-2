@@ -71,7 +71,7 @@ function cambiarFormulario() {
         iniciar.style.cursor = 'pointer';
 
         // Ocultar el enlace de olvidar contraseña
-        forgotPassword.style.display = 'none';
+        forgotPassword.style.visibility = 'hidden';
 
         estado = true; // Cambiar estado a registro
     } else {
@@ -87,7 +87,7 @@ function cambiarFormulario() {
         iniciar.style.cursor = 'default';
 
         // Mostrar el enlace de olvidar contraseña
-        forgotPassword.style.display = 'block';
+        forgotPassword.style.visibility = 'visible';
 
         estado = false; // Cambiar estado a inicio de sesión
     }
