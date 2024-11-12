@@ -1,8 +1,13 @@
 let btnMasInformacion = document.getElementById('btnMasInformacion');
 let actualidad = document.getElementById('actualidad');
+let eventoArturoReverte = document.getElementById('eventoArturoReverte');
 
 btnMasInformacion.addEventListener('click', () => {
     actualidad.scrollIntoView({ behavior: "smooth" });
+});
+
+eventoArturoReverte.addEventListener('click', () => {
+    window.location.href = '../plantilla/libro.html?slug=la-isla-de-la-mujer-dormida';
 });
 
 function aplicarEstilos() {

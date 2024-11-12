@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+img {
+    
+    /* Opcional, da esquinas redondeadas */
+}
+
 
 main {
     width: 100%;
@@ -11,11 +16,11 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background-color: white;
 }
 
 .frontPage {
     width: 100%;
-    background-color: #f3efdb;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,12 +35,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
 }
 
 .frontPage-img1 img {
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .frontPage-info {
@@ -44,7 +48,6 @@ main {
     justify-content: left;
     align-items: center;
     flex-wrap: wrap;
-    border: 1px solid black;
     gap: 20px;
     padding: 30px;
 }
@@ -69,7 +72,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    background-color: var(--color-yellow);
     padding: 10px;
     cursor: pointer;
 }
@@ -92,14 +95,14 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: bisque;
     padding-block: 20px;
+    background-color: #f7e198;
 }
 
 .newsLetter {
     width: 90%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
@@ -126,7 +129,6 @@ main {
 
 .newsLetter-btn {
     border: 1px solid black;
-    border-radius: 10px;
     width: fit-content;
     display: flex;
     justify-content: center;
@@ -142,7 +144,7 @@ main {
 }
 
 .newsLetter-btn img {
-    width: 28px;    
+    width: 28px;
     object-fit: contain;
 }
 
@@ -161,7 +163,6 @@ main {
     align-items: center;
     flex-wrap: wrap;
     padding-block: 20px;
-    border: 1px solid black;
     gap: 30px;
 }
 
@@ -189,7 +190,6 @@ main {
 
 .actualidad {
     width: 90%;
-    border: 1px solid black;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -228,7 +228,6 @@ main {
 .actualidad-noticia {
     width: 100%;
     height: fit-content;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -281,8 +280,7 @@ main {
     align-items: center;
     flex-wrap: wrap;
     padding-block: 20px;
-    border: 1px solid black;
-    gap: 40px;
+    gap: 60px;
 }
 
 .evento {
@@ -336,7 +334,6 @@ main {
         display: flex;
         justify-content: center;
         align-items: flex-end;
-        border: 1px solid black;
     }
 
     .frontPage-img2 img {
@@ -350,7 +347,6 @@ main {
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        border: 1px solid black;
     }
 
     .frontPage-img1 img {
@@ -364,11 +360,11 @@ main {
         width: 30%;
         top: 35%;
         left: 30%;
-        background-color: white;
+        background-color: var(--color-green);
+        color: white;
     }
 
     .newsLetter-container {
-        border: 1px solid black;
         width: 100%;
         display: flex;
         justify-content: space-around;
@@ -380,7 +376,6 @@ main {
 
     .newsLetter-img {
         display: flex;
-        border: 1px solid black;
         width: 40%;
     }
 
@@ -390,18 +385,13 @@ main {
     }
 
     .newsLetter {
-        border: 1px solid black;
         width: 40%;
         height: 100%;
     }
 
-    .newsLetter-titulo {
-        border: 1px solid black;
-    }
+    .newsLetter-titulo {}
 
-    .newsLetter-texto {
-        border: 1px solid black;
-    }
+    .newsLetter-texto {}
 
     .actualidad-container {
         margin-block: 20px;
@@ -409,7 +399,7 @@ main {
 
     .actualidad {
         background-image: none;
-        border: 1px solid black;
+
         background-color: transparent;
     }
 
@@ -433,74 +423,91 @@ main {
 
     .actualidad-img img {
         width: 100%;
-        object-fit: cover;
+        object-fit: contain;
     }
 
     .actualidad-info {
-        border: 1px solid black;
         width: 55%;
         min-height: 300px;
         z-index: 5;
         display: flex;
-        flex-direction: column; /* Cambié a columna para que los elementos se distribuyan verticalmente */
+        flex-direction: column;
+        /* Cambié a columna para que los elementos se distribuyan verticalmente */
         justify-content: space-between;
-        align-items: stretch; /* Asegura que los hijos ocupen todo el ancho */
+        align-items: stretch;
+        /* Asegura que los hijos ocupen todo el ancho */
     }
-    
+
     .info-titulo2 {
         width: 100%;
-        flex-basis: 20%; /* Controla la proporción de altura */
-        border: 1px solid black;
+        flex-basis: 20%;
+        /* Controla la proporción de altura */
         text-align: center;
     }
-    
+
     .info-titulo2 h3 {
         color: black;
     }
-    
+
     .info-texto {
-        flex-grow: 1; /* Hace que ocupe el espacio restante */
+        flex-grow: 1;
+        /* Hace que ocupe el espacio restante */
         color: black;
-        border: 1px solid black;
     }
-    
+
     .actualidad-decoracion {
         display: flex;
         width: 200px;
         height: 100%;
         background-color: #f3efdb;
         position: absolute;
+        border-radius: 8px;
         z-index: 1;
         top: 0;
     }
-    
+
     /* Estilo para los elementos impares */
     .actualidad:nth-of-type(odd) .actualidad-decoracion {
         left: 84%;
     }
-    
+
     /* Estilo para los elementos pares */
     .actualidad:nth-of-type(even) .actualidad-decoracion {
         left: 1.5%;
     }
 
-    .evento-container{
+    .evento-container {
         justify-content: space-around;
         padding: 20px;
         margin-block: 20px;
     }
 
-    .actualidad-titulo{
+    .actualidad-titulo {
         width: 92%;
     }
 
-    .titulo-linea{
+    .titulo-linea {
         width: 14%;
     }
 
     .evento {
         width: 40%;
         border: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
+
+    .evento-img {
+        height: 100%;
+        border: 1px solid black;
+    }
+
+    .evento-img:hover {
+        cursor: pointer;
+    }
+
+
+
 
 }
