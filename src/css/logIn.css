@@ -1,12 +1,9 @@
-body{
-    position: relative;
-}
-
-.popUpForm{
+.popUpForm {
     background-color: beige;
-    max-width: 95vw;
+    max-width: 80vw;
     margin: auto;
-    min-width: 80%;
+    min-width: 60%;
+    height: 80%;
     color: var(--color-white);
     background-color: var(--color-green);
     border-radius: 10px;
@@ -15,21 +12,31 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-top: 40px;
+        justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-inline: 20px;
 }
-.popup-left{
+
+.popup-left {
     display: none;
 }
-.popup-right{
+
+.popup-right {
     width: 100%;
-}   
-.top-PopUp{
+}
+
+.top-PopUp {
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
-.x-popUp{
+
+.x-popUp {
     width: 100%;
     display: flex;
     justify-content: end;
@@ -37,43 +44,48 @@ body{
     padding-right: 10px;
 }
 
-.popUpLine{
+.popUpLine {
     width: 2px;
     height: 20px;
     border: 2px solid var(--color-yellow);
     opacity: 1;
 }
 
-.middlePopUp{
-width: 100%;
-justify-content: center;
-display: flex;
-height: 170px;
+.middlePopUp {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    height: 140px;
+    display: none;
 }
-.middlePopUp img{
-    height: 100%;
-    }
 
-.loginForm{
+.middlePopUp img {
+    height: 100%;
+}
+
+.loginForm {
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 100%;
     justify-content: center;
     align-items: center;
-    padding: 20px;    
+    padding: 20px;
 }
 
-.loginForm label, .loginForm input{
+.loginForm label,
+.loginForm input {
     width: 100%;
     border-radius: 10px;
 
 }
-.loginForm input{
-   height:40px;
+
+.loginForm input {
+    height: 40px;
+    padding-inline: 10px;
 }
 
-.loginForm button{
+.loginForm button {
     width: 100%;
     background-color: var(--color-yellow);
     font-weight: bold;
@@ -82,23 +94,30 @@ height: 170px;
     border-radius: 10px;
     color: var(--color-white);
 }
-.forgot-password a{
+
+.forgot-password a {
     color: var(--color-white);
 }
 
 @media (min-width: 992px) {
-    .popUpForm{
+    .popUpForm {
         max-width: 50vw;
         border-radius: 20px;
         overflow: hidden;
+        flex-wrap: nowrap;
+        align-items: normal;
+        padding: 0;
+        gap:0;
     }
-    .popup-left{
-        display:block;
+
+    .popup-left {
+        display: block;
         width: 50%;
         overflow: hidden;
         position: relative;
     }
-    .popup-left img{
+
+    .popup-left img {
         aspect-ratio: 1/1;
         object-fit: cover;
         height: 100%;
@@ -106,10 +125,17 @@ height: 170px;
         border-radius: 20px;
         filter: blur(3px);
     }
-    .popup-right{
+
+    .popup-right {
         width: 50%;
         background-color: var(--color-green);
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
+
     .popup-text {
         position: absolute;
         top: 50%;
@@ -122,5 +148,5 @@ height: 170px;
         border-radius: 10px;
         width: 80%;
     }
-    
+
 }
