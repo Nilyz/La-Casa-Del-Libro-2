@@ -392,7 +392,9 @@ main.dark {
     .firstLayer,.secondLayer,.thirtLayer {
         display: block;
     }
-
+    .trendingBooks__books,.newBooks__books{
+        width: 200%;
+    }
     .arrow{
         height: 50px;
         display: block;
@@ -434,8 +436,6 @@ main.dark {
     .book__price{
         font-size: 18px;
     }
-
-
 
     .reviewSection {
         height: 500px;
