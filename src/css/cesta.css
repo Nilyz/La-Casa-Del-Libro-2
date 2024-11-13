@@ -3,6 +3,7 @@ main {
     padding-top: 100px;
     padding-left:5%;
     padding-right: 5%;
+    background-color: var(--color-white);
 }
 footer {
     display: none;
@@ -109,8 +110,9 @@ footer {
     justify-content: center;
     align-items: end;
 }
+
 .productBook__info__count input{
-    width: 50px;
+    width: 40px;
     text-align: center;
 }
 
