@@ -3,6 +3,10 @@ login.addEventListener('click', mostrarPopUp);
 
 let estado = false;
 
+import { iniciarSesion } from '../bdd/firebase.js';
+import { registrar } from '../bdd/firebase.js';
+import { auth, signInWithEmailAndPassword, createUserWithEmailAndPassword } from '../bdd/firebase.js';
+
 function mostrarPopUp() {
     const overlay = document.createElement('div');
     overlay.classList.add('popup-overlay');
@@ -18,7 +22,7 @@ function mostrarPopUp() {
             </div>
             <div class="popup-right" id="popup-right">
                 <div class="x-popUp">
-                    <button class="close-button" onclick="cerrarPopUp()">&times;</button>
+                    <button class="close-button" id="btnCerrar">&times;</button>
                 </div>
                 <div class="top-PopUp">
                     <h2 class="iniciar" id="iniciar">Iniciar Sesión</h2>
@@ -43,11 +47,37 @@ function mostrarPopUp() {
         </div>
     `;
 
-    document.body.appendChild(overlay);
+    // Verificar si el usuario ya está autenticado
+    const user = auth.currentUser;
+    if (user) {
+        console.log("Ya estás autenticado.");
+        return; // No continuar si ya hay un usuario conectado
+    } else {
+        // Agregar el overlay al body
+        document.body.appendChild(overlay);
+        // Funcionalidad de inicio de sesión/registro
+        document.getElementById('btnIniciarSesion').addEventListener('click', (event) => {
+            let email = document.getElementById('email').value;
+            let password = document.getElementById('password').value;
+            event.preventDefault(); // Evita el envío del formulario
+
+            if (estado === false) {
+                // Llamar a la función para iniciar sesión si el estado es false
+                iniciarSesion(email, password);
+            } else {
+                // Llamar a la función para registrar si el estado es true
+                registrar(email, password);
+            }
+        });
+    }
+
+
 
     // Evento para cambiar el formulario entre iniciar sesión y registro
     document.getElementById('registrar').addEventListener('click', cambiarFormulario);
     document.getElementById('iniciar').addEventListener('click', cambiarFormulario);
+
+    document.getElementById('btnCerrar').addEventListener('click', cerrarPopUp);
 }
 
 function cambiarFormulario() {
@@ -112,3 +142,5 @@ function cerrarPopUp() {
         document.body.removeChild(overlay);
     }
 }
+export { cerrarPopUp };
+
