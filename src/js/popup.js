@@ -18,7 +18,7 @@ function mostrarPopUp() {
             </div>
             <div class="popup-right" id="popup-right">
                 <div class="x-popUp">
-                    <button onclick="cerrarPopUp()">&times;</button>
+                    <button class="close-button" onclick="cerrarPopUp()">&times;</button>
                 </div>
                 <div class="top-PopUp">
                     <h2 class="iniciar" id="iniciar">Iniciar Sesión</h2>
