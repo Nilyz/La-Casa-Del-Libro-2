@@ -19,6 +19,8 @@
         <script src="src/js/index_scripts/productSlider.js" defer></script>
         <script src="src/js/header.js" defer></script>
         <script src="src/js/popup.js" defer></script>
+        <script type="module" src="src/js/popup.js" defer></script>
+        <script type="module" src="src/bdd/firebase.js" defer></script>
     </head>
     <body>
         <header>
@@ -73,12 +75,13 @@
                                     <div class="catalogueMenu">
                                         <ul class="categories">
                                             <li>
-                                                <a
-                                                    class="dropdown-item categories_list"
-                                                    href=""
-                                                    ><p>Ficción</p></a
+                                                <div
+                                                    class="categories_list"
                                                 >
+                                                    <p>Ficción</p>
+                                                </div>
                                             </li>
+
                                             <li>
                                                 <a class="dropdown-item" href=""
                                                     >Contemporánea</a
@@ -97,11 +100,12 @@
                                         </ul>
                                         <ul class="categories">
                                             <li>
-                                                <a
-                                                    class="dropdown-item categories_list"
+                                                <div
+                                                    class="categories_list"
                                                     href=""
-                                                    ><p>No ficción</p></a
                                                 >
+                                                    <p>No ficción</p>
+                                                </div>
                                             </li>
                                             <li>
                                                 <a class="dropdown-item" href=""
@@ -121,11 +125,11 @@
                                         </ul>
                                         <ul class="categories">
                                             <li>
-                                                <a
-                                                    class="dropdown-item categories_list"
-                                                    href=""
-                                                    ><p>Infantil</p></a
+                                                <div
+                                                    class="categories_list"
                                                 >
+                                                    <p>Infantil</p>
+                                                </div>
                                             </li>
                                             <li>
                                                 <a class="dropdown-item" href=""
@@ -146,11 +150,9 @@
                                         </ul>
                                         <ul class="categories">
                                             <li>
-                                                <a
-                                                    class="dropdown-item categories_list"
-                                                    href=""
-                                                    ><p>Juveniles</p></a
-                                                >
+                                                <div class="categories_list">
+                                                    <p>Juveniles</p>
+                                                </div>
                                             </li>
                                             <li>
                                                 <a class="dropdown-item" href=""
@@ -171,10 +173,9 @@
 
                                         <ul class="categories">
                                             <li>
-                                                <a
-                                                    class="dropdown-item categories_list"
-                                                    href=""
-                                                    ><p>Libros de texto</p></a
+                                                <div
+                                                    class=" categories_list"
+                                                    ><p>Libros de texto</p></div
                                                 >
                                             </li>
                                             <li>
@@ -195,10 +196,9 @@
                                         </ul>
                                         <ul class="categories">
                                             <li>
-                                                <a
-                                                    class="dropdown-item categories_list"
-                                                    href=""
-                                                    ><p>Libros en gallego</p></a
+                                                <div
+                                                    class=" categories_list"
+                                                    ><p>Libros en gallego</p></div
                                                 >
                                             </li>
                                             <li>
@@ -221,10 +221,14 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="src/paginas/blog.html">Blog</a>
+                                <a class="nav-link" href="src/paginas/blog.html"
+                                    >Blog</a
+                                >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Nosotros</a>
+                                <a class="nav-link" href="#ubication"
+                                    >Ubícanos</a
+                                >
                             </li>
                         </ul>
                     </div>
@@ -260,7 +264,10 @@
                                 class="navbar__icon--user"
                             />
                         </a>
-                        <a href="src/paginas/cesta.html" class="nav-link navbar__icon">
+                        <a
+                            href="src/paginas/cesta.html"
+                            class="nav-link navbar__icon"
+                        >
                             <img
                                 src="src/imagenes/iconos/bag-shopping-svgrepo-com.svg"
                                 alt="bag"
@@ -445,16 +452,33 @@
                     </div>
                 </div>
             </div>
-            <div class="ubication">
-                <div class="ubication__title">
+            <div class=" row d-flex justify-content-around ubication">
+                <div class=" col-lg-5 ubication__info">
+                    <h3>Ubícanos en</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus odit, ipsam at dicta, tempore cum perferendis, sint maxime beatae sequi quis non repudiandae fuga magni? Optio quas neque velit quod.</p>
+                    <!--
                     <a href="https://maps.app.goo.gl/72auE2xf7QyFWKfT6"
                         ><p>
                             Ubícanos en:
                             <span>Gran Vía, 29, Centro, 28013 Madrid</span>
                         </p></a
                     >
+                    -->
+                    <div class="location">
+                        <img src="src/imagenes/iconos/location-pin-svgrepo-com.svg" alt="">
+                        <a href="https://maps.app.goo.gl/72auE2xf7QyFWKfT6"><p>Gran Vía, 29, Centro, 28013 Madrid</p></a>
+                    </div>
+                    <div class="phone">
+                        <img src="src/imagenes/iconos/phone-svgrepo-com.svg" alt="">
+                        <a href=""><p>911 79 34 63</p></a>
+                    </div>
+                    <div class="mail">
+                        <img src="src/imagenes/iconos/mail-svgrepo-com.svg" alt="">
+                        <a href=""><p>lacasadellibro@gmail</p></a>
+                    </div>
                 </div>
-                <div class="ubication__map">
+
+                <div class="col-lg-7 ubication__map" id="ubication">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.4996814041638!2d-3.705786523597669!3d40.41993315544379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42287d850c6d3f%3A0x536e1ebfdef1e58!2sCasa%20del%20Libro!5e0!3m2!1ses!2ses!4v1729977650979!5m2!1ses!2ses"
                         width="600"
@@ -494,7 +518,7 @@
                             alt="logo"
                             class="footerLogo__img"
                         />
-                        <span class="FfooterLogo__name">La Casa Del Libro</span>
+                        <span class="footerLogo__name">La Casa Del Libro</span>
                     </div>
                     <div class="col-lg-3 footerLink">
                         <ul class="list-unstyled">
