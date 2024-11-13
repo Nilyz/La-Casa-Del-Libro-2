@@ -56,7 +56,8 @@ function cambiarFormulario() {
     let popupRight = document.getElementById('popup-right');
     let btnIniciarSesion = document.getElementById('btnIniciarSesion');
     let forgotPassword = document.getElementById('forgot-password');
-    let hrLine = document.querySelector('.popUpLine');
+    let hrLine = document.querySelector('.popUpLine'); 
+    let logo = document.querySelector('.popup-logo');
     
     if (estado === false) {
         // Cambiar colores de las opciones
@@ -76,6 +77,8 @@ function cambiarFormulario() {
         // Ocultar el enlace de olvidar contraseña
         forgotPassword.style.visibility = 'hidden';
 
+        logo.src = 'src/imagenes/iconos/Logo_Casa_del_libro_green.png';
+
         estado = true; // Cambiar estado a registro
     } else {
         iniciar.style.color = 'var(--color-yellow)';
@@ -93,6 +96,8 @@ function cambiarFormulario() {
 
         // Mostrar el enlace de olvidar contraseña
         forgotPassword.style.visibility = 'visible';
+
+        logo.src = 'src/imagenes/iconos/Logo_Casa_del_libro_yellow.png';
 
         estado = false; // Cambiar estado a inicio de sesión
     }
