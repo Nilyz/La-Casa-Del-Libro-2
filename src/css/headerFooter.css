@@ -86,6 +86,11 @@ header {
 }
 .navbar-brand {
     color: var(--color-white);
+    font-family: "Lora", Georgia, times, serif;
+    transition: color 0.3s ease;
+}
+.navbar-brand:hover{
+    color: #dea02e;
 }
 .nav-item {
     text-align: center;
@@ -123,6 +128,10 @@ header {
     z-index: 1000;
 }
 
+
+.nav-link{
+    font-size: 20px;
+}
 .nav-link:hover {
     color: var(--color-yellow);
 }
@@ -135,7 +144,7 @@ header {
 .catalogueMenu li {
     list-style: none;
     text-align: left;
-    padding: 10px 0 10px 0;
+    margin-bottom: 10px;
 }
 
 .dropdown-menu {
@@ -151,10 +160,17 @@ header {
     margin: auto;
     border-bottom: 2px solid var(--color-green);
 }
-.subcategory {
-    font-size: 14px;
+.categories_list p{
+    padding: 10px;
+    font-size: 18px;
 }
-
+.subcategory {
+    font-size: 1px;
+}
+.dropdown-item{
+    font-size: 18px;
+    padding: 10px;
+}
 /*------------ FOOTER ------------*/
 footer {
     height: auto;
@@ -177,6 +193,8 @@ footer {
 }
 .footerLogo__name {
     font-size: 24px;
+    font-family: "Lora", Georgia, times, serif;
+    font-weight: 600;
 }
 .footerLink {
     padding: 30px 0 10px 0;
@@ -262,7 +280,7 @@ footer {
         align-items: center;
     }
     .nav-link {
-        font-size: 20px;
+        font-size: 22px;
     }
     .navbar__icon {
         margin-right: 0px;
@@ -288,6 +306,12 @@ footer {
     .navbar-collapse {
         
     }
+    .dropdown-item:hover{
+        background-color: transparent;
+        color: #37643b;
+        transition: all 0.3s ease;
+        text-decoration:underline;
+    }
     .navbar-nav li {
         text-align: center;
         width: auto;
@@ -298,13 +322,15 @@ footer {
         display: none;
     }
     .navbar-expand-lg .navbar-nav .dropdown-menu {
-        top: 61px;
+        top: 62px;
         left: 50%;
         transform: translateX(-50%);
         padding: 30px 0 30px 0;
+        background-color: var(--color-beige);
     }
     .dropdown-item {
         text-align: center;
+        
     }
 
     .catalogueMenu {
@@ -314,6 +340,8 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        background-color: var(--color-beige);
+
     }
     .catalogueMenu li {
         padding: 5px 0 5px 0;
@@ -326,6 +354,9 @@ footer {
     }
     .categories_list {
         width: 100%;
+    }
+    .categories_list:hover{
+        cursor: default;
     }
     .categories_list p {
         width: 100%;
