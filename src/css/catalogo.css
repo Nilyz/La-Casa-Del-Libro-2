@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.categoria {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.subgeneros {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recuadroSubgenero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.imagenSubgenero {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+.imagenSubgenero img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}  
+
+.nombreSubgenero h4 {
+    font-size: large;
+    margin-top: 10px;
+    border: 1px solid #000;
+}
+.mostrador { 
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar el contenedor */
+    padding: 10px;
+    overflow: hidden; /* Para ocultar el contenido desbordado */
+}
+.mostradorSubgenero {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+.mostradorSubgenero h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    
+}
+
+.ficcion_books {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    justify-content: center; /* Centrar los elementos dentro */
+    padding: 10px;
+    max-width: 100%;
+}
+
+.book {
+    max-width: 140px;
+    flex-shrink: 0;
+    margin: 0 20px; /* Para dar espacio entre los libros */
+}
+
+.book__img {
+    height: 210px;
+    width: 100%;
+    object-fit: cover;
+}
+.book__img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.book__title {
+    font-size: 14px;
+    font-weight: bold;
+}
+.book__autor {
+    font-size: 12px;
+}
+.book__infoCont hr {
+    margin: 5px 0 5px 0;
+    border: 2px solid var(--color-green);
+    width: 30%;
+}
+.book__price {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: end;
+}
+/*div {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;  Muestra que el elemento es clickeable 
+}*/
