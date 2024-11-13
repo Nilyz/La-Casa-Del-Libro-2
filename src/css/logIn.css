@@ -106,6 +106,14 @@
 .registrar {
     color: var(--color-white);
 }
+.popUpLine-active-login {
+    border-color: var(--color-yellow);
+}
+
+.popUpLine-active-register {
+    border-color: var(--color-green);
+}
+
 
 .registrar:hover {
     cursor: pointer;

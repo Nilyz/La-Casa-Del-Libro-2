@@ -56,6 +56,7 @@ function cambiarFormulario() {
     let popupRight = document.getElementById('popup-right');
     let btnIniciarSesion = document.getElementById('btnIniciarSesion');
     let forgotPassword = document.getElementById('forgot-password');
+    let hrLine = document.querySelector('.popUpLine');
     
     if (estado === false) {
         // Cambiar colores de las opciones
@@ -64,6 +65,8 @@ function cambiarFormulario() {
         popupRight.style.backgroundColor = 'var(--color-yellow)';
         btnIniciarSesion.innerHTML = 'Registrarse';
         btnIniciarSesion.style.backgroundColor = 'var(--color-green)';
+        hrLine.classList.remove('popUpLine-active-login');
+        hrLine.classList.add('popUpLine-active-register');
 
         // cambiar cursor a registrar
         registrar.style.cursor = 'default';
@@ -80,6 +83,8 @@ function cambiarFormulario() {
         popupRight.style.backgroundColor = 'var(--color-green)';
         btnIniciarSesion.innerHTML = 'Iniciar Sesión';
         btnIniciarSesion.style.backgroundColor = 'var(--color-yellow)';
+        hrLine.classList.remove('popUpLine-active-register');
+        hrLine.classList.add('popUpLine-active-login');
 
         // cambiar cursor a registrar
         registrar.style.cursor = 'pointer';
