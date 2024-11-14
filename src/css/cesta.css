@@ -1,7 +1,7 @@
 main {
     padding-bottom: 110px;
     padding-top: 100px;
-    padding-left:5%;
+    padding-left: 5%;
     padding-right: 5%;
     background-color: var(--color-white);
 }
@@ -20,7 +20,7 @@ footer {
     font-size: 32px;
     font-weight: bold;
 }
-.selectAll{
+.selectAll {
     padding: 10px;
     font-size: 16px;
     display: flex;
@@ -28,19 +28,36 @@ footer {
     align-items: center;
     gap: 10px;
 }
-.selectAll label{
+.selectAll label {
     font-size: 18px;
 }
 
 /*LISTA DE PRODUCTO*/
+input[type="checkbox"] {
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border: 2px solid var(--color-green);
+    border-radius: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+input[type="checkbox"]:checked {
+    background-color: var(--color-lightGreen);
+}
+
 .productListSection {
-    background-color:var(--color-beige);
+    background-color: var(--color-beige);
     min-height: 100vh;
     padding: 30px 20px 30px 20px;
     border-radius: 20px;
 }
+.productListSection hr {
+    border: 1.5px solid var(--color-caqui);
+    margin: 20px 0 20px 0;
+}
 .productBook {
-    border: 2px solid black;
     height: 140px;
     display: flex;
     align-items: center;
@@ -49,11 +66,12 @@ footer {
 }
 .productBook__img {
     height: 100%;
-    width: 90px;
+    min-width: 90px;
     background-color: aquamarine;
     overflow: hidden;
+    margin: 0 30px 0 10px;
 }
-.productBook__img img{
+.productBook__img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -68,12 +86,12 @@ footer {
     width: 80%;
     height: 60%;
 }
-.productBook__info__title h4{
+.productBook__info__title h4 {
     font-size: 24px;
     margin-bottom: 5px;
     font-weight: bold;
 }
-.productBook__info__title p{
+.productBook__info__title p {
     font-size: 16px;
 }
 .productBook__info__trash {
@@ -82,16 +100,24 @@ footer {
     align-items: start;
     justify-content: end;
 }
-.productBook__info__trash img{
+.productBook__info__trash img {
     width: 35px;
+}
+.productBook__info__trash img:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: all 0.2s ease;
 }
 .productBook__info__priceCount {
     width: 100%;
     height: 40%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 6%;
 }
 
-.productBook__info__price{
+.productBook__info__price {
     width: 50%;
     font-size: 12px;
     height: 100%;
@@ -99,26 +125,35 @@ footer {
     align-items: center;
     justify-content: start;
 }
-.productBook__info__price .price{
+.productBook__info__price .price {
     font-size: 20px;
     font-weight: bold;
 }
-.productBook__info__count{
-    width: 50%;
-    background-color: rosybrown;
+.productBook__info__count {
+    width: auto;
+    height: 65%;
+    background-color: var(--color-white);
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
+    border-radius: 10px;
 }
-
-.productBook__info__count input{
+.productBook__info__count p {
     width: 40px;
     text-align: center;
+    font-size: 20px;
+}
+.productBook__info__count img {
+    width: 25px;
+}
+.productBook__info__count img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.2s ease;
 }
 
-
 /*PRICE SECTION*/
-.paymentSection hr{
+.paymentSection hr {
     border: 1px solid black;
     margin: 20px 0 20px 0;
     width: 100%;
@@ -137,9 +172,12 @@ footer {
     display: flex;
     justify-content: start;
     align-items: center;
-    flex-direction: row-reverse
+    flex-direction: row-reverse;
 }
-.priceSection h4{
+.priceSection hr {
+    border: 1.5px solid var(--color-caqui);
+}
+.priceSection h4 {
     width: 100%;
     font-size: 30px;
     font-weight: bold;
@@ -147,14 +185,15 @@ footer {
     display: none;
     padding: 10px;
 }
-.priceSection h5{
+.priceSection h5 {
     display: none;
 }
-.priceSection__resumeCont{
+.priceSection__resumeCont {
     width: 100%;
     display: none;
 }
-.priceSection__resumeCont-sub,.priceSection__resumeCont-ship{
+.priceSection__resumeCont-sub,
+.priceSection__resumeCont-ship {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -162,36 +201,38 @@ footer {
     font-size: 20px;
     display: none;
 }
-.priceSection__totalCont{
+.priceSection__totalCont {
     width: 100%;
 }
-.priceSection__totalCont-total{
+.priceSection__totalCont-total {
     display: flex;
     justify-content: end;
     padding: 0 10px 0 10px;
     font-size: 24px;
     font-weight: bold;
 }
-.priceSection__totalCont-total h5{
+.priceSection__totalCont-total h5 {
     font-size: 24px;
     font-weight: bold;
 }
-.priceSection__totalCont-iva{
+.priceSection__totalCont-iva {
     width: 100%;
     font-size: 14px;
     padding-left: 10px;
     display: none;
 }
-.paymentSection__button{
+.paymentSection__button {
     border: none;
     font-size: 24px;
     font-weight: bold;
     border-radius: 10px;
     padding: 0 10px 0 10px;
-    background-color: var(--color-yellow);
+    background-color: var(--color-lightGreen);
 }
-
-
+.paymentSection__button:hover {
+    background-color: var(--color-yellow);
+    transition: all 0.3s ease;
+}
 
 /*EXTRA INFO SECTION*/
 
@@ -202,18 +243,16 @@ footer {
     padding: 30px;
     margin-top: 30px;
 }
-.extraInfoSeccion p{
+
+.extraInfoSeccion p {
     width: 100%;
-    white-space: nowrap;  
-    overflow: hidden;     
-    text-overflow: ellipsis; 
 }
-.extraInfoSeccion hr{
-    border: 1px solid var(--color-black);
-    display: block;
+.extraInfoSeccion hr {
+    border: 1.5px solid var(--color-caqui);
 }
 
-.extraInfoSeccion__titles, .extraInfoSeccion__shipmentList{
+.extraInfoSeccion__titles,
+.extraInfoSeccion__shipmentList {
     display: flex;
     gap: 10px;
     justify-content: start;
@@ -222,36 +261,38 @@ footer {
 }
 .extraInfoSeccion__shipmentList ul li {
     width: 100%;
-    white-space: nowrap;  
-    overflow: hidden;     
-    text-overflow: ellipsis; 
+
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
-.extraInfoSeccion__titles{
+.extraInfoSeccion__titles {
     margin-bottom: 15px;
 }
-.extraInfoSeccion__titles img{
+.extraInfoSeccion__titles img {
     height: 30px;
 }
-.extraInfoSeccion__titles p{
+.extraInfoSeccion__titles p {
     font-size: 24px;
 }
-.extraInfoSeccion__shipmentList img{
+.extraInfoSeccion__shipmentList img {
     height: 25px;
     margin-right: 5px;
 }
-.extraInfoSeccion__shipmentList li,.extraInfoSeccion__securityText,.extraInfoSeccion__paymentText {
+.extraInfoSeccion__shipmentList li,
+.extraInfoSeccion__securityText,
+.extraInfoSeccion__paymentText {
     font-size: 18px;
     margin-bottom: 5px;
 }
 
-.extraInfoSeccion__paymentCardCont{
+.extraInfoSeccion__paymentCardCont {
     overflow: hidden;
     height: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.extraInfoSeccion__paymentCardCont img{
+.extraInfoSeccion__paymentCardCont img {
     height: 100%;
 }
 
@@ -274,17 +315,27 @@ footer {
         flex-direction: column;
         background-color: var(--color-beige);
     }
-    .paymentSection hr,.priceSection h4,.priceSection h5,.priceSection__resumeCont,.priceSection__resumeCont-sub,.priceSection__resumeCont-ship,.priceSection__totalCont,.priceSection__totalCont-total,.priceSection__totalCont-iva,.paymentSection__button{
+    .paymentSection hr,
+    .priceSection h4,
+    .priceSection h5,
+    .priceSection__resumeCont,
+    .priceSection__resumeCont-sub,
+    .priceSection__resumeCont-ship,
+    .priceSection__totalCont,
+    .priceSection__totalCont-total,
+    .priceSection__totalCont-iva,
+    .paymentSection__button {
         display: block;
     }
-    .priceSection__totalCont-total,.priceSection__resumeCont-sub,.priceSection__resumeCont-ship{
+    .priceSection__totalCont-total,
+    .priceSection__resumeCont-sub,
+    .priceSection__resumeCont-ship {
         display: flex;
         justify-content: space-between;
     }
-    .paymentSection__button{
+    .paymentSection__button {
         width: 50%;
         padding: 10px 20px 10px 20px;
         margin-top: 20px;
     }
-
 }

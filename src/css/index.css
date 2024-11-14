@@ -123,6 +123,11 @@ img{
 .book {
     width: 150px;
     flex-shrink: 0;
+    cursor: pointer;
+}
+.book:hover .book__img  {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
 }
 .book__img {
     height: 240px;
@@ -153,7 +158,7 @@ img{
 }
 .book__infoCont hr {
     margin: 5px 0 5px 0;
-    border: 2px solid var(--color-green);
+    border: 2px solid var(--color-lightGreen);
     width: 30%;
 }
 .book__price {
@@ -199,6 +204,11 @@ img{
     width: 100px;
     min-width: 100px;
 }
+.category:hover .category__img {
+    transition: all 0.3s ease;
+    background-color: var(--color-lightGreen);
+    cursor: pointer;
+}
 .category__img {
     width: 100%;
     aspect-ratio: 1/1;
@@ -226,7 +236,7 @@ img{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
 }
 .reviewCont {
     height: 100%;
@@ -308,7 +318,7 @@ img{
     flex-direction: column;
 }
 .ubication__info h3{
-    font-size: 26px;
+    font-size: 28px;
 }
 .ubication__info span a{
     font-size: 24px;
@@ -317,8 +327,8 @@ img{
 }
 
 .ubication__info__text{
-    font-size: 18px;
-    margin: 20px 0 30px 0;
+    font-size: 20px;
+    margin: 30px 0 30px 0;
     display: none;
 }
 .ubication__map {
@@ -334,7 +344,7 @@ img{
     justify-content: start;
     align-items: center;
     gap: 10px;
-    font-size: 16px;
+    font-size: 18px;
     margin: 10px 0;
     display: none;
 }
@@ -343,6 +353,7 @@ img{
 }
 iframe{
     width: 100%;
+    height: 100%;
 }
 
 /*SUSCRIPCIÓN*/
@@ -375,6 +386,11 @@ iframe{
     padding: 10px 20px;
     font-weight: bold;
 }
+.subscribe__button button:hover {
+    cursor: pointer;
+    background-color: var(--color-lightGreen);
+    transition: all 0.3s ease;
+}
 .subscribe__info hr {
     display: none;
 }
@@ -383,15 +399,6 @@ iframe{
 }
 
 
-main.light {
-    background-color: #ffffff;
-    color: #333333;
-}
-
-main.dark {
-    background-color: #333333;
-    color: #ffffff;
-}
 
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -410,6 +417,12 @@ main.dark {
     .arrow{
         height: 50px;
         display: block;
+    }
+    .arrow:hover{
+        cursor: pointer;
+        border-radius: 100%;
+        padding: 3px;
+        transition: all 0.3s ease;
     }
     .trendingBooks__books{
         min-width: 800px;
@@ -485,7 +498,7 @@ main.dark {
     }
 
     .ubication {
-        height: 500px;
+        height: 400px;
         padding: 0 3% 0 3%;
     }
     .ubication__title p{

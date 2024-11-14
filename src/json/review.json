@@ -1,42 +1,42 @@
 [
     {
         "id": 1,
-        "name": "John Doe",
+        "name": "Carlos Pérez",
         "date": "20/10/2024",
-        "review": "Excelente atención al cliente y gran variedad de libros. Desde el momento en que entré, el personal fue muy amable y me ofreció ayuda para encontrar lo que buscaba. La selección es impresionante, con títulos de todos los géneros. Definitivamente volveré a comprar aquí, ya que cada visita es una nueva aventura literaria.",
+        "review": "Una experiencia increíble en esta librería. Desde que llegué, el personal fue muy atento y me ayudó a encontrar el libro perfecto. Tienen una selección impresionante, con títulos de todos los géneros. Me sorprendió la organización y la variedad, y sin duda regresaré. Cada visita es una nueva oportunidad para descubrir algo interesante.",
         "valoration": 5,
-        "img": "../src/imagenes/otros/persona1.jpg"
+        "img": "../src/imagenes/otros/person5.jpg"
     },
     {
         "id": 2,
-        "name": "Jane Doe",
+        "name": "Marta Gómez",
         "date": "21/10/2024",
-        "review": "Un lugar encantador. El ambiente es perfecto para encontrar el libro adecuado. Los rincones acogedores invitan a sentarse y leer un poco antes de comprar. Además, la sección de novedades siempre tiene algo interesante. ¡Altamente recomendado para cualquier amante de los libros que busque una experiencia única!",
+        "review": "Me encantó el ambiente de la tienda. Es el lugar perfecto para perderse entre libros y disfrutar de una buena lectura. Las áreas de descanso invitan a quedarte un rato y explorar sin prisas. Además, siempre tienen novedades muy interesantes. Sin duda, es un lugar al que volveré cada vez que quiera un buen libro.",
         "valoration": 5,
-        "img": "../src/imagenes/otros/persona4.jpg"
+        "img": "../src/imagenes/otros/person1.jpg"
     },
     {
         "id": 3,
-        "name": "Patricio Estrella",
+        "name": "Andrés López",
         "date": "22/10/2024",
-        "review": "Los precios son un poco altos, pero la calidad de los libros es inigualable. Me encanta la forma en que los libros están organizados, lo que hace que la búsqueda sea mucho más sencilla. Aunque a veces me gustaría encontrar más ofertas, el conocimiento del personal sobre los títulos y sus recomendaciones hacen que valga la pena cada céntimo.",
+        "review": "Aunque los precios son algo altos, la calidad de los libros y el excelente servicio al cliente hacen que valga la pena. La tienda está perfectamente organizada, lo que facilita mucho la búsqueda. Me gustaría que tuvieran más ofertas, pero las recomendaciones personalizadas del personal compensan con creces.",
         "valoration": 4,
-        "img": "../src/imagenes/otros/persona2.jpg"
+        "img": "../src/imagenes/otros/person2.jpg"
     },
     {
         "id": 4,
-        "name": "Bob Esponja",
+        "name": "Sofía Martínez",
         "date": "23/10/2024",
-        "review": "Gran selección de títulos y un personal muy amable. Me ayudaron a encontrar lo que buscaba rápidamente y también me dieron recomendaciones sobre lecturas que no había considerado. La tienda está bien iluminada y es muy agradable de recorrer. Sin duda, volveré para explorar más títulos y disfrutar de su atmósfera.",
+        "review": "Una librería con una excelente selección de títulos y un personal muy amable. Me ayudaron a encontrar lo que buscaba rápidamente y me ofrecieron sugerencias de libros que no había considerado. El ambiente es muy agradable y la tienda está bien iluminada. Volveré para descubrir más libros y disfrutar de la atmósfera tranquila.",
         "valoration": 3,
-        "img": "../src/imagenes/otros/persona3.jpg"
+        "img": "../src/imagenes/otros/person4.jpg"
     },
     {
         "id": 5,
-        "name": "Don Cangrejo",
+        "name": "José Ramírez",
         "date": "24/10/2024",
-        "review": "La tienda es un paraíso para los amantes de los libros. Disfruté cada momento de mi visita, desde la amplia selección de libros hasta el ambiente tranquilo que invita a la lectura. Es un lugar donde puedes perderte por horas explorando nuevos títulos y autores. Definitivamente lo recomiendo a todos los que busquen su próxima gran lectura.",
+        "review": "Un lugar maravilloso para los amantes de los libros. Disfruté cada momento de mi visita, desde la amplia oferta de títulos hasta el ambiente relajado que invita a perderse entre las estanterías. Es el tipo de lugar donde puedes pasar horas explorando nuevos libros. Lo recomiendo a todos los que busquen su próxima gran lectura.",
         "valoration": 5,
-        "img": "../src/imagenes/otros/persona5.jpg"
+        "img": "../src/imagenes/otros/person3.jpg"
     }
 ]

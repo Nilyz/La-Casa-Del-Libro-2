@@ -112,7 +112,7 @@ function generateNewBooks(data) {
     }
 }
 
-// Escucha los clics en el contenedor del slider
+// Escucha los cliks en el contenedor del slider
 slider.addEventListener('click', (event) => {
     const book = event.target.closest('.book');
     if (book) {
@@ -122,7 +122,7 @@ slider.addEventListener('click', (event) => {
     }
 });
 
-// Escucha los clics en el contenedor de libros nuevos
+// Escucha los cliks en el contenedor de libros nuevos
 sliderNewBooks.addEventListener('click', (event) => {
     const book = event.target.closest('.book');
     if (book) {
