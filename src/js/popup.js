@@ -61,15 +61,26 @@ function mostrarPopUp() {
             let email = document.getElementById('email').value;
             let password = document.getElementById('password').value;
             event.preventDefault();
-            
+
             if (estado === false) {
+                // Modo de iniciar sesión
+                if (email.trim() === "" || password.trim() === "") {
+                    document.getElementById('loginError').textContent = 'Por favor, rellena todos los campos.';
+                    return;
+                }
                 iniciarSesion(email, password);
             } else {
+                // Modo de registro
                 let confirmPassword = document.getElementById('confirm-password').value;
-                if (password === confirmPassword) {
-                    registrar(email, password);
+                if (email.trim() === "" || password.trim() === "" || confirmPassword.trim() === "") {
+                    document.getElementById('loginError').textContent = 'Por favor, rellena todos los campos.';
+                    return;
+                }
+
+                if (password !== confirmPassword) {
+                    document.getElementById('loginError').textContent = 'Las contraseñas no coinciden.';
                 } else {
-                    document.getElementById('loginError').textContent = 'Las contraseñas no coinciden';
+                    registrar(email, password);
                 }
             }
         });
@@ -90,6 +101,7 @@ function cambiarFormulario() {
     let confirmPasswordContainer = document.getElementById('confirm-password-container');
     let hrLine = document.querySelector('.popUpLine');
     let logo = document.querySelector('.popup-logo');
+    let loginError = document.getElementById('loginError');
 
     if (estado === false) {
         iniciar.style.color = 'var(--color-white)';
@@ -135,12 +147,11 @@ function cambiarFormulario() {
     }
 }
 
-
 function cerrarPopUp() {
     const overlay = document.querySelector('.popup-overlay');
     if (overlay) {
         document.body.removeChild(overlay);
     }
 }
-export { cerrarPopUp };
 
+export { cerrarPopUp };
