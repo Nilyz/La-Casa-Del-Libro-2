@@ -37,46 +37,57 @@ function mostrarPopUp() {
                     <input type="email" name="email" placeholder="Email" id="email"/>
                     <label>Contraseña</label>
                     <input type="password" name="password" placeholder="Contraseña" id="password" />
+                    <div id="confirm-password-container" style="display: none;">
+                        <label>Confirmar Contraseña</label>
+                        <input type="password" name="confirm-password" placeholder="Confirmar Contraseña" id="confirm-password" />
+                    </div>
                     <div class="forgot-password" id="forgot-password">
                         <a href="#">¿Has olvidado tu contraseña?</a>
                     </div>
+                    <div id="loginError" style="color: #c0392b;"></div>
                     <button type="submit" id="btnIniciarSesion" class="popup-button">Iniciar Sesión</button>
-                    <div id="loginError" style="color: red;"></div>
                 </form>
             </div>
         </div>
     `;
 
-    // Verificar si el usuario ya está autenticado
     const user = auth.currentUser;
     if (user) {
         console.log("Ya estás autenticado.");
-        return; // No continuar si ya hay un usuario conectado
+        return;
     } else {
-        // Agregar el overlay al body
         document.body.appendChild(overlay);
-        // Funcionalidad de inicio de sesión/registro
         document.getElementById('btnIniciarSesion').addEventListener('click', (event) => {
             let email = document.getElementById('email').value;
             let password = document.getElementById('password').value;
-            event.preventDefault(); // Evita el envío del formulario
+            event.preventDefault();
 
             if (estado === false) {
-                // Llamar a la función para iniciar sesión si el estado es false
+                // Modo de iniciar sesión
+                if (email.trim() === "" || password.trim() === "") {
+                    document.getElementById('loginError').textContent = 'Por favor, rellena todos los campos.';
+                    return;
+                }
                 iniciarSesion(email, password);
             } else {
-                // Llamar a la función para registrar si el estado es true
-                registrar(email, password);
+                // Modo de registro
+                let confirmPassword = document.getElementById('confirm-password').value;
+                if (email.trim() === "" || password.trim() === "" || confirmPassword.trim() === "") {
+                    document.getElementById('loginError').textContent = 'Por favor, rellena todos los campos.';
+                    return;
+                }
+
+                if (password !== confirmPassword) {
+                    document.getElementById('loginError').textContent = 'Las contraseñas no coinciden.';
+                } else {
+                    registrar(email, password);
+                }
             }
         });
     }
 
-
-
-    // Evento para cambiar el formulario entre iniciar sesión y registro
     document.getElementById('registrar').addEventListener('click', cambiarFormulario);
     document.getElementById('iniciar').addEventListener('click', cambiarFormulario);
-
     document.getElementById('btnCerrar').addEventListener('click', cerrarPopUp);
 }
 
@@ -87,11 +98,12 @@ function cambiarFormulario() {
     let popUpForm = document.getElementById('loginForm');
     let btnIniciarSesion = document.getElementById('btnIniciarSesion');
     let forgotPassword = document.getElementById('forgot-password');
-    let hrLine = document.querySelector('.popUpLine'); 
+    let confirmPasswordContainer = document.getElementById('confirm-password-container');
+    let hrLine = document.querySelector('.popUpLine');
     let logo = document.querySelector('.popup-logo');
-    
+    let loginError = document.getElementById('loginError');
+
     if (estado === false) {
-        // Cambiar colores de las opciones
         iniciar.style.color = 'var(--color-white)';
         registrar.style.color = 'var(--color-green)';
         popupRight.style.backgroundColor = 'var(--color-yellow)';
@@ -101,17 +113,17 @@ function cambiarFormulario() {
         hrLine.classList.remove('popUpLine-active-login');
         hrLine.classList.add('popUpLine-active-register');
 
-        // cambiar cursor a registrar
         registrar.style.cursor = 'default';
-        // cambiar cursor a iniciar
         iniciar.style.cursor = 'pointer';
 
-        // Ocultar el enlace de olvidar contraseña
-        forgotPassword.style.visibility = 'hidden';
+        forgotPassword.style.display = 'none';
+        confirmPasswordContainer.style.display = 'block';
 
         logo.src = 'src/imagenes/iconos/Logo_Casa_del_libro_green.png';
+        logo.style.display = 'none';
+        loginError.style.color = '#c0392b';
 
-        estado = true; // Cambiar estado a registro
+        estado = true;
     } else {
         iniciar.style.color = 'var(--color-yellow)';
         registrar.style.color = 'var(--color-white)';
@@ -122,17 +134,16 @@ function cambiarFormulario() {
         hrLine.classList.remove('popUpLine-active-register');
         hrLine.classList.add('popUpLine-active-login');
 
-        // cambiar cursor a registrar
         registrar.style.cursor = 'pointer';
-        // cambiar cursor a iniciar
         iniciar.style.cursor = 'default';
 
-        // Mostrar el enlace de olvidar contraseña
-        forgotPassword.style.visibility = 'visible';
+        forgotPassword.style.display = 'block';
+        confirmPasswordContainer.style.display = 'none';
 
         logo.src = 'src/imagenes/iconos/Logo_Casa_del_libro_yellow.png';
+        loginError.style.color = '#e74c3c';
 
-        estado = false; // Cambiar estado a inicio de sesión
+        estado = false;
     }
 }
 
@@ -142,5 +153,5 @@ function cerrarPopUp() {
         document.body.removeChild(overlay);
     }
 }
-export { cerrarPopUp };
 
+export { cerrarPopUp };
