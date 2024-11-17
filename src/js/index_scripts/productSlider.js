@@ -59,7 +59,7 @@ arrowNextNewBooks.addEventListener("click", () => moveSlider("right", "new"));
 
 //PARA GENERAR LOS LIBROS
 
-fetch("../../../pruebas/libros.json")
+fetch("../../../src/json/libros.json")
     .then((response) => {
         if (!response.ok)
             throw new Error("No se pudo cargar el archivo review.json");

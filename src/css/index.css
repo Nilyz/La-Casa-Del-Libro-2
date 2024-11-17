@@ -308,6 +308,9 @@ img{
 .ubication {
     width: 100%;
 }
+.ubication a{
+    color: var(--color-black);
+}
 .ubication__info {
     font-size: 20px;
     height: 80%;
@@ -347,6 +350,7 @@ img{
     font-size: 18px;
     margin: 10px 0;
     display: none;
+
 }
 .location img, .phone img, .mail img{
     height: 20px;
