@@ -1,10 +1,10 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+
+header{
+    top:0;
 }
-
-
+main{
+    margin-top: 150px;
+}
 .categoria {
     height: 200px;
     display: flex;
@@ -28,13 +28,13 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 
 .imagenSubgenero {
     height: 150px;
     width: 150px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     border-radius: 50%;
 }
 .imagenSubgenero img {
@@ -46,16 +46,19 @@ body {
 .nombreSubgenero h4 {
     font-size: large;
     margin-top: 10px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 .mostrador { 
     width: 100%;
     height: max-content;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centrar el contenedor */
+    justify-content: center; 
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 10px;
-    overflow: hidden; /* Para ocultar el contenido desbordado */
+    overflow: hidden;
+
 }
 .mostradorSubgenero {
     width: 100%;
