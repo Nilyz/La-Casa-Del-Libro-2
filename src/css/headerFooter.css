@@ -44,7 +44,7 @@ ul {
 }
 a {
     text-decoration: none;
-    color: rgb(24, 24, 24);
+    color: var(--color-white);
 }
 p {
     margin: 0;
@@ -205,6 +205,7 @@ footer {
 .footerLogo__img {
     height: 100px;
 }
+
 .footerLogo__name {
     font-size: 24px;
     font-family: "Lora", Georgia, times, serif;

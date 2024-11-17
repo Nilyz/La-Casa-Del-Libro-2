@@ -13,6 +13,7 @@
 
         <link rel="stylesheet" href="../css/headerFooter.css" />
         <link rel="stylesheet" href="../css/cesta.css" />
+        <script src="../js/cesta_scripts/cestaPopUp.js"></script>
     </head>
     <body>
         <header>
@@ -267,6 +268,72 @@
         </header>
 
         <main class="row d-flex justify-content-around">
+            <div class="directionFormPopUp">
+                <h3>Dirección de entrega</h3>
+                <h4>Información de contacto</h4>
+
+                <div class="row gap-3 contactInfoCont">
+                    <div class="col-lg-5 contactInfoCont__name">
+                        <input
+                            type="text"
+                            placeholder="Nombre"
+                            aria-label="Nombre"
+                        />
+                    </div>
+                    <div class="col-lg-5 contactInfoCont__number">
+                        <input
+                            type="text"
+                            placeholder="+34"
+                            aria-label="Código de país"
+                            id="prefijoNumero"
+                        />
+                        <input
+                            type="tel"
+                            placeholder="Teléfono móvil"
+                            aria-label="Teléfono móvil"
+                            id="numeroTelefono"
+                        />
+                    </div>
+                </div>
+                <h4>Dirección</h4>
+                <div class="row d-flex gap-3 justify-content-between  direccionInfo">
+                    <input
+                        class="col-lg-3"
+                        type="text"
+                        placeholder="País"
+                        aria-label="País"
+                    />
+                    <input
+                        class="col-lg-4"
+                        type="text"
+                        placeholder="Ciudad"
+                        aria-label="Ciudad"
+                    />
+                    <input
+                        class="col-lg-4"
+                        type="text"
+                        placeholder="Comunidad"
+                        aria-label="Comunidad"
+                    />
+                    <input
+                        class="col-lg-4"
+                        type="text"
+                        placeholder="Código postal"
+                        aria-label="Código postal"
+                    />
+                    <input
+                        class="col-lg-6"
+                        type="text"
+                        placeholder="Calle/casa/apartamento..."
+                        aria-label="Dirección"
+                    />
+                </div>
+                <div class="row gap-3 justify-content-between directionFormPopUp__btnCont">
+                    <button class="col-lg-4 directionFormPopUp__btnCont--confirm">Confirmar</button>
+                    <button class="col-lg-4 directionFormPopUp__btnCont--cancel">Cancelar</button>
+                </div>
+            </div>
+
             <div class="col-12 col-lg-6 productSection">
                 <div class="selectAllSection">
                     <p>Cesta (3)</p>
@@ -300,9 +367,15 @@
                                     <p class="price">25,50 €</p>
                                 </div>
                                 <div class="productBook__info__count">
-                                    <img src="../imagenes/iconos/minus-svgrepo-com.svg" alt="">
+                                    <img
+                                        src="../imagenes/iconos/minus-svgrepo-com.svg"
+                                        alt=""
+                                    />
                                     <p>1</p>
-                                    <img src="../imagenes/iconos/plus-svgrepo-com.svg" alt="">
+                                    <img
+                                        src="../imagenes/iconos/plus-svgrepo-com.svg"
+                                        alt=""
+                                    />
                                 </div>
                             </div>
                         </div>
