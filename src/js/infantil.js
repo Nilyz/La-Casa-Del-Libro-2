@@ -14,7 +14,7 @@ fetch("../../../pruebas/libros.json")
 
 function generateFiccionContemporaneaBooks(data) {
     const bookAmount = 5;
-    const container = document.getElementById("books-Ciencias"); 
+    const container = document.getElementById("books-Comic-Infantil"); 
     for (let i = 0; i < bookAmount; i++) {
         const idLibro = i+31;
         const bookData = data.find((book) => book.id === idLibro);
@@ -34,7 +34,7 @@ function generateFiccionContemporaneaBooks(data) {
 }
 function generateFiccionClasicaBooks(data) {
     const bookAmount = 5;
-    const container = document.getElementById("books-Biografias");
+    const container = document.getElementById("books-Manga-Infantil");
     for (let i = 0; i<bookAmount; i++){
         const idLibro = i+36;
         const bookData = data.find((book) => book.id === idLibro);
@@ -54,7 +54,7 @@ function generateFiccionClasicaBooks(data) {
 }
 function generateFiccionTerrorBooks(data){
     const bookAmount = 5;
-    const container = document.getElementById("books-Criminologia");
+    const container = document.getElementById("books-Ingles-Infantil");
     for(let i = 0; i<bookAmount; i++){
         const idLibro = i+41;
         const bookData = data.find((book) => book.id === idLibro);
