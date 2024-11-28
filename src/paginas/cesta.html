@@ -13,6 +13,8 @@
 
         <link rel="stylesheet" href="../css/headerFooter.css" />
         <link rel="stylesheet" href="../css/cesta.css" />
+        <script src="../js/cesta_scripts/cestaPopUp.js" defer></script>
+        <script src="../js/cesta_scripts/cesta.js" defer></script>
     </head>
     <body>
         <header>
@@ -267,45 +269,110 @@
         </header>
 
         <main class="row d-flex justify-content-around">
+            <!--_____________________POP UP___________________________-->
+            <div id="overlay"></div>
+            <div class="directionFormPopUp" id="directionFormPopUp">
+                <h3>Dirección de entrega</h3>
+                <hr>
+                <form action="">
+                    <h4>Información de contacto</h4>
+                    <div class="row gap-3 contactInfoCont">
+                        <div class="col-lg-5 contactInfoCont__name">
+                            <input
+                                type="text"
+                                placeholder="Nombre"
+                                aria-label="Nombre"
+                                required
+                            />
+                        </div>
+                        <div class="col-lg-5 contactInfoCont__number">
+                            <input
+                                type="text"
+                                placeholder="+34"
+                                aria-label="Código de país"
+                                id="prefijoNumero"
+                                required
+                                
+                            />
+                            <input
+                                type="tel"
+                                placeholder="Teléfono móvil"
+                                aria-label="Teléfono móvil"
+                                id="numeroTelefono"
+                                required
+                            />
+                        </div>
+                    </div>
+                    <h4>Dirección</h4>
+                    <div
+                        class="row d-flex gap-3 justify-content-between direccionInfo"
+                    >
+                        <input
+                            class="col-lg-3"
+                            type="text"
+                            placeholder="País"
+                            aria-label="País"
+                            required
+                        />
+                        <input
+                            class="col-lg-4"
+                            type="text"
+                            placeholder="Ciudad"
+                            aria-label="Ciudad"
+                            required
+                        />
+                        <input
+                            class="col-lg-4"
+                            type="text"
+                            placeholder="Comunidad"
+                            aria-label="Comunidad"
+                            required
+                        />
+                        <input
+                            class="col-lg-4"
+                            type="text"
+                            placeholder="Código postal"
+                            aria-label="Código postal"
+                            required
+                        />
+                        <input
+                            class="col-lg-6"
+                            type="text"
+                            placeholder="Calle/casa/apartamento..."
+                            aria-label="Dirección"
+                            required
+                        />
+                    </div>
+                    <div
+                        class="row gap-3 justify-content-between directionFormPopUp__btnCont"
+                    >
+                        <button
+                            class="col-lg-4 directionFormPopUp__btnCont--confirm"
+                            id="directionFormPopUp__btnCont--confirm"
+                        >
+                            Confirmar
+                        </button>
+                        <button
+                            class="col-lg-4 directionFormPopUp__btnCont--cancel"
+                            id="directionFormPopUp__btnCont--cancel"
+                        >
+                            Cancelar
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <!--_________________________________________________________-->
+
             <div class="col-12 col-lg-6 productSection">
                 <div class="selectAllSection">
-                    <p>Cesta (3)</p>
+                    <p>Cesta (<span id="cartCount">0</span>)</p>
                     <div class="selectAll">
                         <input type="checkbox" id="selectAll" />
                         <label for="selectAll">Seleccionar todo</label>
                     </div>
                 </div>
-                <div class="productListSection">
-                    <div class="productBook">
-                        <input type="checkbox" id="selectAll" />
-                        <div class="productBook__img">
-                            <img
-                                src="../imagenes/libros/a-expresion-damatica-na-educacion.webp"
-                                alt=""
-                            />
-                        </div>
-                        <div class="productBook__info">
-                            <div class="productBook__info__title">
-                                <h4>Titulo</h4>
-                                <p>Autor</p>
-                            </div>
-                            <div class="productBook__info__trash">
-                                <img
-                                    src="../imagenes/iconos/trash-delete-svgrepo-com.svg"
-                                    alt="trash"
-                                />
-                            </div>
-                            <div class="productBook__info__priceCount">
-                                <div class="productBook__info__price">
-                                    <p class="price">25,50 €</p>
-                                </div>
-                                <div class="productBook__info__count">
-                                    <input type="number" value="1" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <hr />
+                <div class="productListSection" id="productListSection">
+                    <!--lista de ibros en el carrito-->
                 </div>
             </div>
             <div class="col-12 col-lg-4 paymentSection">
@@ -314,7 +381,7 @@
                     <div class="priceSection__resumeCont">
                         <div class="priceSection__resumeCont-sub">
                             <h5>Subtotal</h5>
-                            <p>25,50 €</p>
+                            <p id="subtotal">0,00 €</p>
                         </div>
                         <div class="priceSection__resumeCont-ship">
                             <p>Gastos de envío</p>
@@ -325,13 +392,15 @@
                     <div class="priceSection__totalCont">
                         <div class="priceSection__totalCont-total">
                             <h5>Total</h5>
-                            <p>27,49 €</p>
+                            <p id="total">0,00 €</p>
                         </div>
                         <div class="priceSection__totalCont-iva">
                             <p>IVA incluido</p>
                         </div>
                     </div>
-                    <button class="paymentSection__button">Pagar</button>
+                    <button class="paymentSection__button" id="payBtn">
+                        Pagar
+                    </button>
                 </div>
                 <div class="extraInfoSeccion">
                     <div class="extraInfoSeccion__shipment">

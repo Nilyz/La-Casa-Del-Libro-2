@@ -10,7 +10,7 @@
     --color-black: #1a1a1a;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
     margin: 0;
 }
 h1 {
@@ -44,13 +44,13 @@ ul {
 }
 a {
     text-decoration: none;
-    color: rgb(24, 24, 24);
+    color: var(--color-white);
 }
 p {
     margin: 0;
     margin-bottom: 0;
+    overflow-wrap: break-word;
 }
-
 
 button p {
     margin: 0;
@@ -62,7 +62,7 @@ hr {
 .row {
     --bs-gutter-x: 0;
 }
-ul{
+ul {
     margin-bottom: 0;
 }
 /*------------ HEADER ------------*/
@@ -76,7 +76,7 @@ header {
 .navbar-nav .nav-link.show {
     color: var(--color-yellow);
 }
-.navbar-nav{
+.navbar-nav {
     --bs-nav-link-hover-color: var(--color-white);
 }
 
@@ -90,7 +90,7 @@ header {
     font-family: "Lora", Georgia, times, serif;
     transition: color 0.3s ease;
 }
-.navbar-brand:hover{
+.navbar-brand:hover {
     color: #dea02e;
 }
 .nav-item {
@@ -107,6 +107,11 @@ header {
     height: 40px;
     width: 40px;
 }
+.navbar__icon--bag:hover,
+.navbar__icon--user:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
 .navbar__icon--search {
     height: 32px;
     width: 32px;
@@ -121,26 +126,35 @@ header {
 }
 .navbar-collapse {
     background-color: var(--color-beige);
-    /* Posicionamiento absoluto solo para pantallas pequeñas */
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
     z-index: 1000;
+    max-height: 91vh;
+    overflow-y: scroll;
+    border-bottom:  2px solid var(--color-caqui);
 }
 
-
-.nav-link{
+.nav-link {
     font-size: 20px;
 }
 .nav-link:hover {
     color: var(--color-yellow);
 }
 
+#ubication{
+    scroll-margin-top: 200px;
+}
+
+
 .catalogueMenu {
     background-color: var(--color-white);
     width: 100%;
     height: auto;
+}
+.catalogueMenu ul{
+    
 }
 .catalogueMenu li {
     list-style: none;
@@ -157,20 +171,19 @@ header {
 .categories_list {
     font-weight: bold;
     text-align: left;
-    background-color: #37643b92;
+    background-color: var(--color-lightGreen);
     margin: auto;
     border-bottom: 2px solid var(--color-green);
 }
-.categories_list p{
-    padding: 10px;
+.categories_list p {
+    padding: 5px;
     font-size: 18px;
 }
 .subcategory {
     font-size: 1px;
 }
-.dropdown-item{
+.dropdown-item {
     font-size: 18px;
-    padding: 10px;
 }
 /*------------ FOOTER ------------*/
 footer {
@@ -192,10 +205,16 @@ footer {
 .footerLogo__img {
     height: 100px;
 }
+
 .footerLogo__name {
     font-size: 24px;
     font-family: "Lora", Georgia, times, serif;
     font-weight: 600;
+}
+.footerLogo__name:hover {
+    color: var(--color-yellow);
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 .footerLink {
     padding: 30px 0 10px 0;
@@ -225,6 +244,11 @@ footer {
     height: 45px;
     width: 45px;
 }
+.footerSocial__img:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+}
+
 .footerPolicy {
     width: 100%;
     height: 50px;
@@ -300,18 +324,19 @@ footer {
     .navbar-collapse {
         position: static;
         background-color: transparent;
+        overflow: visible;
     }
     .nav-link {
         color: var(--color-white);
     }
     .navbar-collapse {
-        
+        border-bottom:  none;
     }
-    .dropdown-item:hover{
+    .dropdown-item:hover {
         background-color: transparent;
         color: #37643b;
         transition: all 0.3s ease;
-        text-decoration:underline;
+        text-decoration: underline;
     }
     .navbar-nav li {
         text-align: center;
@@ -327,11 +352,10 @@ footer {
         left: 50%;
         transform: translateX(-50%);
         padding: 30px 0 30px 0;
-        background-color: var(--color-beige);
+        background-color: var(--color-lightGreen);
     }
     .dropdown-item {
         text-align: center;
-        
     }
 
     .catalogueMenu {
@@ -341,8 +365,7 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        background-color: var(--color-beige);
-
+        background-color: var(--color-lightGreen);
     }
     .catalogueMenu li {
         padding: 5px 0 5px 0;
@@ -355,15 +378,20 @@ footer {
     }
     .categories_list {
         width: 100%;
+        background-color: var(--color-beige);
+        margin: auto;
+        border-bottom: 5px solid var(--color-caqui);
     }
-    .categories_list:hover{
+    .categories_list:hover {
         cursor: default;
     }
     .categories_list p {
         width: 100%;
         text-align: center;
         margin-bottom: 0;
+        padding: 10px;
     }
+    
     /*------------ FOOTER ------------*/
     footer {
         padding: 20px 0 10px 0;
