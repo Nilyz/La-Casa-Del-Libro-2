@@ -1,0 +1,180 @@
+.popUpForm {
+    background-color: beige;
+    max-width: 80vw;
+    margin: auto;
+    min-width: 60%;
+    height: 80%;
+    color: var(--color-white);
+    background-color: var(--color-green);
+    border-radius: 10px;
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 40px;
+        justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-inline: 20px;
+}
+
+.popup-left {
+    display: none;
+}
+
+.popup-right {
+    width: 100%;
+}
+
+.top-PopUp {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.x-popUp {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.popUpLine {
+    width: 2px;
+    height: 20px;
+    border: 2px solid var(--color-yellow);
+    opacity: 1;
+}
+
+.middlePopUp {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    height: 140px;
+    display: none;
+}
+
+.middlePopUp img {
+    height: 100%;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.loginForm label,
+.loginForm input {
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+.loginForm input {
+    height: 40px;
+    padding-inline: 10px;
+}
+
+.loginForm button {
+    width: 100%;
+    background-color: var(--color-yellow);
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: var(--color-white);
+}
+#confirm-password-container input {
+    width: 100%; 
+}
+
+
+.forgot-password a {
+    color: var(--color-white);
+}
+
+.iniciar {
+    color: var(--color-yellow);
+}
+
+.registrar {
+    color: var(--color-white);
+}
+.popUpLine-active-login {
+    border-color: var(--color-yellow);
+}
+
+.popUpLine-active-register {
+    border-color: var(--color-green);
+}
+
+
+.registrar:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 992px) {
+    .popUpForm {
+        max-width: 50vw;
+        border-radius: 20px;
+        overflow: hidden;
+        flex-wrap: nowrap;
+        align-items: normal;
+        padding: 0;
+        gap:0;
+    }
+
+    .popup-left {
+        display: block;
+        width: 50%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .popup-left img {
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+        filter: blur(3px);
+    }
+
+    .popup-right {
+        width: 50%;
+        background-color: var(--color-green);
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .middlePopUp {
+        display: flex;
+    }
+
+    .popup-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: var(--color-white);
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        width: 80%;
+    }
+
+}

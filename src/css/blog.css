@@ -1,0 +1,553 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    border-radius: 8px;
+    /* Opcional, da esquinas redondeadas */
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.frontPage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-block: 50px;
+    margin-top: 70px;
+}
+
+.frontPage-img1 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frontPage-img1 img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.frontPage-info {
+    width: 80%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: var(--color-green);
+    color: white;
+}
+
+.info-titulo {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.info-datos {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: justify;
+}
+
+.info-btn {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-yellow);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.frontPage-img2 {
+    display: none;
+    width: 100%;
+    height: 300px;
+}
+
+.frontPage-img1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.newsLetter-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-block: 20px;
+    background-color: #f7e198;
+}
+
+.newsLetter {
+    width: 90%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.newsLetter-img {
+    display: none;
+}
+
+.newsLetter-titulo {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.newsLetter-texto {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: justify;
+}
+
+.newsLetter-btn {
+    background-color: var(--color-green);
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    padding-inline: 15px;
+    gap: 10px;
+    color: white;
+    border-radius: 8px;
+}
+
+.newsLetter-btn:hover {
+    cursor: pointer;
+}
+
+.newsLetter-btn img {
+    width: 28px;
+    object-fit: contain;
+}
+
+.newsLetter-btn p {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.actualidad-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-block: 20px;
+    gap: 30px;
+}
+
+.actualidad-titulo {
+    width: 90%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-bottom: 10px;
+}
+
+.actualidad-titulo h2 {
+    width: 100%;
+}
+
+.titulo-linea {
+    width: 100%;
+    height: 4px;
+    background-color: #d5a347;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+
+.actualidad {
+    width: 90%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo oscuro */
+    background-blend-mode: multiply;
+    position: relative;
+    overflow: hidden;
+    transition: background-size 0.5s ease;
+}
+
+.actualidad1 {
+    background-image: url('../imagenes/blog/sallyRooney.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo oscuro */
+    background-blend-mode: multiply;
+}
+
+.actualidad2 {
+    background-image: url('../imagenes/blog/feriaDelLibro.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo oscuro */
+    background-blend-mode: multiply;
+}
+
+.actualidad3 {
+    background-image: url('../imagenes/blog/premioPlaneta2024.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo oscuro */
+    background-blend-mode: multiply;
+}
+
+.actualidad:hover {
+    background-size: 120%;
+}
+
+.actualidad::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.336);
+    backdrop-filter: blur(3px);
+    z-index: 1;
+}
+
+.actualidad>* {
+    position: relative;
+    z-index: 2;
+}
+
+.actualidad-noticia {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0px;
+    padding: 20px;
+}
+
+.actualidad-img {
+    display: none;
+}
+
+.actualidad-info {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info-titulo2 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info-titulo2 h3 {
+    color: white;
+}
+
+.info-texto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    color: white;
+}
+
+.actualidad-decoracion {
+    display: none;
+}
+
+.evento-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-block: 20px;
+    gap: 60px;
+}
+
+.evento {
+    width: 90%;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.evento:not(:last-child) {
+    border-bottom: 2px solid black;
+}
+
+.evento-img {
+    width: 45%;
+    height: 100%;
+}
+
+.evento-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.evento-info {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+@media (min-width: 992px) {
+
+    .frontPage {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+
+    .frontPage-img2 {
+        width: 40%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .frontPage-img2 img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .frontPage-img1 {
+        width: 50%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .frontPage-img1 img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .frontPage-info {
+        position: absolute;
+        width: 30%;
+        top: 35%;
+        left: 30%;
+        background-color: var(--color-green);
+        color: white;
+    }
+
+    .newsLetter-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 50px;
+        margin-block: 20px;
+    }
+
+    .newsLetter-img {
+        display: flex;
+        width: 40%;
+    }
+
+    .newsLetter-img img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .newsLetter {
+        width: 40%;
+        height: 100%;
+        justify-content: left;
+    }
+
+    .newsLetter-titulo {}
+
+    .newsLetter-texto {}
+
+    .actualidad-container {
+        margin-block: 20px;
+    }
+
+    .actualidad {
+        background-image: none;
+        background-color: transparent;
+    }
+
+    .actualidad::before {
+        background-color: transparent;
+    }
+
+    .actualidad-noticia {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .actualidad1, .actualidad2, .actualidad3 {
+        background-image: none;
+        background-color: transparent;
+    }
+
+    .actualidad-img {
+        display: flex;
+        width: 35%;
+        z-index: 5;
+    }
+
+    .actualidad-img img {
+        width: 100%;
+        max-height: 280px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .actualidad-info {
+        width: 55%;
+        min-height: 300px;
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+        /* Cambié a columna para que los elementos se distribuyan verticalmente */
+        justify-content: space-between;
+        align-items: stretch;
+        /* Asegura que los hijos ocupen todo el ancho */
+    }
+
+    .info-titulo2 {
+        width: 100%;
+        flex-basis: 20%;
+        /* Controla la proporción de altura */
+        text-align: center;
+    }
+
+    .info-titulo2 h3 {
+        color: black;
+    }
+
+    .info-texto {
+        flex-grow: 1;
+        /* Hace que ocupe el espacio restante */
+        color: black;
+    }
+
+    .actualidad-decoracion {
+        display: flex;
+        width: 200px;
+        height: 95%;
+        background-color: #f3efdb;
+        background-color: var(--color-green);
+        position: absolute;
+        border-radius: 8px;
+        z-index: 1;
+        top: 2;
+        left: 1.5%;
+    }
+
+    .actualidad-decoracion2 {
+        display: flex;
+        width: 200px;
+        height: 95%;
+        background-color: #f3efdb;
+        background-color: var(--color-green);
+        position: absolute;
+        border-radius: 8px;
+        z-index: 1;
+        top: 2;
+        right: 1.5%;
+    }
+
+
+    .evento-container {
+        justify-content: space-around;
+        padding: 20px;
+        margin-block: 20px;
+    }
+
+    .actualidad-titulo {
+        width: 92%;
+    }
+
+    .titulo-linea {
+        width: 14%;
+    }
+
+    .evento {
+        width: 40%;
+        border: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .evento-img {
+        height: 100%;
+    }
+
+    .evento-img:hover {
+        cursor: pointer;
+    }
+
+}
