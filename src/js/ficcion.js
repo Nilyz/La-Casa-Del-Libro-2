@@ -14,7 +14,7 @@ fetch("../../../pruebas/libros.json")
 
 function generateFiccionContemporaneaBooks(data) {
     const bookAmount = 5;
-    const container = document.getElementById("ficcion_books_Contemporanea"); 
+    const container = document.getElementById("ficcion-books-Contemporanea"); 
     for (let i = 0; i < bookAmount; i++) {
         const idLibro = i+1;
         const bookData = data.find((book) => book.id === idLibro);
@@ -103,26 +103,5 @@ function generateFiccionTerrorBooks(data){
 generateFiccionContemporaneaBooks();
 generateFiccionClasicaBooks();
 generateFiccionTerrorBooks();
-
-
-// Escucha los clics en el contenedor del slider
-slider.addEventListener('click', (event) => {
-    const book = event.target.closest('.book');
-    if (book) {
-        const slug = book.querySelector('img').alt;
-        console.log('click en trending');
-        window.location.href = `../src/plantilla/libro.html?slug=${slug}`;
-    }
-});
-
-// Escucha los clics en el contenedor de libros nuevos
-sliderNewBooks.addEventListener('click', (event) => {
-    const book = event.target.closest('.book');
-    if (book) {
-        const slug = book.querySelector('img').alt;
-        console.log('click en nuevo');
-        window.location.href = `../src/plantilla/libro.html?slug=${slug}`;
-    }
-});
 
 
