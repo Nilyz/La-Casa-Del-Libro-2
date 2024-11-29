@@ -14,9 +14,9 @@ fetch("../../../pruebas/libros.json")
 
 function generateFiccionContemporaneaBooks(data) {
     const bookAmount = 5;
-    const container = document.getElementById("ficcion-books-Contemporanea"); 
+    const container = document.getElementById("books-Narrativa-Gallego"); 
     for (let i = 0; i < bookAmount; i++) {
-        const idLibro = i+1;
+        const idLibro = i+76;
         const bookData = data.find((book) => book.id === idLibro);
         const book = document.createElement("div");
         book.classList.add("book");
@@ -31,12 +31,21 @@ function generateFiccionContemporaneaBooks(data) {
         `;
         container.appendChild(book); 
     }
+    // Escucha los clics en el contenedor del slider
+    container.addEventListener('click', (event) => {
+        const book = event.target.closest('.book');
+        if (book) {
+            const slug = book.querySelector('img').alt;
+            console.log('click en trending');
+            window.location.href = `../../src/plantilla/libro.html?slug=${slug}`;
+        }
+    });
 }
 function generateFiccionClasicaBooks(data) {
     const bookAmount = 5;
-    const container = document.getElementById("ficcion-books-Clasica");
+    const container = document.getElementById("books-Poesia-Gallego");
     for (let i = 0; i<bookAmount; i++){
-        const idLibro = i+6;
+        const idLibro = i+81;
         const bookData = data.find((book) => book.id === idLibro);
         const book = document.createElement("div");
         book.classList.add("book");
@@ -51,12 +60,21 @@ function generateFiccionClasicaBooks(data) {
         `;
         container.appendChild(book);
     }
+    // Escucha los clics en el contenedor del slider
+    container.addEventListener('click', (event) => {
+        const book = event.target.closest('.book');
+        if (book) {
+            const slug = book.querySelector('img').alt;
+            console.log('click en trending');
+            window.location.href = `../../src/plantilla/libro.html?slug=${slug}`;
+        }
+    });
 }
 function generateFiccionTerrorBooks(data){
     const bookAmount = 5;
-    const container = document.getElementById("ficcion-books-Terror");
+    const container = document.getElementById("books-Teatro-Gallego");
     for(let i = 0; i<bookAmount; i++){
-        const idLibro = i+11;
+        const idLibro = i+86;
         const bookData = data.find((book) => book.id === idLibro);
         const book = document.createElement("div");
         book.classList.add("book");
@@ -71,6 +89,15 @@ function generateFiccionTerrorBooks(data){
         `;
         container.appendChild(book);
     }
+    // Escucha los clics en el contenedor del slider
+    container.addEventListener('click', (event) => {
+        const book = event.target.closest('.book');
+        if (book) {
+            const slug = book.querySelector('img').alt;
+            console.log('click en trending');
+            window.location.href = `../../src/plantilla/libro.html?slug=${slug}`;
+        }
+    });
 }
 // Llamadas a las funciones
 generateFiccionContemporaneaBooks();

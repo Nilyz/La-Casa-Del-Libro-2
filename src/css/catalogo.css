@@ -1,10 +1,10 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+
+header{
+    top:0;
 }
-
-
+main{
+    margin-top: 150px;
+}
 .categoria {
     height: 200px;
     display: flex;
@@ -20,7 +20,11 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+a {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
 .recuadroSubgenero {
     width: 100%;
     display: flex;
@@ -28,13 +32,12 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid #000;
 }
 
 .imagenSubgenero {
     height: 150px;
     width: 150px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     border-radius: 50%;
 }
 .imagenSubgenero img {
@@ -46,21 +49,25 @@ body {
 .nombreSubgenero h4 {
     font-size: large;
     margin-top: 10px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 .mostrador { 
     width: 100%;
     height: max-content;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centrar el contenedor */
+    justify-content: center; 
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 10px;
-    overflow: hidden; /* Para ocultar el contenido desbordado */
+    overflow: hidden;
+
 }
 .mostradorSubgenero {
     width: 100%;
     height: fit-content;
     text-align: center;
+    margin: 20px;
 }
 .mostradorSubgenero h2 {
     font-size: 20px;
@@ -68,7 +75,12 @@ body {
     margin: 10px 0;
     
 }
-
+.Section__sectionLine {
+    margin: 5px 0 5px 0;
+    border: 2px solid var(--color-green);
+    width: 80%;
+    margin: auto;
+}
 .ficcion_books {
     display: flex;
     gap: 10px;
@@ -83,6 +95,7 @@ body {
     max-width: 140px;
     flex-shrink: 0;
     margin: 0 20px; /* Para dar espacio entre los libros */
+    
 }
 
 .book__img {
@@ -98,9 +111,17 @@ body {
 .book__title {
     font-size: 14px;
     font-weight: bold;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 15px 0 5px 0;
 }
 .book__autor {
     font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 5px 0 5px 0;
 }
 .book__infoCont hr {
     margin: 5px 0 5px 0;
