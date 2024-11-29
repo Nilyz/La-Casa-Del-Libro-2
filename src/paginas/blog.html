@@ -1,419 +1,672 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="../css/headerFooter.css" />
+        <link rel="stylesheet" href="../css/blog.css" />
+        <script src="../js/blog.js" defer></script>
+        <link rel="stylesheet" href="../css/logIn.css" />
+        <script type="module" src="../js/popup.js" defer></script>
+        <script type="module" src="../bdd/firebase.js" defer></script>
+        <title>Blog</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-    <link rel="stylesheet" href="../css/headerFooter.css" />
-    <link rel="stylesheet" href="../css/blog.css" />
-    <script src="../js/blog.js" defer></script>
-    <title>Blog</title>
-</head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div
+                    class="container-fluid d-flex justify-content-between align-items-center"
+                >
+                    <a
+                        class="navbar-brand d-flex align-items-center justify-content-center"
+                        href="../../index.html"
+                    >
+                        <img
+                            src="../imagenes/iconos/Logo_Casa_del_libro2.png"
+                            alt="logo"
+                            class="me-1"
+                        />
+                        <span
+                            class="navbar-brand mb-0 h1 d-none d-lg-block d-md-block"
+                            >La Casa Del Libro</span
+                        >
+                    </a>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul
+                            class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-space align-items-center"
+                        >
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="../../index.html"
+                                    >Inicio</a
+                                >
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link"
+                                    href="index.html"
+                                    id="menuToggle"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Catálogo
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="menuToggle"
+                                >
+                                    <div class="catalogueMenu">
+                                        <ul class="categories">
+                                            <li>
+                                                <div class="categories_list">
+                                                    <a href="ficcion.html"
+                                                        ><p>Ficción</p></a
+                                                    >
+                                                </div>
+                                            </li>
 
-<body>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="ficcion.html#mostradorContemporanea"
+                                                    >Contemporánea</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="ficcion.html#mostradorClasica"
+                                                    >Clásicos</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="ficcion.html#mostradorTerror"
+                                                    >Novela de terror</a
+                                                >
+                                            </li>
+                                        </ul>
+                                        <ul class="categories">
+                                            <li>
+                                                <div
+                                                    class="categories_list"
+                                                    href=""
+                                                >
+                                                    <a href="no_ficcion.html"
+                                                        ><p>No ficción</p></a
+                                                    >
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="no_ficcion.html#mostradorCiencias"
+                                                    >Ciencias</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="no_ficcion.html#mostradorBiografias"
+                                                    >Biografías</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="no_ficcion.html#mostradorCriminologia"
+                                                    >Criminología</a
+                                                >
+                                            </li>
+                                        </ul>
+                                        <ul class="categories">
+                                            <li>
+                                                <div class="categories_list">
+                                                    <a href="infantil.html"
+                                                        ><p>Infantil</p></a
+                                                    >
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="infantil.html#mostradorComicInfantil"
+                                                    >Comic infantil</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="infantil.html#mostradorMangaInfantil"
+                                                    >Manga infantil</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="infantil.html#mostradorLibrosInfantilesIngles"
+                                                    >Libros infantiles en
+                                                    inglés</a
+                                                >
+                                            </li>
+                                        </ul>
+                                        <ul class="categories">
+                                            <li>
+                                                <div class="categories_list">
+                                                    <a href="juvenil.html"
+                                                        ><p>Juveniles</p></a
+                                                    >
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="juvenil.html#mostradorNarrativaFantastica"
+                                                    >Narrativa fantástica</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="juvenil.html#mostradorMangaShonen"
+                                                    >Manga Shonen</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="juvenil.html#mostradorMangaShojo"
+                                                    >Manga Shojo</a
+                                                >
+                                            </li>
+                                        </ul>
 
-    <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid d-flex justify-content-between align-items-center">
-                <a class="navbar-brand d-flex align-items-center justify-content-center" href="../../index.html">
-                    <img src="../imagenes/iconos/Logo_Casa_del_libro2.png" alt="logo" class="me-1" />
-                    <span class="navbar-brand mb-0 h1 d-none d-lg-block d-md-block">La Casa Del Libro</span>
-                </a>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-space align-items-center">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="../../index.html" id="menuToggle" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Catálogo
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="menuToggle">
-                                <div class="catalogueMenu">
-                                    <ul class="categories">
-                                        <li>
-                                            <a class="dropdown-item categories_list" href="">
-                                                <p>Ficción</p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Contemporánea</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Clásicos</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Novela de terror</a>
-                                        </li>
-                                    </ul>
-                                    <ul class="categories">
-                                        <li>
-                                            <a class="dropdown-item categories_list" href="">
-                                                <p>No ficción</p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Ciencias</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Biografías</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Criminología</a>
-                                        </li>
-                                    </ul>
-                                    <ul class="categories">
-                                        <li>
-                                            <a class="dropdown-item categories_list" href="">
-                                                <p>Infantil</p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Comic infantil</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Manga infantil</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Libros infantiles en
-                                                inglés</a>
-                                        </li>
-                                    </ul>
-                                    <ul class="categories">
-                                        <li>
-                                            <a class="dropdown-item categories_list" href="">
-                                                <p>Juveniles</p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Narrativa fantástica</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Manga Shonen</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Manga Shojo</a>
-                                        </li>
-                                    </ul>
-
-                                    <ul class="categories">
-                                        <li>
-                                            <a class="dropdown-item categories_list" href="">
-                                                <p>Libros de texto</p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Educación infantil</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Educación primaria</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Educación secundaria</a>
-                                        </li>
-                                    </ul>
-                                    <ul class="categories">
-                                        <li>
-                                            <a class="dropdown-item categories_list" href="">
-                                                <p>Libros en gallego</p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Narrativa</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Poesía</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Teatro</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Nosotros</a>
-                        </li>
-                    </ul>
+                                        <ul class="categories">
+                                            <li>
+                                                <div class="categories_list">
+                                                    <a href="libros_texto.html"
+                                                        ><p>
+                                                            Libros de texto
+                                                        </p></a
+                                                    >
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="libros_texto.html#mostradorEducacionInfantil"
+                                                    >Educación infantil</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="libros_texto.html#mostradorEducacionPrimaria"
+                                                    >Educación primaria</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="libros_texto.html#mostradorEducacionSecundaria"
+                                                    >Educación secundaria</a
+                                                >
+                                            </li>
+                                        </ul>
+                                        <ul class="categories">
+                                            <li>
+                                                <div class="categories_list">
+                                                    <a
+                                                        href="src/paginas/libros_gallego.html"
+                                                        ><p>
+                                                            Libros en gallego
+                                                        </p></a
+                                                    >
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="libros_gallego.html#mostradorNarrativaGallego"
+                                                    >Narrativa</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="libros_gallego.html#mostradorPoesiaGallego"
+                                                    >Poesía</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="libros_gallego.html#mostradorTeatroGallego"
+                                                    >Teatro</a
+                                                >
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    href="../../index.html#ubication"
+                                    >Ubícanos</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div
+                        class="d-flex align-items-center justify-content-center navbar__links"
+                    >
+                        <button
+                            class="navbar-toggler navbar__toggle"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <img
+                                src="../imagenes/iconos/menu-svgrepo-com.svg"
+                                alt="Menu"
+                                class="navbar__toggle--img"
+                            />
+                        </button>
+                        <a href="#" class="nav-link navbar__icon">
+                            <img
+                                src="../imagenes/iconos/lens-svgrepo-com.svg"
+                                alt="lens"
+                                class="navbar__icon--search"
+                            />
+                        </a>
+                        <a href="#" class="nav-link navbar__icon" id="login">
+                            <img
+                                src="../imagenes/iconos/user-svgrepo-com.svg"
+                                alt="user"
+                                class="navbar__icon--user"
+                            />
+                        </a>
+                        <a href="cesta.html" class="nav-link navbar__icon">
+                            <img
+                                src="../imagenes/iconos/bag-shopping-svgrepo-com.svg"
+                                alt="bag"
+                                class="navbar__icon--bag"
+                            />
+                        </a>
+                    </div>
                 </div>
-                <div class="d-flex align-items-center justify-content-center navbar__links">
-                    <button class="navbar-toggler navbar__toggle" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <img src="../imagenes/iconos/menu-svgrepo-com.svg" alt="Menu" class="navbar__toggle--img" />
-                    </button>
-                    <a href="#" class="nav-link navbar__icon">
-                        <img src="../imagenes/iconos/lens-svgrepo-com.svg" alt="lens" class="navbar__icon--search" />
-                    </a>
-                    <a href="#" class="nav-link navbar__icon">
-                        <img src="../imagenes/iconos/user-svgrepo-com.svg" alt="user" class="navbar__icon--user" />
-                    </a>
-                    <a href="#" class="nav-link navbar__icon">
-                        <img src="../imagenes/iconos/bag-shopping-svgrepo-com.svg" alt="bag"
-                            class="navbar__icon--bag" />
-                    </a>
+            </nav>
+        </header>
+
+        <main>
+            <div class="frontPage">
+                <div class="frontPage-img2">
+                    <img
+                        src="../imagenes/blog/blog1.jpg"
+                        alt="Casa del libro"
+                    />
+                </div>
+                <div class="frontPage-img1">
+                    <img
+                        src="../imagenes/blog/blog4.webp"
+                        alt="Casa del libro"
+                    />
+                </div>
+                <div class="frontPage-info">
+                    <div class="info-titulo">
+                        <h1>Bienvenido a La Casa del Libro</h1>
+                    </div>
+                    <div class="info-datos">
+                        <p>
+                            La Casa del Libro es una cadena de librerías
+                            especializada en ofrecer una amplia variedad de
+                            libros para todos los gustos. Desde los más clásicos
+                            hasta los más modernos, encontrarás libros en todos
+                            los géneros y para todas las edades. En nuestro
+                            blog, te mantenemos al día con las últimas novedades
+                            literarias, eventos y promociones
+                        </p>
+                    </div>
+                    <div class="info-btn" id="btnMasInformacion">
+                        <p>Más Información</p>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </header>
 
-    <main>
-
-        <div class="frontPage">
-            <div class="frontPage-img2">
-                <img src="../imagenes/blog/blog1.jpg" alt="Casa del libro" />
-            </div>
-            <div class="frontPage-img1">
-                <img src="../imagenes/blog/blog4.webp" alt="Casa del libro" />
-            </div>
-            <div class="frontPage-info">
-                <div class="info-titulo">
-                    <h1>Bienvenido a La Casa del Libro</h1>
+            <div class="newsLetter-container">
+                <div class="newsLetter-img">
+                    <img
+                        src="../imagenes/blog/newsletter.png"
+                        alt="Newsletter"
+                    />
                 </div>
-                <div class="info-datos">
+                <div class="newsLetter">
+                    <div class="newsLetter-titulo">
+                        <h2>Suscríbete a nuestro newsletter</h2>
+                    </div>
+                    <div class="newsLetter-texto">
+                        <p>
+                            Recibe las últimas noticias, promociones y
+                            recomendaciones de libros directamente en tu correo.
+                            ¡Suscríbete y mantente al día con las novedades de
+                            La Casa del Libro!!
+                        </p>
+                    </div>
+                    <div class="newsLetter-btn" id="actualidad">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="26"
+                            height="26"
+                            viewBox="0 0 24 24"
+                        >
+                            <path
+                                fill="#fdfcf7"
+                                d="M21 19v1H3v-1l2-2v-6c0-3.1 2.03-5.83 5-6.71V4a2 2 0 0 1 2-2a2 2 0 0 1 2 2v.29c2.97.88 5 3.61 5 6.71v6zm-7 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2"
+                            />
+                        </svg>
+                        <p>Recibir Notificaciones</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="actualidad-container">
+                <div class="actualidad-titulo">
+                    <h2>Actualidad</h2>
+                    <div class="titulo-linea"></div>
+                </div>
+
+                <div class="actualidad">
+                    <div class="actualidad-noticia actualidad1">
+                        <div class="actualidad-img">
+                            <img
+                                src="../imagenes/blog/sallyRooney.jpg"
+                                alt="Sally Rooney"
+                            />
+                        </div>
+                        <div class="actualidad-info">
+                            <div class="info-titulo2">
+                                <h3>El lanzamiento del último bestseller</h3>
+                            </div>
+                            <div class="info-texto">
+                                <p>
+                                    El tan esperado libro de Sally Rooney ha
+                                    llegado a nuestras estanterías, y la espera
+                                    finalmente ha valido la pena. Con una trama
+                                    llena de giros sorprendentes, personajes
+                                    memorables y una narrativa que te mantendrá
+                                    pegado a sus páginas desde la primera hasta
+                                    la última, esta obra está generando una
+                                    enorme expectación a nivel mundial. Los
+                                    fanáticos del autor no pueden dejar de
+                                    hablar de la maestría con la que se han
+                                    entrelazado los elementos de suspense,
+                                    emoción y reflexión profunda en esta nueva
+                                    historia.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="actualidad-decoracion"></div>
+                </div>
+
+                <div class="actualidad">
+                    <div class="actualidad-noticia actualidad2">
+                        <div class="actualidad-info">
+                            <div class="info-titulo2">
+                                <h3>Feria del Libro 2024</h3>
+                            </div>
+                            <div class="info-texto">
+                                <p>
+                                    Este año, La Casa del Libro estará presente
+                                    en la tan esperada Feria del Libro 2024, un
+                                    evento literario que reúne a los amantes de
+                                    la lectura y la cultura en un solo lugar.
+                                    Nos complace anunciar que durante esta
+                                    edición, hemos preparado algo muy especial
+                                    para todos nuestros visitantes. Además de
+                                    nuestra destacada presencia, ofreceremos
+                                    descuentos exclusivos en una amplia gama de
+                                    títulos, tanto de autores consagrados como
+                                    de nuevas voces emergentes.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="actualidad-img">
+                            <img
+                                src="../imagenes/blog/feriaDelLibro.jpg"
+                                alt="Feria del libro"
+                            />
+                        </div>
+                    </div>
+                    <div class="actualidad-decoracion2"></div>
+                </div>
+
+                <div class="actualidad">
+                    <div class="actualidad-noticia actualidad3">
+                        <div class="actualidad-img">
+                            <img
+                                src="../imagenes/blog/premioPlaneta2024.jpeg"
+                                alt="Premios planeta"
+                            />
+                        </div>
+                        <div class="actualidad-info">
+                            <div class="info-titulo2">
+                                <h3>
+                                    ¡Nuevas tendencias literarias! Descubre los
+                                    títulos más esperados del 2024
+                                </h3>
+                            </div>
+                            <div class="info-texto">
+                                <p>
+                                    El 2024 está lleno de sorpresas literarias y
+                                    en La Casa del Libro estamos emocionados por
+                                    las nuevas publicaciones que llegarán a
+                                    nuestras estanterías. Desde novelas
+                                    históricas hasta thrillers emocionantes, los
+                                    próximos meses prometen ser un festín para
+                                    los amantes de la lectura. ¡No te pierdas
+                                    los títulos más esperados! Ven a nuestra
+                                    tienda o explora nuestra web para estar al
+                                    tanto de las últimas novedades y hazte con
+                                    tu ejemplar de anticipación. ¡Cada página es
+                                    una nueva aventura que te espera!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="actualidad-decoracion"></div>
+                </div>
+            </div>
+
+            <div class="evento-container">
+                <div class="actualidad-titulo">
+                    <h2>Eventos</h2>
+                    <div class="titulo-linea"></div>
+                </div>
+
+                <div class="evento" id="eventoArturoReverte">
+                    <div class="evento-img">
+                        <img
+                            src="../imagenes/blog/arturoPerezReverte.avif"
+                            alt="Arturo Pérez Reverte"
+                        />
+                    </div>
+                    <div class="evento-info">
+                        <p>
+                            El próximo 21 de diciembre, La Casa del Libro
+                            organizará un encuentro con Arturo Pérez Reverte
+                            para presentar su último libro. Será una excelente
+                            oportunidad para conocer de cerca a tu autor
+                            favorito y obtener una firma personalizada
+                        </p>
+                    </div>
+                </div>
+
+                <div class="evento">
+                    <div class="evento-img">
+                        <img
+                            src="../imagenes/blog/tallerDeLectura.jpg"
+                            alt="Taller de lectura"
+                        />
+                    </div>
+                    <div class="evento-info">
+                        <p>
+                            El 6 de enero, no te pierdas nuestra actividad para
+                            los más pequeños: un taller de lectura y narración
+                            para niños. Un evento ideal para fomentar el amor
+                            por los libros desde una edad temprana.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="evento">
+                    <div class="evento-img">
+                        <img
+                            src="../imagenes/blog/lecturaDigital.jpg"
+                            alt="Lectura Digital"
+                        />
+                    </div>
+                    <div class="evento-info">
+                        <p>
+                            El 15 de febrero, La Casa del Libro presentará una
+                            mesa redonda sobre el futuro de la literatura
+                            digital. Acompáñanos para conocer a expertos del
+                            mundo editorial y tecnológico, quienes discutirán
+                            cómo la tecnología está transformando la forma en
+                            que leemos y consumimos libros.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="evento">
+                    <div class="evento-img">
+                        <img
+                            src="../imagenes/blog/libros2Mano.webp"
+                            alt="Libros segunda mano"
+                        />
+                    </div>
+                    <div class="evento-info">
+                        <p>
+                            El 10 de marzo, no te pierdas nuestra feria de
+                            libros de segunda mano. Una ocasión perfecta para
+                            encontrar títulos únicos a precios especiales y
+                            contribuir a la sostenibilidad del planeta.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div
+                    class="row d-flex justify-content-between align-items-center footerMain"
+                >
+                    <div class="col-lg-4 text-center footerLogo">
+                        <img
+                            src="../imagenes/iconos/Logo_Casa_del_libro2.png"
+                            alt="logo"
+                            class="footerLogo__img"
+                        />
+                        <a class="footerLogo__name" href="../../index.html"
+                            >La Casa Del Libro</a
+                        >
+                    </div>
+                    <div class="col-lg-3 footerLink">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="nav-link" href="catalogo.html"
+                                    >Catálogo</a
+                                >
+                            </li>
+                            <li>
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a
+                                    class="nav-link"
+                                    href="../../index.html#ubication"
+                                    >Contáctanos</a
+                                >
+                            </li>
+                            <li><a class="nav-link" href="#">Soporte</a></li>
+                        </ul>
+                    </div>
+                    <div
+                        class="col-lg-3 d-flex justify-content-around align-items-center footerSocial"
+                    >
+                        <a href="https://www.instagram.com/casadellibro/?hl=es">
+                            <img
+                                src="..//imagenes/iconos/instagram-svgrepo-com.svg"
+                                alt="instagram"
+                                class="footerSocial__img"
+                            />
+                        </a>
+                        <a href="https://www.facebook.com/casadellibro">
+                            <img
+                                src="..//imagenes/iconos/facebook-svgrepo-com.svg"
+                                alt="facebook"
+                                class="footerSocial__img"
+                            />
+                        </a>
+                        <a href="https://x.com/casadellibro">
+                            <img
+                                src="..//imagenes/iconos/prime--twitter.svg"
+                                alt="X"
+                                class="footerSocial__img"
+                            />
+                        </a>
+
+                        <a href="https://github.com/Nilyz/La-Casa-Del-Libro-2">
+                            <img
+                                src="..//imagenes/iconos/github-svgrepo-com2.svg"
+                                alt="github"
+                                class="footerSocial__img"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="footerPolicy">
+                    <a class="nav-link" href="#">Política de privacidad</a>
+                    <hr />
+                    <a class="nav-link" href="#">Términos y condiciones</a>
+                </div>
+                <div class="footerCopy">
                     <p>
-                        La Casa del Libro es una cadena de librerías especializada en ofrecer una amplia variedad de
-                        libros para todos los gustos. Desde los más clásicos hasta los más modernos, encontrarás libros
-                        en todos los géneros y para todas las edades. En nuestro blog, te mantenemos al día con las
-                        últimas novedades literarias, eventos y promociones
+                        © 2024 La Casa Del Libro 2.0. Todos los derechos
+                        reservados.
                     </p>
                 </div>
-                <div class="info-btn" id="btnMasInformacion">
-                    <p>Más Información</p>
-                </div>
             </div>
-        </div>
+        </footer>
 
-        <div class="newsLetter-container">
-            <div class="newsLetter-img">
-                <img src="../imagenes/blog/newsletter.png" alt="Newsletter" />
-            </div>
-            <div class="newsLetter">
-                <div class="newsLetter-titulo">
-                    <h2>Suscríbete a nuestro newsletter</h2>
-                </div>
-                <div class="newsLetter-texto">
-                    <p>
-                        Recibe las últimas noticias, promociones y recomendaciones de libros directamente en tu correo.
-                        ¡Suscríbete y mantente al día con las novedades de La Casa del Libro!!
-                    </p>
-                </div>
-                <div class="newsLetter-btn" id="actualidad">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24">
-                        <path fill="#fdfcf7"
-                            d="M21 19v1H3v-1l2-2v-6c0-3.1 2.03-5.83 5-6.71V4a2 2 0 0 1 2-2a2 2 0 0 1 2 2v.29c2.97.88 5 3.61 5 6.71v6zm-7 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2" />
-                    </svg>
-                    <p>Recibir Notificaciones</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="actualidad-container">
-
-            <div class="actualidad-titulo">
-                <h2>Actualidad</h2>
-                <div class="titulo-linea"></div>
-            </div>
-
-            <div class="actualidad">
-                <div class="actualidad-noticia actualidad1">
-                    <div class="actualidad-img">
-                        <img src="../imagenes/blog/sallyRooney.jpg" alt="Sally Rooney" />
-                    </div>
-                    <div class="actualidad-info">
-                        <div class="info-titulo2">
-                            <h3>El lanzamiento del último bestseller</h3>
-                        </div>
-                        <div class="info-texto">
-                            <p>
-                                El tan esperado libro de Sally Rooney ha llegado a nuestras estanterías, y la espera
-                                finalmente ha valido la pena. Con una trama llena de giros sorprendentes, personajes
-                                memorables y una narrativa que te mantendrá pegado a sus páginas desde la primera hasta
-                                la última, esta obra está generando una enorme expectación a nivel mundial. Los
-                                fanáticos del autor no pueden dejar de hablar de la maestría con la que se han
-                                entrelazado los elementos de suspense, emoción y reflexión profunda en esta nueva
-                                historia.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="actualidad-decoracion"></div>
-            </div>
-
-            <div class="actualidad">
-                <div class="actualidad-noticia actualidad2">
-                    <div class="actualidad-info">
-                        <div class="info-titulo2">
-                            <h3>Feria del Libro 2024</h3>
-                        </div>
-                        <div class="info-texto">
-                            <p>
-                                Este año, La Casa del Libro estará presente en la tan esperada Feria del Libro 2024, un
-                                evento literario que reúne a los amantes de la lectura y la cultura en un solo lugar.
-                                Nos complace anunciar que durante esta edición, hemos preparado algo muy especial para
-                                todos nuestros visitantes. Además de nuestra destacada presencia, ofreceremos descuentos
-                                exclusivos en una amplia gama de títulos, tanto de autores consagrados como de nuevas
-                                voces emergentes.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="actualidad-img">
-                        <img src="../imagenes/blog/feriaDelLibro.jpg" alt="Feria del libro"/>
-                    </div>
-                </div>
-                <div class="actualidad-decoracion2"></div>
-            </div>
-
-            <div class="actualidad">
-                <div class="actualidad-noticia actualidad3">
-                    <div class="actualidad-img">
-                        <img src="../imagenes/blog/premioPlaneta2024.jpeg" alt="Premios planeta" />
-                    </div>
-                    <div class="actualidad-info">
-                        <div class="info-titulo2">
-                            <h3>¡Nuevas tendencias literarias! Descubre los títulos más esperados del 2024</h3>
-                        </div>
-                        <div class="info-texto">
-                            <p>
-                                El 2024 está lleno de sorpresas literarias y en La Casa del Libro estamos emocionados
-                                por las nuevas publicaciones que llegarán a nuestras estanterías. Desde novelas
-                                históricas hasta thrillers emocionantes, los próximos meses prometen ser un festín para
-                                los amantes de la lectura. ¡No te pierdas los títulos más esperados! Ven a nuestra
-                                tienda o explora nuestra web para estar al tanto de las últimas novedades y hazte con tu
-                                ejemplar de anticipación. ¡Cada página es una nueva aventura que te espera!
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="actualidad-decoracion"></div>
-            </div>
-
-        </div>
-
-        <div class="evento-container">
-
-            <div class="actualidad-titulo">
-                <h2>Eventos</h2>
-                <div class="titulo-linea"></div>
-            </div>
-
-            <div class="evento" id="eventoArturoReverte">
-                <div class="evento-img">
-                    <img src="../imagenes/blog/arturoPerezReverte.avif" alt="Arturo Pérez Reverte">
-                </div>
-                <div class="evento-info">
-                    <p>
-                        El próximo 21 de diciembre, La Casa del Libro organizará un encuentro con Arturo Pérez Reverte
-                        para presentar su último libro. Será una excelente oportunidad para conocer de cerca a tu
-                        autor favorito y obtener una firma personalizada
-                    </p>
-                </div>
-            </div>
-
-            <div class="evento">
-                <div class="evento-img">
-                    <img src="../imagenes/blog/tallerDeLectura.jpg" alt="Taller de lectura">
-                </div>
-                <div class="evento-info">
-                    <p>
-                        El 6 de enero, no te pierdas nuestra actividad para los más pequeños: un taller de lectura y
-                        narración para niños. Un evento ideal para fomentar el amor por los libros desde una edad
-                        temprana.
-                    </p>
-                </div>
-            </div>
-
-            <div class="evento">
-                <div class="evento-img">
-                    <img src="../imagenes/blog/lecturaDigital.jpg" alt="Lectura Digital">
-                </div>
-                <div class="evento-info">
-                    <p>
-                        El 15 de febrero, La Casa del Libro presentará una mesa redonda sobre el futuro de la literatura
-                        digital. Acompáñanos para conocer a expertos del mundo editorial y tecnológico, quienes
-                        discutirán
-                        cómo la tecnología está transformando la forma en que leemos y consumimos libros.
-                    </p>
-                </div>
-            </div>
-
-            <div class="evento">
-                <div class="evento-img">
-                    <img src="../imagenes/blog/libros2Mano.webp" alt="Libros segunda mano">
-                </div>
-                <div class="evento-info">
-                    <p>
-                        El 10 de marzo, no te pierdas nuestra feria de libros de segunda mano. Una ocasión perfecta para
-                        encontrar títulos únicos a precios especiales y contribuir a la sostenibilidad del planeta.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-
-    </main>
-
-    <footer>
-        <div class="container">
-            <div class="row d-flex justify-content-between align-items-center footerMain">
-                <div class="col-lg-4 text-center footerLogo">
-                    <img src="../imagenes/iconos/Logo_Casa_del_libro2.png" alt="logo" class="footerLogo__img" />
-                    <span class="FfooterLogo__name">La Casa Del Libro</span>
-                </div>
-                <div class="col-lg-3 footerLink">
-                    <ul class="list-unstyled">
-                        <li><a class="nav-link" href="#">Catálogo</a></li>
-                        <li><a class="nav-link" href="#">Blog</a></li>
-                    </ul>
-                    <ul class="list-unstyled">
-                        <li>
-                            <a class="nav-link" href="#">Contáctanos</a>
-                        </li>
-                        <li><a class="nav-link" href="#">Soporte</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 d-flex justify-content-around align-items-center footerSocial">
-                    <a href="https://www.instagram.com/casadellibro/?hl=es">
-                        <img src="../imagenes/iconos/instagram-svgrepo-com.svg" alt="instagram"
-                            class="footerSocial__img" />
-                    </a>
-                    <a href="https://www.facebook.com/casadellibro">
-                        <img src="../imagenes/iconos/facebook-svgrepo-com.svg" alt="facebook"
-                            class="footerSocial__img" />
-                    </a>
-                    <a href="https://x.com/casadellibro">
-                        <img src="../imagenes/iconos/prime--twitter.svg" alt="X" class="footerSocial__img" />
-                    </a>
-
-                    <a href="https://github.com/Nilyz/La-Casa-Del-Libro-2">
-                        <img src="..//imagenes/iconos/github-svgrepo-com2.svg" alt="github" class="footerSocial__img" />
-                    </a>
-                </div>
-            </div>
-            <div class="footerPolicy">
-                <a class="nav-link" href="#">Política de privacidad</a>
-                <hr />
-                <a class="nav-link" href="#">Términos y condiciones</a>
-            </div>
-            <div class="footerCopy">
-                <p>
-                    © 2024 La Casa Del Libro 2.0. Todos los derechos
-                    reservados.
-                </p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-        </script>
-
-</body>
-
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
