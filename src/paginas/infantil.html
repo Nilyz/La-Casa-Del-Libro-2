@@ -11,155 +11,262 @@
     <link rel="stylesheet" href="../css/catalogo.css">
     <script src="src/js/nav.js" defer></script>
     <script src="../js/infantil.js" defer></script>
+    <link rel="stylesheet" href="../css/logIn.css" />
+    <script type="module" src="../js/popup.js" defer></script>
+        <script type="module" src="../bdd/firebase.js" defer></script>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid d-flex justify-content-between align-items-center">
-                <a class="navbar-brand d-flex align-items-center justify-content-center" href="../../index.html">
-                    <img src="../imagenes/iconos/Logo_Casa_del_libro.png" alt="logo" class="me-1" />
-                    <span class="navbar-brand mb-0 h1 d-none d-lg-block d-md-block">La Casa Del Libro</span>
+            <div
+                class="container-fluid d-flex justify-content-between align-items-center"
+            >
+                <a
+                    class="navbar-brand d-flex align-items-center justify-content-center"
+                    href="../../index.html"
+                >
+                    <img
+                        src="../imagenes/iconos/Logo_Casa_del_libro2.png"
+                        alt="logo"
+                        class="me-1"
+                    />
+                    <span
+                        class="navbar-brand mb-0 h1 d-none d-lg-block d-md-block"
+                        >La Casa Del Libro</span
+                    >
                 </a>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-space align-items-center">
-                        <li class="nav-item ">
-                            <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul
+                        class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-space align-items-center"
+                    >
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="../../index.html"
+                                >Inicio</a
+                            >
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="index.html" id="menuToggle" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a
+                                class="nav-link"
+                                href="index.html"
+                                id="menuToggle"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
                                 Catálogo
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="menuToggle">
-                                <a href="src/paginas/catalogo.html" class="catalogueLink">
-                                    <p>Catálogo</p>
-                                </a>
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="menuToggle"
+                            >
                                 <div class="catalogueMenu">
                                     <ul class="categories">
                                         <li>
-                                            <a class="dropdown-item categories_list" href="">
-                                                <p>Ficción</p>
-                                            </a>
+                                            <div
+                                                class="categories_list"
+                                            >
+                                                <a href="ficcion.html"><p>Ficción</p></a>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <a class="dropdown-item" href="ficcion.html#mostradorContemporanea"
+                                                >Contemporánea</a
+                                            >
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="">Contemporánea</a>
+                                            <a class="dropdown-item" href="ficcion.html#mostradorClasica"
+                                                >Clásicos</a
+                                            >
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="">Clásicos</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Novela de terror</a>
-                                        </li>
-                                    </ul>
-                                    <ul class="categories">
-                                        <li>
-                                            <a class="dropdown-item categories_list" href="">
-                                                <p>No ficción</p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Ciencias</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Biografías</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="">Criminología</a>
+                                            <a class="dropdown-item" href="ficcion.html#mostradorTerror"
+                                                >Novela de terror</a
+                                            >
                                         </li>
                                     </ul>
                                     <ul class="categories">
                                         <li>
-                                            <a class="dropdown-item categories_list" href="">
-                                                <p>Infantil</p>
-                                            </a>
+                                            <div
+                                                class="categories_list"
+                                                href=""
+                                            >
+                                                <a href="no_ficcion.html"><p>No ficción</p></a>
+                                            </div>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="">Comic infantil</a>
+                                            <a class="dropdown-item" href="no_ficcion.html#mostradorCiencias"
+                                                >Ciencias</a
+                                            >
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="">Manga infantil</a>
+                                            <a class="dropdown-item" href="no_ficcion.html#mostradorBiografias"
+                                                >Biografías</a
+                                            >
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="">Libros infantiles en
-                                                inglés</a>
+                                            <a class="dropdown-item" href="no_ficcion.html#mostradorCriminologia"
+                                                >Criminología</a
+                                            >
                                         </li>
                                     </ul>
                                     <ul class="categories">
                                         <li>
-                                            <a class="dropdown-item categories_list" href="">
-                                                <p>Juveniles</p>
-                                            </a>
+                                            <div
+                                                class="categories_list"
+                                            >
+                                                <a href="infantil.html"><p>Infantil</p></a>
+                                            </div>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="">Narrativa fantástica</a>
+                                            <a class="dropdown-item" href="infantil.html#mostradorComicInfantil"
+                                                >Comic infantil</a
+                                            >
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="">Manga Shonen</a>
+                                            <a class="dropdown-item" href="infantil.html#mostradorMangaInfantil"
+                                                >Manga infantil</a
+                                            >
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="">Manga Shojo</a>
+                                            <a class="dropdown-item" href="infantil.html#mostradorLibrosInfantilesIngles"
+                                                >Libros infantiles en
+                                                inglés</a
+                                            >
+                                        </li>
+                                    </ul>
+                                    <ul class="categories">
+                                        <li>
+                                            <div class="categories_list">
+                                                <a href="juvenil.html"><p>Juveniles</p></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="juvenil.html#mostradorNarrativaFantastica"
+                                                >Narrativa fantástica</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="juvenil.html#mostradorMangaShonen"
+                                                >Manga Shonen</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="juvenil.html#mostradorMangaShojo"
+                                                >Manga Shojo</a
+                                            >
                                         </li>
                                     </ul>
 
                                     <ul class="categories">
                                         <li>
-                                            <a class="dropdown-item categories_list" href="">
-                                                <p>Libros de texto</p>
-                                            </a>
+                                            <div
+                                                class=" categories_list"
+                                                ><a href="libros_texto.html"><p>Libros de texto</p></a></div
+                                            >
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="">Educación infantil</a>
+                                            <a class="dropdown-item" href="libros_texto.html#mostradorEducacionInfantil"
+                                                >Educación infantil</a
+                                            >
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="">Educación primaria</a>
+                                            <a class="dropdown-item" href="libros_texto.html#mostradorEducacionPrimaria"
+                                                >Educación primaria</a
+                                            >
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="">Educación secundaria</a>
+                                            <a class="dropdown-item" href="libros_texto.html#mostradorEducacionSecundaria"
+                                                >Educación secundaria</a
+                                            >
                                         </li>
                                     </ul>
                                     <ul class="categories">
                                         <li>
-                                            <a class="dropdown-item categories_list" href="">
-                                                <p>Libros en gallego</p>
-                                            </a>
+                                            <div
+                                                class=" categories_list"
+                                                ><a href="src/paginas/libros_gallego.html"><p>Libros en gallego</p></a></div
+                                            >
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="">Narrativa</a>
+                                            <a class="dropdown-item" href="libros_gallego.html#mostradorNarrativaGallego"
+                                                >Narrativa</a
+                                            >
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="">Poesía</a>
+                                            <a class="dropdown-item" href="libros_gallego.html#mostradorPoesiaGallego"
+                                                >Poesía</a
+                                            >
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="">Teatro</a>
+                                            <a class="dropdown-item" href="libros_gallego.html#mostradorTeatroGallego"
+                                                >Teatro</a
+                                            >
                                         </li>
                                     </ul>
                                 </div>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link" href="blog.html"
+                                >Blog</a
+                            >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Nosotros</a>
+                            <a class="nav-link" href="../../index.html#ubication"
+                                >Ubícanos</a
+                            >
                         </li>
                     </ul>
                 </div>
-                <div class="d-flex align-items-center justify-content-center navbar__links">
-                    <button class="navbar-toggler navbar__toggle" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <img src="../imagenes/iconos/menu-svgrepo-com.svg" alt="Menu" class="navbar__toggle--img" />
+                <div
+                    class="d-flex align-items-center justify-content-center navbar__links"
+                >
+                    <button
+                        class="navbar-toggler navbar__toggle"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <img
+                            src="../imagenes/iconos/menu-svgrepo-com.svg"
+                            alt="Menu"
+                            class="navbar__toggle--img"
+                        />
                     </button>
                     <a href="#" class="nav-link navbar__icon">
-                        <img src="../imagenes/iconos/lens-svgrepo-com.svg" alt="lens" class="navbar__icon--search" />
+                        <img
+                            src="../imagenes/iconos/lens-svgrepo-com.svg"
+                            alt="lens"
+                            class="navbar__icon--search"
+                        />
                     </a>
-                    <a href="#" class="nav-link navbar__icon">
-                        <img src="../imagenes/iconos/user-svgrepo-com.svg" alt="user" class="navbar__icon--user" />
+                    <a href="#" class="nav-link navbar__icon" id="login">
+                        <img
+                            src="../imagenes/iconos/user-svgrepo-com.svg"
+                            alt="user"
+                            class="navbar__icon--user"
+                        />
                     </a>
-                    <a href="#" class="nav-link navbar__icon">
-                        <img src="../imagenes/iconos/bag-shopping-svgrepo-com.svg" alt="bag"
-                            class="navbar__icon--bag" />
+                    <a
+                        href="cesta.html"
+                        class="nav-link navbar__icon"
+                    >
+                        <img
+                            src="../imagenes/iconos/bag-shopping-svgrepo-com.svg"
+                            alt="bag"
+                            class="navbar__icon--bag"
+                        />
                     </a>
                 </div>
             </div>

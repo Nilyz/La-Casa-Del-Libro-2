@@ -4,6 +4,8 @@ const selectAllCheckbox = document.getElementById("selectAll");
 const subtotal = document.getElementById("subtotal");
 const total = document.getElementById("total");
 
+
+
 fetch("../../../src/json/libros.json")
     .then((response) => {
         if (!response.ok) throw new Error("No se pudo cargar el archivo libros.json");
