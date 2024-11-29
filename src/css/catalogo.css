@@ -4,21 +4,28 @@ header{
 }
 main{
     margin-top: 150px;
-}
-.categoria {
-    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    flex-wrap: wrap;
 }
-
-.subgeneros {
-    height: 200px;
+.categoria {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.subgeneros {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #000;
+    gap: 30px;
 }
 a {
     display: block;
@@ -26,10 +33,9 @@ a {
     text-decoration: none;
 }
 .recuadroSubgenero {
-    width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
 }
@@ -50,6 +56,7 @@ a {
     font-size: large;
     margin-top: 10px;
     /* border: 1px solid #000; */
+    color: black;
 }
 .mostrador { 
     width: 100%;
@@ -83,7 +90,7 @@ a {
 }
 .ficcion_books {
     display: flex;
-    gap: 10px;
+    gap: 60px;
     overflow: auto;
     scroll-behavior: smooth;
     justify-content: center; /* Centrar los elementos dentro */
@@ -139,3 +146,10 @@ a {
     padding: 10px;
     cursor: pointer;  Muestra que el elemento es clickeable 
 }*/
+
+@media (min-width: 992px) {
+
+    .subgeneros{
+        gap: 100px;
+    }
+}
