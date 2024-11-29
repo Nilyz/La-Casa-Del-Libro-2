@@ -2,12 +2,20 @@ let login = document.getElementById('login');
 login.addEventListener('click', mostrarPopUp);
 
 let estado = false;
+let popUpVisible = false;  // Nueva variable para controlar si el pop-up ya está visible
+
 
 import { iniciarSesion } from '../bdd/firebase.js';
 import { registrar } from '../bdd/firebase.js';
 import { auth, signInWithEmailAndPassword, createUserWithEmailAndPassword } from '../bdd/firebase.js';
 
 function mostrarPopUp() {
+
+    // Evitar que se pueda abrir el pop-up varias veces si ya está visible
+    if (popUpVisible) {
+        return; // Si el pop-up ya está visible, no hacer nada
+    }
+
     const overlay = document.createElement('div');
     overlay.classList.add('popup-overlay');
 
@@ -57,6 +65,7 @@ function mostrarPopUp() {
         return;
     } else {
         document.body.appendChild(overlay);
+        popUpVisible = true;  // Marcar que el pop-up está visible
         document.getElementById('btnIniciarSesion').addEventListener('click', (event) => {
             let email = document.getElementById('email').value;
             let password = document.getElementById('password').value;
@@ -151,6 +160,7 @@ function cerrarPopUp() {
     const overlay = document.querySelector('.popup-overlay');
     if (overlay) {
         document.body.removeChild(overlay);
+        popUpVisible = false;  // Marcar como que el pop-up ya no está visible  
     }
 }
 
