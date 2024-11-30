@@ -22,11 +22,11 @@ function aplicarEstilos() {
     // Si el ancho de la pantalla es mayor o igual a 992px, aplica borde a los 2 primeros eventos
     if (screenWidth >= 992) {
         for (let i = 0; i < eventos.length - 2; i++) {
-            eventos[i].style.borderBottom = '2px solid black';
+            eventos[i].style.borderBottom = '2px solid #aab883';
         }
     }else{
         for (let i = 0; i < eventos.length - 1; i++) {
-            eventos[i].style.borderBottom = '2px solid black';
+            eventos[i].style.borderBottom = '2px solid #aab883';
         }
     }
 }

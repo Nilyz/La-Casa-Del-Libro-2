@@ -16,6 +16,7 @@ main {
     align-items: center;
     flex-wrap: wrap;
     background-color: white;
+    padding-bottom: 150px;
 }
 
 .frontPage {
@@ -324,10 +325,11 @@ main {
     align-items: center;
     flex-wrap: wrap;
     padding-bottom: 30px;
+
 }
 
 .evento:not(:last-child) {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--color-lightGreen);
 }
 
 .evento-img {
@@ -497,12 +499,10 @@ main {
         display: flex;
         width: 200px;
         height: 95%;
-        background-color: #f3efdb;
-        background-color: var(--color-green);
+        background-color: var(--color-lightGreen);
         position: absolute;
         border-radius: 8px;
         z-index: 1;
-        top: 2;
         left: 1.5%;
     }
 
@@ -510,15 +510,12 @@ main {
         display: flex;
         width: 200px;
         height: 95%;
-        background-color: #f3efdb;
-        background-color: var(--color-green);
+        background-color: var(--color-caqui);
         position: absolute;
         border-radius: 8px;
         z-index: 1;
-        top: 2;
         right: 1.5%;
     }
-
 
     .evento-container {
         justify-content: space-around;
@@ -536,6 +533,7 @@ main {
 
     .evento {
         width: 40%;
+        height: 250px;
         border: none;
         display: flex;
         justify-content: space-between;

@@ -22,7 +22,7 @@ function mostrarPopUp() {
     overlay.innerHTML = `
         <div class="popUpForm" id="loginForm">
             <div class="popup-left">
-                <img src="src/imagenes/otros/login_fondo.jpg" alt="Libros" class="popup-image" />
+                <img src="https://raw.githubusercontent.com/Nilyz/La-Casa-Del-Libro-2/refs/heads/main/src/imagenes/otros/login_fondo.jpg" alt="Libros" class="popup-image" />
                 <div class="popup-text">
                     <p>Nuestra misión es proporcionar todos los libros, sus historias y el conocimiento que albergan, a los amantes de la cultura.</p>
                     <p>Nuestra historia comienza en 1923, y hoy somos la cadena de librerías más grande de España, con librerías ubicadas en las principales ciudades y una página web para la venta de libros online.</p>
@@ -38,7 +38,7 @@ function mostrarPopUp() {
                     <h2 class="registrar" id="registrar">Registro</h2>
                 </div>
                 <div class="middlePopUp">
-                    <img src="src/imagenes/iconos/Logo_Casa_del_libro.png" alt="Logo Casa del Libro" class="popup-logo" />
+                    <img src="https://raw.githubusercontent.com/Nilyz/La-Casa-Del-Libro-2/refs/heads/main/src/imagenes/iconos/Logo_Casa_del_libro.png" alt="Logo Casa del Libro" class="popup-logo" />
                 </div>
                 <form class="loginForm" id="loginForm">
                     <div class="inputCont">
@@ -132,8 +132,8 @@ function cambiarFormulario() {
         forgotPassword.style.display = 'none';
         confirmPasswordContainer.style.display = 'block';
 
-        logo.src = 'src/imagenes/iconos/Logo_Casa_del_libro_green.png';
-        logo.style.display = 'none';
+        logo.src = 'https://raw.githubusercontent.com/Nilyz/La-Casa-Del-Libro-2/refs/heads/main/src/imagenes/iconos/Logo_Casa_del_libro_green.png';
+        logo.style.display = 'block';
         loginError.style.color = '#c0392b';
 
         estado = true;
@@ -151,9 +151,9 @@ function cambiarFormulario() {
         iniciar.style.cursor = 'default';
 
         forgotPassword.style.display = 'block';
-        confirmPasswordContainer.style.display = 'none';
+        confirmPasswordContainer.style.display = 'block';
 
-        logo.src = 'src/imagenes/iconos/Logo_Casa_del_libro_yellow.png';
+        logo.src = 'https://raw.githubusercontent.com/Nilyz/La-Casa-Del-Libro-2/refs/heads/main/src/imagenes/iconos/Logo_Casa_del_libro.png';
         loginError.style.color = '#e74c3c';
 
         estado = false;
