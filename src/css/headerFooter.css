@@ -45,6 +45,7 @@ ul {
 a {
     text-decoration: none;
     color: var(--color-white);
+    margin: 0;
 }
 p {
     margin: 0;
@@ -89,6 +90,7 @@ header {
     color: var(--color-white);
     font-family: "Lora", Georgia, times, serif;
     transition: color 0.3s ease;
+    margin-bottom: 0;
 }
 .navbar-brand:hover {
     color: #dea02e;
@@ -138,6 +140,7 @@ header {
 
 .nav-link {
     font-size: 20px;
+    margin-bottom: 0;
 }
 .nav-link:hover {
     color: var(--color-yellow);

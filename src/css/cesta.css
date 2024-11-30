@@ -37,6 +37,7 @@ input[type="checkbox"] {
     appearance: none;
     width: 25px;
     height: 25px;
+    aspect-ratio: 1;
     border: 2px solid var(--color-green);
     border-radius: 5px;
     background-color: #fff;
@@ -86,12 +87,12 @@ input[type="checkbox"]:checked {
     height: 60%;
 }
 .productBook__info__title h4 {
-    font-size: 24px;
+    font-size: 16px;
     margin-bottom: 5px;
     font-weight: bold;
 }
 .productBook__info__title p {
-    font-size: 16px;
+    font-size: 12px;
 }
 .productBook__info__trash {
     width: 20%;
@@ -100,7 +101,7 @@ input[type="checkbox"]:checked {
     justify-content: end;
 }
 .productBook__info__trash img {
-    width: 35px;
+    width: 30px;
 }
 .productBook__info__trash img:hover {
     cursor: pointer;
@@ -433,5 +434,15 @@ input[type="checkbox"]:checked {
         padding: 10px 20px 10px 20px;
         margin-top: 20px;
         background-color: var(--color-lightGreen);
+    }
+
+    .productBook__info__title p {
+        font-size: 16px;
+    }
+    .productBook__info__title h4 {
+        font-size: 24px;
+    }
+    .productBook__info__trash img {
+        width: 35px;
     }
 }

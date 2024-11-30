@@ -41,7 +41,21 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    padding-right: 10px;
+}
+.x-popUp button{
+    background-color: transparent;
+    border: none;
+    width: 60px;
+    height: 50px;
+    aspect-ratio: 1/1;
+    font-size: 60px;
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.x-popUp button p{
+    margin: 0;
 }
 
 .popUpLine {
@@ -66,7 +80,7 @@
 .loginForm {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -77,6 +91,7 @@
 .loginForm input {
     width: 100%;
     border-radius: 8px;
+    border: none;
 
 }
 
@@ -94,8 +109,12 @@
     border-radius: 10px;
     color: var(--color-white);
 }
+.inputCont{
+    width: 100%;
+}
 #confirm-password-container input {
     width: 100%; 
+
 }
 
 
@@ -147,7 +166,7 @@
         height: 100%;
         width: 100%;
         border-radius: 20px;
-        filter: blur(3px);
+
     }
 
     .popup-right {
@@ -173,8 +192,14 @@
         text-align: center;
         padding: 20px;
         background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 10px;
-        width: 80%;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(3px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
     }
 
 }
