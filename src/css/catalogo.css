@@ -30,7 +30,6 @@ img{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    border: 1px solid #000;
     gap: 30px;
 
 }
