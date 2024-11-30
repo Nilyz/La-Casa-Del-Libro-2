@@ -41,11 +41,15 @@ function mostrarPopUp() {
                     <img src="src/imagenes/iconos/Logo_Casa_del_libro.png" alt="Logo Casa del Libro" class="popup-logo" />
                 </div>
                 <form class="loginForm" id="loginForm">
-                    <label>Email</label>
-                    <input type="email" name="email" placeholder="Email" id="email"/>
-                    <label>Contraseña</label>
-                    <input type="password" name="password" placeholder="Contraseña" id="password" />
-                    <div id="confirm-password-container" style="display: none;">
+                    <div class="inputCont">
+                        <label>Email</label>
+                        <input type="email" name="email" placeholder="Email" id="email"/>
+                    </div>
+                    <div class="inputCont">
+                        <label>Contraseña</label>
+                        <input type="password" name="password" placeholder="Contraseña" id="password" />
+                    </div>
+                    <div id="confirm-password-container" class="inputCont" style="display: none;">
                         <label>Confirmar Contraseña</label>
                         <input type="password" name="confirm-password" placeholder="Confirmar Contraseña" id="confirm-password" />
                     </div>

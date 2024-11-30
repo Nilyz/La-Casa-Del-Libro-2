@@ -4,11 +4,10 @@ const selectAllCheckbox = document.getElementById("selectAll");
 const subtotal = document.getElementById("subtotal");
 const total = document.getElementById("total");
 
-
-
 fetch("../../../src/json/libros.json")
     .then((response) => {
-        if (!response.ok) throw new Error("No se pudo cargar el archivo libros.json");
+        if (!response.ok)
+            throw new Error("No se pudo cargar el archivo libros.json");
         return response.json();
     })
     .then((data) => {
@@ -20,7 +19,7 @@ fetch("../../../src/json/libros.json")
     });
 
 // Función para generar libros
-function generateBook(id, title, author, price, imgSrc) {
+function generateBook(id, title, author, price, imgSrc, bookUnit) {
     const productBookCont = document.createElement("div");
     productBookCont.classList.add("productBookCont");
 
@@ -46,20 +45,37 @@ function generateBook(id, title, author, price, imgSrc) {
                     <p class="price">${price} €</p>
                 </div>
                 <div class="productBook__info__count">
-                    <img src="../imagenes/iconos/minus-svgrepo-com.svg" alt="" />
-                    <p>1</p>
-                    <img src="../imagenes/iconos/plus-svgrepo-com.svg" alt="" />
+                    <img src="../imagenes/iconos/minus-svgrepo-com.svg" alt="Decrementar" class="minus-icon" data-id="${id}" />
+                    <p class="quantity" data-id="${id}">1</p>
+                    <img src="../imagenes/iconos/plus-svgrepo-com.svg" alt="Incrementar" class="plus-icon" data-id="${id}" />
                 </div>
             </div>
         </div>
     `;
-    
+
     const hr = document.createElement("hr");
     productBookCont.appendChild(productBook);
     productBookCont.appendChild(hr);
     productListSection.appendChild(productBookCont);
 
     return productBookCont;
+}
+
+/*_________________ACTUALIZAR CANTIDAD DE LIBROS CLICKEANDO EL + Y -_____________________*/
+
+function updateQuantity(target, change) {
+    const quantityElement = target
+        .closest(".productBook__info__count")
+        .querySelector(".quantity");
+    const currentQuantity = parseInt(quantityElement.textContent);
+
+    // Calcular la nueva cantidad (asegurarse de que no sea menor que 1)
+    const newQuantity = Math.max(1, currentQuantity + change);
+
+    quantityElement.textContent = newQuantity;
+
+    // Actualizar los precios según la nueva cantidad
+    updatePrices();
 }
 
 /*_________________GENERAR LIBROS_____________________*/
@@ -74,7 +90,8 @@ function generateRandomBooks(data) {
             randomBook.nombre,
             randomBook.autor,
             randomBook.precio,
-            randomBook.slug
+            randomBook.slug,
+            1
         );
     });
 
@@ -114,7 +131,9 @@ function toggleSelectAll(event) {
     // Obtener el estado del checkbox de "Seleccionar todos"
     const isChecked = event.target.checked;
 
-    const bookCheckboxes = productListSection.querySelectorAll('input[type="checkbox"]');
+    const bookCheckboxes = productListSection.querySelectorAll(
+        'input[type="checkbox"]'
+    );
 
     bookCheckboxes.forEach((checkbox) => {
         checkbox.checked = isChecked;
@@ -126,23 +145,45 @@ function toggleSelectAll(event) {
 selectAllCheckbox.addEventListener("click", toggleSelectAll);
 
 /*_________________HACER CÁLCULOS_____________________*/
-
 function updatePrices() {
     let subtotalValue = 0;
+    const selectedCheckboxes = productListSection.querySelectorAll(
+        'input[type="checkbox"]:checked'
+    );
 
-    const selectedCheckboxes = productListSection.querySelectorAll('input[type="checkbox"]:checked');
-
-    //Obtener precio del seleccionado
-    selectedCheckboxes.forEach(checkbox => {
+    // Calcular subtotal sumando precios de los libros seleccionados
+    selectedCheckboxes.forEach((checkbox) => {
         const price = parseFloat(checkbox.getAttribute("data-price"));
-        subtotalValue += price;
+        const quantity = checkbox
+            .closest(".productBook")
+            .querySelector(".quantity").textContent;
+
+        // Multiplicar precio por cantidad
+        subtotalValue += price * quantity;
     });
 
-
     subtotal.innerHTML = `${subtotalValue.toFixed(2)} €`;
-    const totalValue = subtotalValue + 1.99;
-    total.innerHTML = `${totalValue.toFixed(2)} €`;
+
+    if (selectedCheckboxes.length > 0) {
+        subtotalValue += 1.99;
+    }
+
+    total.innerHTML = `${subtotalValue.toFixed(2)} €`;
 }
 
+/*_________________EVENTOS_____________________*/
 // Escuchar cambios en los checkboxes para actualizar precios
 productListSection.addEventListener("change", updatePrices);
+
+// Escuchar clics en los botones de incrementar y decrementar cantidad
+productListSection.addEventListener("click", (event) => {
+    const target = event.target;
+
+    if (target.matches(".plus-icon")) {
+        updateQuantity(target, 1);
+    }
+
+    if (target.matches(".minus-icon")) {
+        updateQuantity(target, -1);
+    }
+});
