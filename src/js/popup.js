@@ -151,7 +151,7 @@ function cambiarFormulario() {
         iniciar.style.cursor = 'default';
 
         forgotPassword.style.display = 'block';
-        confirmPasswordContainer.style.display = 'block';
+        confirmPasswordContainer.style.display = 'none';
 
         logo.src = 'https://raw.githubusercontent.com/Nilyz/La-Casa-Del-Libro-2/refs/heads/main/src/imagenes/iconos/Logo_Casa_del_libro.png';
         loginError.style.color = '#e74c3c';
